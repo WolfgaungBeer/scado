@@ -1,0 +1,1 @@
+export const SET_THEME = '@SCADO/THEME/SET_THEME';
