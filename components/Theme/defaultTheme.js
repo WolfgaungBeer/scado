@@ -3,6 +3,8 @@ export default {
     color: {
         black: '#202021',
         white: '#F7F7F7',
+        lightGray: '#e5e6e8',
+        darkGray: '#898989',
         info: '#48C5FC',
         success: '#37B661',
         warning: '#DD9913',

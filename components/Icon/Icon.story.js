@@ -1,9 +1,16 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Theme, defaultTheme } from '../../../scado';
+import styled from 'styled-components';
+import Theme from '../Theme/Theme';
+import defaultTheme from '../Theme/defaultTheme';
 import Icon from './';
 
 import '../../node_modules/material-design-icons/iconfont/material-icons.css';
+
+const StyledDiv = styled.div`
+    color: #FF0FF0;
+    font-size: 3rem;
+`;
 
 storiesOf('Icon', module)
     .add('default', () => (
@@ -39,5 +46,12 @@ storiesOf('Icon', module)
     .add('wrapped in a label', () => (
         <Theme theme={defaultTheme}>
             <label><Icon icon="dashboard" />Icon Test</label>
+        </Theme>
+    ))
+    .add('wrapped in a styled div', () => (
+        <Theme theme={defaultTheme}>
+            <StyledDiv>
+                <label><Icon icon="dashboard" />Icon Test</label>
+            </StyledDiv>
         </Theme>
     ));

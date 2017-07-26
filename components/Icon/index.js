@@ -22,7 +22,6 @@ const Icon = ({ icon, color, scale, theme }) => {
     const style = {
         color: themeColor,
         fontSize: themeScale,
-        marginRight: '0.25rem',
         transform: 'translateY(15%)'
     };
 
