@@ -21,68 +21,63 @@ storiesOf('Button', module)
             <Button onClick={click}>CLICK ME</Button>
         </Theme>
     ))
-    .add('with a border', () => (
+    .add('with type flat and color success and scale l', () => (
         <Theme theme={defaultTheme}>
-            <Button border onClick={click}>CLICK ME</Button>
+            <Button type="flat" color="success" scale="l" onClick={click}>CLICK ME</Button>
         </Theme>
     ))
-    .add('with color error and size xl', () => (
+    .add('with type raised and color error', () => (
         <Theme theme={defaultTheme}>
-            <Button color="error" scale="xl" onClick={click}>CLICK ME</Button>
+            <Button type="raised" color="error" onClick={click}>CLICK ME</Button>
         </Theme>
     ))
-    .add('with color error and size xl and a icon', () => (
+    .add('with type raised and color warning and scale l', () => (
         <Theme theme={defaultTheme}>
-            <Button color="error" scale="xl" icon="dashboard" onClick={click}>CLICK ME</Button>
+            <Button type="raised" color="warning" scale="l" onClick={click}>CLICK ME</Button>
         </Theme>
     ))
-    .add('with color error and size xl and only a icon', () => (
+    .add('with a icon', () => (
         <Theme theme={defaultTheme}>
-            <Button color="error" scale="xl" icon="dashboard" onClick={click} />
+            <Button icon="dashboard" onClick={click}>CLICK ME</Button>
         </Theme>
     ))
-    .add('with color success and size m and a icon and a border', () => (
+    .add('with a icon and type flat and color warning', () => (
         <Theme theme={defaultTheme}>
-            <Button color="success" scale="m" icon="dashboard" border onClick={click}>CLICK ME</Button>
+            <Button type="flat" color="warning" icon="dashboard" onClick={click}>CLICK ME</Button>
         </Theme>
     ))
-    .add('with color error and size l and a icon and a border', () => (
+    .add('with a icon and type raised and color success', () => (
         <Theme theme={defaultTheme}>
-            <Button color="error" scale="l" icon="dashboard" border onClick={click}>CLICK ME</Button>
+            <Button type="raised" color="success" icon="dashboard" onClick={click}>CLICK ME</Button>
         </Theme>
     ))
-    .add('with color error and size l and only a icon and a border', () => (
+    .add('with a icon and type raised and color error and scale l', () => (
         <Theme theme={defaultTheme}>
-            <Button color="error" scale="l" icon="code" border onClick={click}></Button>
+            <Button type="raised" color="error" scale="l" icon="dashboard" onClick={click}>CLICK ME</Button>
         </Theme>
     ))
-    .add('with type success', () => (
+    .add('icon only button', () => (
         <Theme theme={defaultTheme}>
-            <Button type="success" onClick={click}>CLICK ME</Button>
+            <Button icon="dashboard" onClick={click} />
         </Theme>
     ))
-    .add('with type error', () => (
+    .add('icon only button with type flat and color success and scale l', () => (
         <Theme theme={defaultTheme}>
-            <Button type="error" onClick={click}>CLICK ME</Button>
+            <Button type="flat" color="success" scale="l" icon="dashboard" onClick={click} />
         </Theme>
     ))
-    .add('with type warning and size xl', () => (
+    .add('icon only button with type flat and color success and scale xxl', () => (
         <Theme theme={defaultTheme}>
-            <Button type="warning" scale="xl" onClick={click}>CLICK ME</Button>
+            <Button type="flat" color="success" scale="xxl" icon="dashboard" onClick={click} />
         </Theme>
     ))
-    .add('with type error and a icon', () => (
+    .add('icon only button with type raised and color error', () => (
         <Theme theme={defaultTheme}>
-            <Button type="error" icon="code" onClick={click}>CLICK ME</Button>
+            <Button type="raised" color="error" icon="dashboard" onClick={click} />
         </Theme>
     ))
-    .add('with type warning and size xl and a icon', () => (
+    .add('icon only button with type raised and color warning and scale l', () => (
         <Theme theme={defaultTheme}>
-            <Button type="warning" icon="code" scale="xl" onClick={click}>CLICK ME</Button>
-        </Theme>
-    ))
-    .add('with a component inside the button', () => (
-        <Theme theme={defaultTheme}>
-            <Button onClick={click}><StyledDiv /></Button>
+            <Button type="raised" color="warning" scale="l" icon="dashboard" onClick={click} />
         </Theme>
     ));

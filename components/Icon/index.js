@@ -1,6 +1,6 @@
 import React from 'react';
 import { string, object } from 'prop-types';
-import { withTheme } from 'styled-components';
+import styled, { withTheme } from 'styled-components';
 
 const propTypes = {
     icon: string.isRequired,

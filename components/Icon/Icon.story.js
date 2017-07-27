@@ -12,6 +12,16 @@ const StyledDiv = styled.div`
     font-size: 3rem;
 `;
 
+const H1 = styled.h1`
+    color: #FF0FF0;
+`;
+
+const Label = styled.label`
+    color: #FF0FF0;
+`;
+
+const SuccessIcon = styled(Icon).attrs({ style: {color: '#00FF00'} })``;
+
 storiesOf('Icon', module)
     .add('default', () => (
         <Theme theme={defaultTheme}>
@@ -46,6 +56,16 @@ storiesOf('Icon', module)
     .add('wrapped in a label', () => (
         <Theme theme={defaultTheme}>
             <label><Icon icon="dashboard" />Icon Test</label>
+        </Theme>
+    ))
+    .add('wrapped in a styled h1', () => (
+        <Theme theme={defaultTheme}>
+            <H1><Icon icon="dashboard" />Icon Test</H1>
+        </Theme>
+    ))
+    .add('wrapped in a styled label', () => (
+        <Theme theme={defaultTheme}>
+            <Label><Icon icon="dashboard" />Icon Test</Label>
         </Theme>
     ))
     .add('wrapped in a styled div', () => (
