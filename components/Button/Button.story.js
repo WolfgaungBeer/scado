@@ -56,6 +56,11 @@ storiesOf('Button', module)
             <Button type="raised" color="error" scale="l" icon="dashboard" onClick={click}>CLICK ME</Button>
         </Theme>
     ))
+    .add('with a icon and type raised and color error and scale xxl', () => (
+        <Theme theme={defaultTheme}>
+            <Button type="raised" color="error" scale="xxl" icon="dashboard" onClick={click}>CLICK ME</Button>
+        </Theme>
+    ))
     .add('icon only button', () => (
         <Theme theme={defaultTheme}>
             <Button icon="dashboard" onClick={click} />

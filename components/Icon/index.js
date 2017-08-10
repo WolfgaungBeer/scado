@@ -21,8 +21,7 @@ const Icon = ({ icon, color, scale, theme }) => {
 
     const style = {
         color: themeColor,
-        fontSize: themeScale,
-        transform: 'translateY(15%)'
+        fontSize: themeScale
     };
 
     return (<i className="material-icons" style={style}>{icon}</i>);

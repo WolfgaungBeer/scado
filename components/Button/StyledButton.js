@@ -13,6 +13,7 @@ const StyledButton = styled.button`
     > div {
         padding: ${props => props.iconPadding ? '0.2rem 0.3rem 0.3rem 0.3rem' : '0 0 0.1rem 0'};
         > i {
+            transform: translateY(13%);
             padding-right: ${props => props.iconPadding ? '0.25rem' : undefined};
         }
     }

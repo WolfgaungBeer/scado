@@ -3,24 +3,14 @@ import { storiesOf } from '@storybook/react';
 import styled from 'styled-components';
 import Theme from '../Theme/Theme';
 import defaultTheme from '../Theme/defaultTheme';
+import Text from '../Text';
 import Icon from './';
 
 import '../../node_modules/material-design-icons/iconfont/material-icons.css';
 
-const StyledDiv = styled.div`
-    color: #FF0FF0;
-    font-size: 3rem;
-`;
-
-const H1 = styled.h1`
+const IconWrapper = styled.div`
     color: #FF0FF0;
 `;
-
-const Label = styled.label`
-    color: #FF0FF0;
-`;
-
-const SuccessIcon = styled(Icon).attrs({ style: {color: '#00FF00'} })``;
 
 storiesOf('Icon', module)
     .add('default', () => (
@@ -33,45 +23,40 @@ storiesOf('Icon', module)
             <Icon icon="3d_rotation" color="error" scale="l" />
         </Theme>
     ))
-    .add('color success and size xl', () => (
+    .add('color success and size xxl', () => (
         <Theme theme={defaultTheme}>
-            <Icon icon="check_circle" color="success" scale="xl" />
+            <Icon icon="check_circle" color="success" scale="xxl" />
         </Theme>
     ))
-    .add('wrapped in a h1', () => (
+    .add('wrapped in a Text.H1', () => (
         <Theme theme={defaultTheme}>
-            <h1><Icon icon="dashboard" />Icon Test</h1>
+            <Text.H1><Icon icon="dashboard" />Icon Test</Text.H1>
         </Theme>
     ))
-    .add('wrapped in a h3', () => (
+    .add('wrapped in a Text.H4', () => (
         <Theme theme={defaultTheme}>
-            <h3><Icon icon="done" />Icon Test</h3>
+            <Text.H4><Icon icon="dashboard" />Icon Test</Text.H4>
         </Theme>
     ))
-    .add('wrapped in a p', () => (
+    .add('wrapped in a Text.P', () => (
         <Theme theme={defaultTheme}>
-            <p><Icon icon="extension" />Icon Test</p>
+            <Text.P><Icon icon="dashboard" />Icon Test</Text.P>
         </Theme>
     ))
-    .add('wrapped in a label', () => (
+    .add('wrapped in a Text.Label', () => (
         <Theme theme={defaultTheme}>
-            <label><Icon icon="dashboard" />Icon Test</label>
+            <Text.Label><Icon icon="dashboard" />Icon Test</Text.Label>
         </Theme>
     ))
-    .add('wrapped in a styled h1', () => (
+    .add('wrapped in a Text.Label with color and scale', () => (
         <Theme theme={defaultTheme}>
-            <H1><Icon icon="dashboard" />Icon Test</H1>
+            <Text.Label color="success" scale="xxl"><Icon icon="dashboard" />Icon Test</Text.Label>
         </Theme>
     ))
-    .add('wrapped in a styled label', () => (
+    .add('custom icon', () => (
         <Theme theme={defaultTheme}>
-            <Label><Icon icon="dashboard" />Icon Test</Label>
-        </Theme>
-    ))
-    .add('wrapped in a styled div', () => (
-        <Theme theme={defaultTheme}>
-            <StyledDiv>
-                <label><Icon icon="dashboard" />Icon Test</label>
-            </StyledDiv>
+            <IconWrapper>
+                <Icon icon="dashboard" />
+            </IconWrapper>
         </Theme>
     ));
