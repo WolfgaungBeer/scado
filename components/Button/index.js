@@ -1,8 +1,7 @@
 import React from 'react';
-import { string, bool, func, node } from 'prop-types';
+import { string, func, node } from 'prop-types';
 import StyledButton from './StyledButton';
-import Icon from '../Icon';
-import { getIconColor } from './helpers';
+
 
 const propTypes = {
     type: string,
@@ -23,14 +22,9 @@ const defaultProps = {
 };
 
 const Button = ({ type, color, scale, icon, onClick, children }) => {
-    const iconPadding = (children && children.length > 0);
-    const iconColor = getIconColor(type, color);
     return (
-        <StyledButton type={type} color={color} scale={scale} iconPadding={iconPadding} onClick={onClick}>
-            <div>
-                {icon && <Icon icon={icon} color={iconColor} scale={scale} />}
-                {children}
-            </div>
+        <StyledButton onClick={onClick}>
+            <div>{children}</div>
         </StyledButton>
     );
 };

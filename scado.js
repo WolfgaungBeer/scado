@@ -1,5 +1,4 @@
 export { default as Theme } from './components/Theme';
-export { default as Text } from './components/Text';
 export { default as Icon } from './components/Icon';
 export { default as Button } from './components/Button';
 export { default as Flex } from './components/Flex';

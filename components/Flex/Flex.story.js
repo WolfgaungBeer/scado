@@ -6,7 +6,6 @@ import defaultTheme from '../Theme/defaultTheme';
 import Icon from '../Icon';
 import Flex from './';
 
-import '../../node_modules/font-awesome/css/font-awesome.css';
 
 const FlexParent = Flex.extend`
     width: 300px;
