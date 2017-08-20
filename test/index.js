@@ -2,9 +2,11 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './store';
-import { Theme, Button } from '../scado';
+import { Theme, Button, Animation } from '../scado';
 import '../node_modules/material-design-icons/iconfont/material-icons.css';
 import ThemeButtons from './Theme/ThemeButtons';
+import AnimationButtons from './Animation/AnimationButtons';
+import './styles.css';
 
 const Root = () => {
     return (
@@ -12,7 +14,10 @@ const Root = () => {
             <Theme>
                 <div>
                     <ThemeButtons />
-                    <Button type="raised" color="error" icon="code">Example Button</Button>
+                    <AnimationButtons />
+                    <Animation id="button-animation" hideOnMount>
+                        <Button type="raised" color="error" scale="l" icon="code">Example Button</Button>
+                    </Animation>
                 </div>
             </Theme>
         </Provider>
