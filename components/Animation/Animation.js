@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { object, func, string, bool, node } from 'prop-types';
-import styled from 'styled-components';
+import { AnimationWrapper } from './styled';
 
 const propTypes = {
     animationData: object.isRequired,
@@ -69,10 +69,6 @@ class Animation extends PureComponent {
         );
     }
 }
-
-const AnimationWrapper = styled.div`
-    display: inline-block;
-`;
 
 Animation.propTypes = propTypes;
 Animation.defaultProps = defaultProps;
