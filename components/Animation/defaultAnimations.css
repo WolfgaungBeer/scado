@@ -1,0 +1,74 @@
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotateAnimation {
+    animation-name: rotateAnimation;
+    animation-duration: 2s;
+}
+
+@keyframes slideInAnimation {
+    from {
+        transform: translateX(100px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.slideInAnimation {
+    animation-name: slideInAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes slideOutAnimation {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.slideOutAnimation {
+    animation-name: slideOutAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes enterAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.enterAnimation {
+    animation-name: enterAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes leaveAnimation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.leaveAnimation {
+    animation-name: leaveAnimation;
+    animation-duration: 1s;
+}

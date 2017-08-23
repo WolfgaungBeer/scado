@@ -2,7 +2,10 @@ const path = require("path");
 
 module.exports = {
 
-    entry: "./test/index.js",
+    entry: [
+        "babel-polyfill",
+        "./test/index.js"
+    ],
 
     output: {
         filename: "app.js",

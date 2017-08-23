@@ -6,6 +6,7 @@ export { default as Animation } from './components/Animation';
 export { default as Icon } from './components/Icon';
 export { default as Button } from './components/Button';
 export { default as Flex } from './components/Flex';
+export { default as ToastContainer } from './components/ToastContainer';
 
 // Reducers, Actions, Selectors
 
@@ -18,6 +19,6 @@ export { default as animationReducer } from './components/Animation/reducer';
 export * as animationSelectors from './components/Animation/selectors';
 export * as animationActions from './components/Animation/actions';
 
-// Hoc's
-
-export { default as withAnimation } from './components/Animation/withAnimation';
+export { default as toastReducer } from './components/ToastContainer/reducer';
+export * as toastSelectors from './components/ToastContainer/selectors';
+export * as toastActions from './components/ToastContainer/actions';
