@@ -27,7 +27,7 @@ export const IconWrapper = styled(Flex)`
 `;
 
 export const ComponentWrapper = styled(Flex)`
-    padding: 0.25rem;
+    padding: 0.5rem;
 `;
 
 export const CloseButtonWrapper = styled(Flex)`

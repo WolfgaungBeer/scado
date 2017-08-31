@@ -2,7 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { toastActions, Button } from '../../scado';
 
-const ExampleComponent = () => (<div>Das ist ein Test, test <Button type="flat" color="success" onClick={() => alert('OK')}>OK</Button> </div>);
+const ExampleComponent = () => (
+    <div><Button type="raised" color="success" scale="xl" onClick={() => alert('Anzeigen')}>OK</Button></div>
+);
 
 const mapDispatchToProps = (dispatch) => {
     return {
@@ -14,8 +16,8 @@ const ToastButtons = ({ showToast }) => {
     return (
         <div>
             <button onClick={() => showToast('success', <ExampleComponent />, 5000)}>Success Toast</button>
-            <button onClick={() => showToast('error', 'das ist ein error', 30000)}>Error Toast</button>
-            <button onClick={() => showToast('info', 'das ist eine info', 5000)}>Info Toast</button>
+            <button onClick={() => showToast('error', 'Diese Daten konnten nicht aktualisiert werden.', 30000)}>Error Toast</button>
+            <button onClick={() => showToast('info', 'Es kam zu einem Fehler am Server. Bitte versuchen Sie es erneut', 5000)}>Info Toast</button>
             <button onClick={() => showToast('warning', 'das ist eine warnung', 10000)}>Warning Toast</button>
         </div>
     );
