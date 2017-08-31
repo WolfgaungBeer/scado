@@ -13,8 +13,7 @@ const reducer = (state = defaultState, action) => {
         }
         case types.DISMISS_TOAST: {
 
-            const { id } = action.payload;
-            const toasts = state.toasts.filter(t => t.id !== id);
+            const toasts = state.toasts.filter(t => t.id !== action.payload);
             return { ...state, toasts };
 
         }

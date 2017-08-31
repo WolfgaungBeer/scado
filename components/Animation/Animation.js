@@ -1,73 +1,61 @@
 import React, { PureComponent } from 'react';
-import { object, func, string, bool, node } from 'prop-types';
+import { string, bool, object, func, node } from 'prop-types';
 import { AnimationWrapper } from './styled';
 
 const propTypes = {
-    animationData: object.isRequired,
-    setClassName: func.isRequired,
     id: string.isRequired,
     hideOnMount: bool,
+    animationData: object.isRequired,
+    remove: func.isRequired,
     children: node
 };
 
 const defaultProps = {
     hideOnMount: undefined,
-    children: undefined
+    children: undefined,
 };
-
 
 class Animation extends PureComponent {
 
     constructor(props) {
         super(props);
-        this.state = { visible: !this.props.hideOnMount };
+        this.state = { visible: !props.hideOnMount };
     }
 
     componentWillReceiveProps(nextProps) {
-        const { animationData, setClassName } = nextProps;
-        const { id, type } = animationData;
-        const animationType = type || 'animation';
-        const div = this.animationDivRef;
+        const { animationData, remove } = nextProps;
+        const { visible } = this.state;
+        const { type } = animationData;
+        const div = this.animationContainer;
 
-        if (animationType === 'enter') {
-
+        if (!div && type && type === 'enter') {
             this.setState({ visible: true });
-
-        } else if (animationType === 'leave') {
-
-            if (div) {
-                div.addEventListener('animationend', () => {
-                    this.setState({ visible: false });
-                }, false);
-            }
-
-        } else if (animationType === 'animation') {
-
-            if (div) {
-                div.addEventListener('animationend', () => {
-                    setClassName(id, undefined);
-                }, false);
-            }
-
         }
 
+        if (div && type && type === 'leave') {
+            div.addEventListener('animationend', () => {
+                remove();
+                this.setState({ visible: false });
+            }, false);
+        }
     }
 
     render() {
-        const { animationData, children } = this.props;
+        const { hideOnMount, animationData, children } = this.props;
         const { visible } = this.state;
         const { className } = animationData;
 
         if (!visible) {
-            return null;
+            return (null);
         }
 
         return (
-            <AnimationWrapper className={className} innerRef={(div) => { this.animationDivRef = div; }}>
+            <AnimationWrapper innerRef={(div) => { this.animationContainer = div; }} className={className}>
                 {children}
             </AnimationWrapper>
         );
     }
+
 }
 
 Animation.propTypes = propTypes;

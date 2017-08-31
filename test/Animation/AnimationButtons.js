@@ -5,16 +5,16 @@ import { animationSelectors, animationActions } from '../../scado';
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        animate: (id, className, type) => dispatch(animationActions.animate({ id, type, className })),
+        animate: (payload) => dispatch(animationActions.animate(payload)),
     };
 };
 
 const AnimationButtons = ({ animate }) => {
     return (
         <div>
-            <button onClick={() => animate('button-animation', 'enterAnimation', 'enter')}>Show it!</button>
-            <button onClick={() => animate('button-animation', 'leaveAnimation', 'leave')}>Hide it!</button>
-            <button onClick={() => animate('button-animation', 'rotateAnimation')}>Rotate it!</button>
+            <button onClick={() => animate({ id: 'button-animation', type: 'enter', className: 'animated flipInX' })}>Show it!</button>
+            <button onClick={() => animate({ id: 'button-animation', type: 'leave', className: 'animated flipOutX' })}>Hide it!</button>
+            <button onClick={() => animate({ id: 'button-animation', className: 'animated bounce' })}>Rotate it!</button>
         </div>
     );
 };

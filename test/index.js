@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 import { Theme, Button, Animation, ToastContainer } from '../scado';
-// import '../node_modules/material-design-icons/iconfont/material-icons.css';
 import ThemeButtons from './Theme/ThemeButtons';
 import AnimationButtons from './Animation/AnimationButtons';
 import ToastButtons from './Toasts/ToastButtons';

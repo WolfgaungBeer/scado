@@ -1,74 +1,63 @@
-@keyframes rotateAnimation {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.rotateAnimation {
-    animation-name: rotateAnimation;
-    animation-duration: 2s;
-}
-
-@keyframes slideInAnimation {
-    from {
-        transform: translateX(100px);
-    }
-
-    to {
-        transform: translateX(0px);
-    }
-}
-
-.slideInAnimation {
-    animation-name: slideInAnimation;
+.animated {
     animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
-@keyframes slideOutAnimation {
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+    animation-duration: .75s;
+}
+
+@keyframes flipInX {
     from {
-        transform: translateX(0px);
-    }
-
-    to {
-        transform: translateX(100px);
-    }
-}
-
-.slideOutAnimation {
-    animation-name: slideOutAnimation;
-    animation-duration: 1s;
-}
-
-@keyframes enterAnimation {
-    from {
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        animation-timing-function: ease-in;
         opacity: 0;
     }
 
-    to {
+    40% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
         opacity: 1;
+    }
+
+    80% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+
+    to {
+        transform: perspective(400px);
     }
 }
 
-.enterAnimation {
-    animation-name: enterAnimation;
-    animation-duration: 1s;
+.flipInX {
+    backface-visibility: visible !important;
+    animation-name: flipInX;
 }
 
-@keyframes leaveAnimation {
+@keyframes flipOutX {
     from {
+        transform: perspective(400px);
+    }
+
+    30% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
         opacity: 1;
     }
 
     to {
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
         opacity: 0;
     }
 }
 
-.leaveAnimation {
-    animation-name: leaveAnimation;
-    animation-duration: 1s;
+.flipOutX {
+    animation-name: flipOutX;
+    backface-visibility: visible !important;
 }

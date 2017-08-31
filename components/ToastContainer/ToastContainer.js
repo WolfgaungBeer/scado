@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { array, func, string } from 'prop-types';
 import { ToastContainerWrapper } from './styled';
 import Toast from './Toast';
@@ -13,25 +13,36 @@ const defaultProps = {
     position: 'bottom-right'
 };
 
-const ToastContainer = ({ toasts, dismissToast, position }) => {
-    const posArray = position.split(/[-]/);
+class ToastContainer extends PureComponent {
 
-    toasts.forEach((toast) => {
-        const { id, dismissTimeout } = toast;
-        setTimeout(() => dismissToast(id), dismissTimeout);
+    componentWillReceiveProps(nextProps) {
+        const { toasts, dismissToast } = nextProps;
 
-    });
+        if (toasts && toasts.length > 0) {
+            const oldToastIds = this.props.toasts.map(t => t.id);
+            const newToasts = toasts.map(t => oldToastIds.includes(t.id) ? undefined : t).filter(t => t !== undefined);
+            newToasts.forEach(t => setTimeout(() => dismissToast(t.id), t.dismissTimeout));
+        }
 
-    if (!toasts || toasts.length === 0) {
-        return null;
     }
 
-    return (
-        <ToastContainerWrapper pos1={posArray[0]} pos2={posArray[1]}>
-            {toasts.map(t => <Toast key={t.id} type={t.type} component={t.component} onClose={() => dismissToast(t.id)} />)}
-        </ToastContainerWrapper>
-    );
-};
+    render() {
+        const { position, toasts, dismissToast } = this.props;
+        const posArray = position.split(/[-]/);
+
+        if (!toasts || toasts.length === 0) {
+            return null;
+        }
+
+        return (
+            <ToastContainerWrapper pos1={posArray[0]} pos2={posArray[1]}>
+                {toasts.map(t =>
+                    <Toast key={t.id} id={t.id} type={t.type} component={t.component} onClose={() => dismissToast(t.id)} />
+                )}
+            </ToastContainerWrapper>
+        );
+    }
+}
 
 ToastContainer.propTypes = propTypes;
 ToastContainer.defaultProps = defaultProps;

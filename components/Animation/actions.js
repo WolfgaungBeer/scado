@@ -1,9 +1,9 @@
-import * as types from './actionTypes';
+import { ANIMATE, REMOVE } from './actionTypes';
 
 export const animate = (payload) => {
-    return { type: types.ANIMATE, payload };
+    return { type: ANIMATE, payload };
 };
 
-export const setClassName = (payload) => {
-    return { type: types.SET_CLASSNAME, payload };
+export const remove = (payload) => {
+    return { type: REMOVE, payload };
 };

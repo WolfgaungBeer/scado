@@ -14,12 +14,14 @@ export const ToastWrapper = styled(Flex)`
     margin-bottom: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: ${props => props.theme.color.lightGray};
     border-radius: 4px;
+    border-color: ${props => props.theme.color.lightGray};
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.30);
 `;
 
 export const IconWrapper = styled(Flex)`
     background-color: ${props => props.theme.color[props.color]};
+    border-color: ${props => props.theme.color[props.color]};
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 `;

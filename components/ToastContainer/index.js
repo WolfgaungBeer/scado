@@ -1,17 +1,17 @@
 import { connect } from 'react-redux';
-import * as toastSelectors from './selectors';
-import * as toastActions from './actions';
+import { toasts } from './selectors';
+import { dismissToast } from './actions';
 import ToastContainer from './ToastContainer';
 
 const mapStateToProps = (state) => {
     return {
-        toasts: toastSelectors.toasts(state)
+        toasts: toasts(state)
     };
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        dismissToast: (id) => dispatch(toastActions.dismissToast({ id }))
+        dismissToast: (id) => dispatch(dismissToast(id))
     };
 };
 

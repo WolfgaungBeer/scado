@@ -9,16 +9,16 @@ const reducer = (state = defaultState, action) => {
         case types.ANIMATE: {
 
             const animations = { ...state.animations };
-            const { id } = action.payload;
-            animations[id] = { ...action.payload };
+            const { id, type, className } = action.payload;
+            animations[id] = { type, className };
             return { ...state, animations };
 
         }
-        case types.SET_CLASSNAME: {
+        case types.REMOVE: {
 
             const animations = { ...state.animations };
-            const { id } = action.payload;
-            animations[id] = { ...action.payload };
+            const id = action.payload;
+            delete animations[id];
             return { ...state, animations };
 
         }
