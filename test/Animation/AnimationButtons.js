@@ -12,9 +12,9 @@ const mapDispatchToProps = (dispatch) => {
 const AnimationButtons = ({ animate }) => {
     return (
         <div>
-            <button onClick={() => animate({ id: 'button-animation', type: 'enter', className: 'animated flipInX' })}>Show it!</button>
-            <button onClick={() => animate({ id: 'button-animation', type: 'leave', className: 'animated flipOutX' })}>Hide it!</button>
-            <button onClick={() => animate({ id: 'button-animation', className: 'animated bounce' })}>Rotate it!</button>
+            <button onClick={() => animate({ id: 'button-animation', type: 'enter', className: 'vivify flipInX' })}>Show it!</button>
+            <button onClick={() => animate({ id: 'button-animation', type: 'leave', className: 'vivify flipOutX' })}>Hide it!</button>
+            <button onClick={() => animate({ id: 'button-animation', className: 'vivify spin' })}>Spin it!</button>
         </div>
     );
 };

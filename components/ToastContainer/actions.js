@@ -13,14 +13,14 @@ const dismissToastAction = (payload) => {
 export const showToast = (_payload) => (dispatch) => {
     const id = uuid();
     const payload = { ..._payload, id };
+    dispatch(animate({ id, type: 'enter', className: 'vivify flipInX' }));
     dispatch(showToastAction(payload));
-    dispatch(animate({ id, type: 'enter', className: 'animated flipInX' }));
 }
 
 export const dismissToast = (payload) => (dispatch) => {
-    dispatch(animate({ id: payload, type: 'leave', className: 'animated flipOutX' }));
+    dispatch(animate({ id: payload, type: 'leave', className: 'vivify flipOutX' }));
     setTimeout(() => {
         dispatch(remove(payload));
         dispatch(dismissToastAction(payload));
-    }, 750);
+    }, 850);
 }

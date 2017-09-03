@@ -12,18 +12,11 @@ export const ToastWrapper = styled(Flex)`
     width: 300px;
     min-height: 50px;
     margin-bottom: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 4px;
-    border-color: ${props => props.theme.color.lightGray};
-    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.30);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.45);
 `;
 
 export const IconWrapper = styled(Flex)`
     background-color: ${props => props.theme.color[props.color]};
-    border-color: ${props => props.theme.color[props.color]};
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
 `;
 
 export const ComponentWrapper = styled(Flex)`

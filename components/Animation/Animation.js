@@ -5,6 +5,7 @@ import { AnimationWrapper } from './styled';
 const propTypes = {
     id: string.isRequired,
     hideOnMount: bool,
+    inline: bool,
     animationData: object.isRequired,
     remove: func.isRequired,
     children: node
@@ -12,6 +13,7 @@ const propTypes = {
 
 const defaultProps = {
     hideOnMount: undefined,
+    inline: undefined,
     children: undefined,
 };
 
@@ -41,7 +43,7 @@ class Animation extends PureComponent {
     }
 
     render() {
-        const { hideOnMount, animationData, children } = this.props;
+        const { hideOnMount, inline, animationData, children } = this.props;
         const { visible } = this.state;
         const { className } = animationData;
 
@@ -50,7 +52,7 @@ class Animation extends PureComponent {
         }
 
         return (
-            <AnimationWrapper innerRef={(div) => { this.animationContainer = div; }} className={className}>
+            <AnimationWrapper innerRef={(div) => { this.animationContainer = div; }} className={className} inline={inline}>
                 {children}
             </AnimationWrapper>
         );

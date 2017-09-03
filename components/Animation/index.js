@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import { animationData } from './selectors';
 import { remove } from './actions';
 import Animation from './Animation';
+import './defaultAnimations.css';
 
 const mapStateToProps = (state, ownProps) => {
     return {
