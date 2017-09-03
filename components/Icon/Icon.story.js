@@ -32,6 +32,11 @@ storiesOf('Icon', module)
             <Icon icon="check_circle" color="success" scale="xxl" />
         </Theme>
     ))
+    .add('color success and size xxl and loading set to true', () => (
+        <Theme theme={defaultTheme}>
+            <Icon icon="check_circle" color="success" scale="xxl" loading />
+        </Theme>
+    ))
     .add('styled(Icon)', () => (
         <Theme theme={defaultTheme}>
             <StyledIcon icon="check_circle" />

@@ -1,6 +1,6 @@
 import React from 'react';
-import { string } from 'prop-types';
-import styled from 'styled-components';
+import { string, bool } from 'prop-types';
+import { StyledIcon } from './styled';
 import './style.css';
 
 
@@ -9,21 +9,22 @@ const propTypes = {
     color: string,
     scale: string,
     className: string,
+    loading: bool
 };
 
 const defaultProps = {
     color: undefined,
     scale: undefined,
     className: undefined,
+    loading: undefined
 };
 
-const StyledIcon = styled.i`
-    color: ${props => props.theme.color[props.color] || 'inherit'};
-    font-size: ${props => props.theme.scale[props.scale] || 'inherit'};
-`;
-
-const Icon = ({ icon, color, scale, className }) => {
-    return (<StyledIcon className={`material-icons ${className || ''}`} color={color} scale={scale}>{icon}</StyledIcon>);
+const Icon = ({ icon, color, scale, className, loading }) => {
+    const classname = `material-icons ${className || ''}`;
+    const iconValue = loading ? 'autorenew' : icon;
+    return (
+        <StyledIcon className={classname} color={color} scale={scale} loading={loading}>{iconValue}</StyledIcon>
+    );
 };
 
 Icon.propTypes = propTypes;
