@@ -7,6 +7,8 @@ export { default as Icon } from './components/Icon';
 export { default as Button } from './components/Button';
 export { default as Flex } from './components/Flex';
 export { default as ToastContainer } from './components/ToastContainer';
+export { default as Row } from './components/Grid/Row';
+export { default as Column } from './components/Grid/Column';
 
 // Reducers, Actions, Selectors
 
