@@ -1,5 +1,12 @@
 export default {
 
+    screen: {
+        s: '450px',
+        m: '750px',
+        l: '1200px',
+        xl: '1600px'
+    },
+
     color: {
         black: '#202021',
         white: '#F7F7F7',

@@ -1,6 +1,5 @@
 import React, { Children, cloneElement } from 'react';
 import { string, node } from 'prop-types';
-import Flex from '../../Flex';
 
 const propTypes = {
     gutter: string,
@@ -14,9 +13,9 @@ const defaultProps = {
 
 const Row = ({ gutter, children }) => {
     return (
-        <Flex justifyContent="space-between">
+        <div>
             {gutter ? Children.map(children, (child) => cloneElement(child, { gutter })) : children}
-        </Flex>
+        </div>
     );
 };
 
