@@ -1,12 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { themeSelectors, defaultTheme, themeActions } from '../../scado';
-
-const mapStateToProps = (state) => {
-    return {
-        theme: themeSelectors.theme(state)
-    };
-};
+import { defaultTheme, themeActions } from '../../scado';
 
 const mapDispatchToProps = (dispatch) => {
     return {
@@ -25,4 +19,4 @@ const ThemeButtons = ({ setTheme }) => {
     );
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(ThemeButtons);
+export default connect(null, mapDispatchToProps)(ThemeButtons);

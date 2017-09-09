@@ -1,12 +1,10 @@
 import { combineReducers, createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
-import { themeReducer, animationReducer, toastReducer } from '../scado';
+import { scadoReducers } from '../scado';
 
 
 const reducers = combineReducers({
-    themeReducer,
-    animationReducer,
-    toastReducer
+    scado: scadoReducers
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

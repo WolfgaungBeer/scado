@@ -1,25 +1,23 @@
 import * as types from './actionTypes';
 
-const defaultState = {
-    animations: {}
-};
+const defaultState = {};
 
 const reducer = (state = defaultState, action) => {
     switch (action.type) {
         case types.ANIMATE: {
 
-            const animations = { ...state.animations };
+            const newState = { ...state };
             const { id, type, className } = action.payload;
-            animations[id] = { type, className };
-            return { ...state, animations };
+            newState[id] = { type, className };
+            return newState;
 
         }
         case types.REMOVE: {
 
-            const animations = { ...state.animations };
+            const newState = { ...state };
             const id = action.payload;
-            delete animations[id];
-            return { ...state, animations };
+            delete newState[id];
+            return newState;
 
         }
         default: {

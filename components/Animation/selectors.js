@@ -1,1 +1,1 @@
-export const animationData = (state, id) => state.animationReducer.animations[id] || {};
+export const animationData = (state, id) => state.scado.animations[id] || {};

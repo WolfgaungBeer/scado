@@ -17,7 +17,7 @@ const mockStore = {
     dispatch: () => {},
     getState: () => {
         return {
-            animationReducer: {
+            scado: {
                 animations: {}
             }
         };

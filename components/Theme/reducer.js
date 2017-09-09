@@ -1,13 +1,11 @@
 import theme from './defaultTheme';
 import * as types from './actionTypes';
 
-const defaultState = { theme };
-
-const reducer = (state = defaultState, action) => {
+const reducer = (state = theme, action) => {
     switch (action.type) {
         case types.SET_THEME: {
 
-            return { ...state, theme: { ...action.payload } };
+            return { ...action.payload };
 
         }
         default: {

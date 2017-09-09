@@ -1,1 +1,1 @@
-export const theme = (state) => state.themeReducer.theme;
+export const theme = (state) => state.scado.theme;

@@ -1,1 +1,1 @@
-export const toasts = (state) => state.toastReducer.toasts;
+export const toasts = (state) => state.scado.toasts;

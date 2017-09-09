@@ -20,10 +20,12 @@ export const IconWrapper = styled(Flex)`
 `;
 
 export const ComponentWrapper = styled(Flex)`
+    background-color: ${props => props.theme.color.white};
     padding: 0.5rem 1rem;
 `;
 
 export const CloseButtonWrapper = styled(Flex)`
+    background-color: ${props => props.theme.color.white};
     position: relative;
 `;
 
