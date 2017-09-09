@@ -45,7 +45,12 @@ storiesOf('Button', module)
     ))
     .add('with type flat and an icon', () => (
         <Theme theme={defaultTheme}>
-            <Button type="flat" icon="dashboard"onClick={click}>CLICK ME</Button>
+            <Button type="flat" icon="dashboard" onClick={click}>CLICK ME</Button>
+        </Theme>
+    ))
+    .add('with type flat and an icon and loading set to true', () => (
+        <Theme theme={defaultTheme}>
+            <Button type="flat" icon="dashboard" loading onClick={click}>CLICK ME</Button>
         </Theme>
     ))
     .add('with type raised and an icon', () => (
@@ -65,7 +70,7 @@ storiesOf('Button', module)
     ))
     .add('with type raised and color error and scale l and an icon', () => (
         <Theme theme={defaultTheme}>
-            <Button type="raised" color="error" scale="l" icon="dashboard" onClick={click}>CLICK ME</Button>
+            <Button type="raised" color="error" scale="l" icon="dashboard" loading onClick={click}>CLICK ME</Button>
         </Theme>
     ))
     .add('default with icon and no text', () => (
@@ -95,6 +100,6 @@ storiesOf('Button', module)
     ))
     .add('with type raised and color error and scale l and an icon and no text', () => (
         <Theme theme={defaultTheme}>
-            <Button type="raised" color="error" scale="l" icon="dashboard" onClick={click} />
+            <Button type="raised" color="error" scale="l" icon="dashboard" loading onClick={click} />
         </Theme>
     ));

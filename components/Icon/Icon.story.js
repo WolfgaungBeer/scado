@@ -1,8 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import styled from 'styled-components';
-import Theme from '../Theme/Theme';
-import defaultTheme from '../Theme/defaultTheme';
 import Icon from './';
 
 
@@ -18,34 +16,22 @@ const Wrapper = styled.div`
 
 storiesOf('Icon', module)
     .add('default', () => (
-        <Theme theme={defaultTheme}>
-            <Icon icon="check_circle" />
-        </Theme>
+        <Icon icon="check_circle" />
     ))
     .add('color error and size l', () => (
-        <Theme theme={defaultTheme}>
-            <Icon icon="check_circle" color="error" scale="l" />
-        </Theme>
+        <Icon icon="check_circle" color="error" scale="l" />
     ))
     .add('color success and size xxl', () => (
-        <Theme theme={defaultTheme}>
-            <Icon icon="check_circle" color="success" scale="xxl" />
-        </Theme>
+        <Icon icon="check_circle" color="success" scale="xxl" />
     ))
     .add('color success and size xxl and loading set to true', () => (
-        <Theme theme={defaultTheme}>
-            <Icon icon="check_circle" color="success" scale="xxl" loading />
-        </Theme>
+        <Icon icon="check_circle" color="success" scale="xxl" loading />
     ))
     .add('styled(Icon)', () => (
-        <Theme theme={defaultTheme}>
-            <StyledIcon icon="check_circle" />
-        </Theme>
+        <StyledIcon icon="check_circle" />
     ))
     .add('inside a wrapper', () => (
-        <Theme theme={defaultTheme}>
-            <Wrapper>
-                <Icon icon="check_circle" />
-            </Wrapper>
-        </Theme>
+        <Wrapper>
+            <Icon icon="check_circle" />
+        </Wrapper>
     ));

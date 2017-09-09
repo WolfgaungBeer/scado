@@ -15,20 +15,16 @@ const FlexParent = Flex.extend`
 
 storiesOf('Flex', module)
     .add('default', () => (
-        <Theme theme={defaultTheme}>
-            <FlexParent inline alignItems="center">
-                <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-                <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-                <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-                <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-                <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-            </FlexParent>
-        </Theme>
+        <FlexParent inline alignItems="center">
+            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
+        </FlexParent>
     ))
     .add('centered child', () => (
-        <Theme theme={defaultTheme}>
-            <FlexParent justifyContent="center" alignItems="center" inline>
-                <Icon icon="stars" color="success" scale="l" />
-            </FlexParent>
-        </Theme>
+        <FlexParent justifyContent="center" alignItems="center" inline>
+            <Icon icon="stars" color="success" scale="l" />
+        </FlexParent>
     ));
