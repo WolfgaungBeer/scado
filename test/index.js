@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import styled from 'styled-components';
 import store from './store';
-import { Theme, Button, Animation, ToastContainer, Row, Column } from '../scado';
+import { Theme, Animation, ToastContainer, Row, Column } from '../scado';
 import ThemeButtons from './Theme/ThemeButtons';
 import AnimationButtons from './Animation/AnimationButtons';
 import ToastButtons from './Toasts/ToastButtons';
@@ -22,7 +22,7 @@ const Root = () => {
                     <AnimationButtons />
                     <ToastButtons />
                     <Animation id="button-animation" hideOnMount inline>
-                        <Button type="raised" color="error" scale="l" icon="code">Example Button</Button>
+                        <div>Test</div>
                     </Animation>
                     <ToastContainer />
                     <Row gutter="s">
@@ -37,6 +37,6 @@ const Root = () => {
             </Theme>
         </Provider>
     );
-}
+};
 
 render(<Root />, document.getElementById('root'));

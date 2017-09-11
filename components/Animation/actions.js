@@ -1,9 +1,6 @@
 import { ANIMATE, REMOVE } from './actionTypes';
 
-export const animate = (payload) => {
-    return { type: ANIMATE, payload };
-};
+const animate = payload => ({ type: ANIMATE, payload });
+const remove = payload => ({ type: REMOVE, payload });
 
-export const remove = (payload) => {
-    return { type: REMOVE, payload };
-};
+export default { animate, remove };

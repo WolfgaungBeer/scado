@@ -1,1 +1,5 @@
-export const theme = (state) => state.scado.theme;
+export const theme = state => state.scado.theme;
+
+export default {
+    theme,
+};

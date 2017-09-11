@@ -4,7 +4,7 @@ export default {
         s: '450px',
         m: '750px',
         l: '1200px',
-        xl: '1600px'
+        xl: '1600px',
     },
 
     color: {
@@ -15,7 +15,7 @@ export default {
         info: '#48C5FC',
         success: '#37B661',
         warning: '#DD9913',
-        error: '#E25650'
+        error: '#E25650',
     },
 
     scale: {
@@ -25,7 +25,7 @@ export default {
         l: '1.5rem',
         xl: '2rem',
         xxl: '2.5rem',
-        xxxl: '3rem'
-    }
+        xxxl: '3rem',
+    },
 
-}
+};

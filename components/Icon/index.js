@@ -1,6 +1,6 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
-import { StyledIcon } from './styled';
+import StyledIcon from './styled';
 import './style.css';
 
 
@@ -9,14 +9,14 @@ const propTypes = {
     color: string,
     scale: string,
     className: string,
-    loading: bool
+    loading: bool,
 };
 
 const defaultProps = {
     color: undefined,
     scale: undefined,
     className: undefined,
-    loading: undefined
+    loading: undefined,
 };
 
 const Icon = ({ icon, color, scale, className, loading }) => {

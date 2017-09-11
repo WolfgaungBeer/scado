@@ -8,23 +8,24 @@ import toastReducer from './components/ToastContainer/reducer';
 export { default as Theme } from './components/Theme';
 export { default as Animation } from './components/Animation';
 export { default as Icon } from './components/Icon';
-export { default as Button } from './components/Button';
 export { default as Flex } from './components/Flex';
 export { default as ToastContainer } from './components/ToastContainer';
 export * from './components/Grid';
 
-// Actions, Selectors
+// Actions
+
+export { default as themeActions } from './components/Theme/actions';
+export { default as animationActions } from './components/Animation/actions';
+export { default as toastActions } from './components/ToastContainer/actions';
+
+// Selectors
 
 export { default as defaultTheme } from './components/Theme/defaultTheme';
-
-export * as themeActions from './components/Theme/actions';
-export * as animationActions from './components/Animation/actions';
-export * as toastActions from './components/ToastContainer/actions';
 
 // Reducers
 
 export const scadoReducers = combineReducers({
     theme: themeReducer,
     animations: animationReducer,
-    toasts: toastReducer
+    toasts: toastReducer,
 });

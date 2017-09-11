@@ -4,27 +4,29 @@ import { configure, addDecorator } from '@storybook/react';
 import Theme from '../components/Theme/Theme';
 import defaultTheme from '../components/Theme/defaultTheme';
 
-const loadStories = () => {
-    require('../components/Icon/Icon.story.js');
-    require('../components/ToastContainer/ToastContainer.story.js');
-    require('../components/Button/Button.story.js');
-    require('../components/Flex/Flex.story.js');
-    require('../components/Grid/Grid.story.js');
-}
+const iconStory = require('../components/Icon/Icon.story.js');
+const toastContainerStory = require('../components/ToastContainer/ToastContainer.story.js');
+const flexStory = require('../components/Flex/Flex.story.js');
+const gridStory = require('../components/Grid/Grid.story.js');
+
+const loadStories = () => ({
+    iconStory,
+    toastContainerStory,
+    flexStory,
+    gridStory,
+});
 
 const mockStore = {
     subscribe: () => {},
     dispatch: () => {},
-    getState: () => {
-        return {
-            scado: {
-                animations: {}
-            }
-        };
-    }
+    getState: () => ({
+        scado: {
+            animations: {},
+        },
+    }),
 };
 
-const GlobalDecorator = (storyFn) => (
+const GlobalDecorator = storyFn => (
     <Provider store={mockStore}>
         <Theme theme={defaultTheme}>
             {storyFn()}

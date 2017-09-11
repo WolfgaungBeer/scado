@@ -10,18 +10,18 @@ const rotationKeyframes = keyframes`
     }
 `;
 
-export const StyledIcon = styled.i`
-    ${props => {
+const StyledIcon = styled.i`
+    ${(props) => {
         if (props.loading) {
             return css`
                 display: inline-block;
                 animation: ${rotationKeyframes} 0.85s linear infinite;
-
             `;
-        } else {
-            return '';
         }
+        return '';
     }};
     color: ${props => props.theme.color[props.color] || 'inherit'};
     font-size: ${props => props.theme.scale[props.scale] || 'inherit'};
 `;
+
+export default StyledIcon;

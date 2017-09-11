@@ -3,21 +3,19 @@ import { string, node } from 'prop-types';
 
 const propTypes = {
     gutter: string,
-    children: node
+    children: node,
 };
 
 const defaultProps = {
     gutter: undefined,
-    children: undefined
+    children: undefined,
 };
 
-const Row = ({ gutter, children }) => {
-    return (
-        <div>
-            {gutter ? Children.map(children, (child) => cloneElement(child, { gutter })) : children}
-        </div>
-    );
-};
+const Row = ({ gutter, children }) => (
+    <div>
+        {gutter ? Children.map(children, child => cloneElement(child, { gutter })) : children}
+    </div>
+);
 
 Row.propTypes = propTypes;
 Row.defaultProps = defaultProps;

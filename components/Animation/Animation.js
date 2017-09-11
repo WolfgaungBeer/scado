@@ -1,14 +1,16 @@
 import React, { PureComponent } from 'react';
-import { string, bool, object, func, node } from 'prop-types';
-import { AnimationWrapper } from './styled';
+import { bool, shape, string, func, node } from 'prop-types';
+import AnimationWrapper from './styled';
 
 const propTypes = {
-    id: string.isRequired,
     hideOnMount: bool,
     inline: bool,
-    animationData: object.isRequired,
+    animationData: shape({
+        type: string,
+        className: string,
+    }).isRequired,
     remove: func.isRequired,
-    children: node
+    children: node,
 };
 
 const defaultProps = {
@@ -18,7 +20,6 @@ const defaultProps = {
 };
 
 class Animation extends PureComponent {
-
     constructor(props) {
         super(props);
         this.state = { visible: !props.hideOnMount };
@@ -26,7 +27,6 @@ class Animation extends PureComponent {
 
     componentWillReceiveProps(nextProps) {
         const { animationData, remove } = nextProps;
-        const { visible } = this.state;
         const { type } = animationData;
         const div = this.animationContainer;
 
@@ -43,7 +43,7 @@ class Animation extends PureComponent {
     }
 
     render() {
-        const { hideOnMount, inline, animationData, children } = this.props;
+        const { inline, animationData, children } = this.props;
         const { visible } = this.state;
         const { className } = animationData;
 
@@ -52,12 +52,15 @@ class Animation extends PureComponent {
         }
 
         return (
-            <AnimationWrapper innerRef={(div) => { this.animationContainer = div; }} className={className} inline={inline}>
+            <AnimationWrapper
+                innerRef={(div) => { this.animationContainer = div; }}
+                className={className}
+                inline={inline}
+            >
                 {children}
             </AnimationWrapper>
         );
     }
-
 }
 
 Animation.propTypes = propTypes;

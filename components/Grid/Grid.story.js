@@ -1,8 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import styled from 'styled-components';
-import Theme from '../Theme/Theme';
-import defaultTheme from '../Theme/defaultTheme';
 import { Row, Column } from './';
 
 const GridContent = styled.div`

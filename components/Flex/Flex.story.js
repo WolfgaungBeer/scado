@@ -1,8 +1,5 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import styled from 'styled-components';
-import Theme from '../Theme/Theme';
-import defaultTheme from '../Theme/defaultTheme';
 import Icon from '../Icon';
 import Flex from './';
 
@@ -16,11 +13,11 @@ const FlexParent = Flex.extend`
 storiesOf('Flex', module)
     .add('default', () => (
         <FlexParent inline alignItems="center">
-            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
-            <Flex flex="1 1 auto"><Icon icon="stars"/></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars" /></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars" /></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars" /></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars" /></Flex>
+            <Flex flex="1 1 auto"><Icon icon="stars" /></Flex>
         </FlexParent>
     ))
     .add('centered child', () => (
