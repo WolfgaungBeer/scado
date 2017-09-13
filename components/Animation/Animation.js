@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { bool, shape, string, func, node } from 'prop-types';
-import AnimationWrapper from './styled';
+import { AnimationWrapper } from './styled';
 
 const propTypes = {
     hideOnMount: bool,

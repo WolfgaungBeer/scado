@@ -1,34 +1,30 @@
 import React from 'react';
 import { Provider } from 'react-redux';
+import configureStore from 'redux-mock-store';
 import { configure, addDecorator } from '@storybook/react';
-import Theme from '../components/Theme/Theme';
+import Theme from '../components/Theme';
 import defaultTheme from '../components/Theme/defaultTheme';
 
-const iconStory = require('../components/Icon/Icon.story.js');
-const toastContainerStory = require('../components/ToastContainer/ToastContainer.story.js');
-const flexStory = require('../components/Flex/Flex.story.js');
-const gridStory = require('../components/Grid/Grid.story.js');
+/* eslint-disable */
+const loadStories = () => {
+    require('../components/Icon/Icon.story.js');
+    require('../components/ToastContainer/ToastContainer.story.js');
+    require('../components/Flex/Flex.story.js');
+    require('../components/Grid/Grid.story.js');
+};
+/* eslint-enable */
 
-const loadStories = () => ({
-    iconStory,
-    toastContainerStory,
-    flexStory,
-    gridStory,
+const mockStore = configureStore();
+const store = mockStore({
+    scado: {
+        animations: {},
+        theme: defaultTheme,
+    },
 });
 
-const mockStore = {
-    subscribe: () => {},
-    dispatch: () => {},
-    getState: () => ({
-        scado: {
-            animations: {},
-        },
-    }),
-};
-
 const GlobalDecorator = storyFn => (
-    <Provider store={mockStore}>
-        <Theme theme={defaultTheme}>
+    <Provider store={store}>
+        <Theme>
             {storyFn()}
         </Theme>
     </Provider>

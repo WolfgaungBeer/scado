@@ -1,15 +1,15 @@
-import * as types from './actionTypes';
+import { SHOW_TOAST, DISMISS_TOAST } from './actionTypes';
 
 const defaultState = [];
 
 const reducer = (state = defaultState, action) => {
     switch (action.type) {
-    case types.SHOW_TOAST: {
+    case SHOW_TOAST: {
         const newState = [...state];
         newState.push(action.payload);
         return newState;
     }
-    case types.DISMISS_TOAST: {
+    case DISMISS_TOAST: {
         const newState = state.filter(t => t.id !== action.payload);
         return newState;
     }

@@ -1,7 +1,7 @@
-import types from './actionTypes';
+import { SET_THEME } from './actionTypes';
 
 const setTheme = payload => ({
-    type: types.SET_THEME,
+    type: SET_THEME,
     payload,
 });
 

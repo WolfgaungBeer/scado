@@ -1,5 +1,13 @@
 import styled from 'styled-components';
+import { number } from 'prop-types';
 import { getBreakpoint, getWidth } from './helpers';
+
+const propTypes = {
+    s: number.isRequired,
+    m: number.isRequired,
+    l: number.isRequired,
+    xl: number.isRequired,
+};
 
 const Column = styled.div`
     display: inline-block;
@@ -19,5 +27,7 @@ const Column = styled.div`
         width: ${getWidth('xl')};
     }
 `;
+
+Column.propTypes = propTypes;
 
 export default Column;

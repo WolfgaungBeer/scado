@@ -4,10 +4,10 @@ import { scadoReducers } from '../scado';
 
 
 const reducers = combineReducers({
-    scado: scadoReducers
+    scado: scadoReducers,
 });
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // eslint-disable-line
 
 const middlewares = composeEnhancers(applyMiddleware(thunk));
 

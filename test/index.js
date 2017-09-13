@@ -13,30 +13,28 @@ const GridContent = styled.div`
     background-color: ${props => props.theme.color[props.color]};
 `;
 
-const Root = () => {
-    return (
-        <Provider store={store}>
-            <Theme>
-                <div>
-                    <ThemeButtons />
-                    <AnimationButtons />
-                    <ToastButtons />
-                    <Animation id="button-animation" hideOnMount inline>
-                        <div>Test</div>
-                    </Animation>
-                    <ToastContainer />
-                    <Row gutter="s">
-                        <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
-                        <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
-                        <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
-                        <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
-                        <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
-                        <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
-                    </Row>
-                </div>
-            </Theme>
-        </Provider>
-    );
-};
+const Root = () => (
+    <Provider store={store}>
+        <Theme>
+            <div>
+                <ThemeButtons />
+                <AnimationButtons />
+                <ToastButtons />
+                <Animation id="button-animation" hideOnMount inline>
+                    <div>Test</div>
+                </Animation>
+                <ToastContainer />
+                <Row gutter="s">
+                    <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
+                    <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
+                    <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
+                    <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
+                    <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
+                    <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
+                </Row>
+            </div>
+        </Theme>
+    </Provider>
+);
 
 render(<Root />, document.getElementById('root'));

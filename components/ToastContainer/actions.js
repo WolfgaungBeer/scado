@@ -3,7 +3,6 @@ import { SHOW_TOAST, DISMISS_TOAST } from './actionTypes';
 import animationActions from '../Animation/actions';
 
 const showToastAction = payload => ({ type: SHOW_TOAST, payload });
-
 const dismissToastAction = payload => ({ type: DISMISS_TOAST, payload });
 
 const showToast = _payload => (dispatch) => {

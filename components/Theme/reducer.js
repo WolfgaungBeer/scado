@@ -1,9 +1,9 @@
 import theme from './defaultTheme';
-import types from './actionTypes';
+import { SET_THEME } from './actionTypes';
 
 const reducer = (state = theme, action) => {
     switch (action.type) {
-    case types.SET_THEME: {
+    case SET_THEME: {
         return { ...action.payload };
     }
     default: {

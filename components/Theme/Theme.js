@@ -15,7 +15,9 @@ const defaultProps = {
     children: undefined,
 };
 
-const Theme = ({ theme, children }) => (<ThemeProvider theme={theme}>{children}</ThemeProvider>);
+const Theme = ({ theme, children }) => (
+    <ThemeProvider theme={theme}>{children}</ThemeProvider>
+);
 
 Theme.propTypes = propTypes;
 Theme.defaultProps = defaultProps;

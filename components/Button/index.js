@@ -12,7 +12,7 @@ const propTypes = {
     icon: string,
     loading: bool,
     onClick: func,
-    children: node
+    children: node,
 };
 
 const defaultProps = {
@@ -22,11 +22,10 @@ const defaultProps = {
     icon: undefined,
     loading: undefined,
     onClick: undefined,
-    children: undefined
+    children: undefined,
 };
 
 const Button = ({ type, color, scale, icon, loading, onClick, children }) => {
-
     const buttonType = type || 'default';
     const iconColor = getIconColor(type, color);
     const iconOnly = (icon && !children);

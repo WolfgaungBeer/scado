@@ -10,15 +10,15 @@ const StyledButton = styled.button`
     border-color: ${getColor()};
     border-width: 1px;
     border-radius: 2px;
-    box-shadow: ${props => (props.type === 'raised') ? '3px 3px 10px -3px rgba(0,0,0,0.75)' : ''};
+    box-shadow: ${props => ((props.type === 'raised') ? '3px 3px 10px -3px rgba(0,0,0,0.75)' : '')};
     &:focus {
         outline: 0;
     }
     > div {
-        padding: ${props => props.iconOnly ? '0.25rem' : '0.25rem 0.5rem'};
+        padding: ${props => (props.iconOnly ? '0.25rem' : '0.25rem 0.5rem')};
         > i {
             transform: translateY(13%);
-            padding-right: ${props => props.iconOnly ? '' : '0.25rem'};
+            padding-right: ${props => (props.iconOnly ? '' : '0.25rem')};
         }
     }
 `;
