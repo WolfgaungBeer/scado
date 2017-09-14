@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { text } from '@storybook/addon-knobs';
 import styled from 'styled-components';
 import { Row, Column } from './';
 
@@ -19,8 +20,8 @@ storiesOf('Grid', module)
             <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
         </Row>
     ))
-    .add('with a gutter of size s', () => (
-        <Row gutter="s">
+    .add('with props', () => (
+        <Row gutter={text('gutter', 's s')}>
             <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
             <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
             <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>

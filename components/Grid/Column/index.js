@@ -13,7 +13,7 @@ const Column = styled.div`
     display: inline-block;
     box-sizing: border-box;
     width: ${getWidth('s')};
-    padding: 0rem ${props => props.theme.scale[props.gutter]};
+    padding: ${props => props.theme.scale[props.gutterV]} ${props => props.theme.scale[props.gutterH]};
     @media screen and (min-width: ${getBreakpoint('s')}) {
         width: ${getWidth('s')};
     }

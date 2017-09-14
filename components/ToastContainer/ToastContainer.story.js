@@ -1,5 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
+import { text } from '@storybook/addon-knobs';
 import ToastContainer from './ToastContainer';
 
 const toasts = [
@@ -11,8 +13,12 @@ const toasts = [
 
 storiesOf('ToastContainer', module)
     .add('default', () => (
-        <ToastContainer toasts={toasts} dismissToast={() => {}} />
+        <ToastContainer toasts={toasts} dismissToast={action('dismiss called')} />
     ))
-    .add('with a custom position', () => (
-        <ToastContainer position="top-left" toasts={toasts} dismissToast={() => {}} />
+    .add('with props', () => (
+        <ToastContainer
+            position={text('position', 'top-left')}
+            toasts={toasts}
+            dismissToast={action('dismiss called')}
+        />
     ));

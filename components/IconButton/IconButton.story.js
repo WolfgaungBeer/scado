@@ -1,18 +1,19 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import { text, boolean } from '@storybook/addon-knobs';
-import Icon from './';
+import IconButton from './';
 
-
-storiesOf('Icon', module)
+storiesOf('IconButton', module)
     .add('default', () => (
-        <Icon icon="check_circle" />
+        <IconButton icon="check_circle" onClick={action('clicked')} />
     ))
     .add('with props', () => (
-        <Icon
+        <IconButton
             icon={text('icon', 'check_circle')}
             color={text('color', 'success')}
             scale={text('scale', 'l')}
             loading={boolean('loading', false)}
+            onClick={action('clicked')}
         />
     ));

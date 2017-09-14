@@ -10,6 +10,7 @@ export { default as Animation } from './components/Animation';
 export { default as Icon } from './components/Icon';
 export { default as Flex } from './components/Flex';
 export { default as ToastContainer } from './components/ToastContainer';
+export { default as IconButton } from './components/IconButton';
 export * from './components/Grid';
 
 // Actions

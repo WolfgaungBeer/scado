@@ -11,11 +11,16 @@ const defaultProps = {
     children: undefined,
 };
 
-const Row = ({ gutter, children }) => (
-    <div>
-        {gutter ? Children.map(children, child => cloneElement(child, { gutter })) : children}
-    </div>
-);
+const Row = ({ gutter, children }) => {
+    const gutters = gutter ? gutter.split(/ /) : [];
+    return (
+        <div>
+            {gutter ? Children.map(children, child =>
+                cloneElement(child, { gutterV: gutters[0], gutterH: gutters[1] }),
+            ) : children}
+        </div>
+    );
+};
 
 Row.propTypes = propTypes;
 Row.defaultProps = defaultProps;

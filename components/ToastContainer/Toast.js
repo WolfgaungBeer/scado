@@ -4,7 +4,7 @@ import { ToastWrapper, IconWrapper, ComponentWrapper, CloseButtonWrapper, Absolu
 import iconMap from './iconMap';
 import Animation from '../Animation';
 import Icon from '../Icon';
-import Button from '../Button';
+import IconButton from '../IconButton';
 
 const propTypes = {
     id: string.isRequired,
@@ -26,7 +26,7 @@ const Toast = ({ id, type, component, onClose }) => (
             </ComponentWrapper>
             <CloseButtonWrapper flex="0 1 5%" justifyContent="center" alignItems="center">
                 <AbsoluteWrapper>
-                    <Button type="flat" icon="close" color="black" scale="m" onClick={onClose} />
+                    <IconButton icon="close" onClick={onClose} />
                 </AbsoluteWrapper>
             </CloseButtonWrapper>
         </ToastWrapper>

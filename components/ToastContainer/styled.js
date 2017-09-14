@@ -31,6 +31,6 @@ export const CloseButtonWrapper = styled(Flex)`
 
 export const AbsoluteWrapper = styled.div`
     position: absolute;
-    top: -5px;
-    right: -8px;
+    top: 2px;
+    right: -3px;
 `;
