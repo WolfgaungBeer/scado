@@ -8,6 +8,7 @@
     "url": "https://github.com/WolfgaungBeer/scado.git"
   },
   "scripts": {
+    "test": "jest --config=jest.config.json",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "dev-server": "webpack-dev-server --content-base test/"
   },
@@ -24,6 +25,7 @@
     "@storybook/addon-knobs": "^3.0.1",
     "@storybook/react": "^3.0.1",
     "babel-core": "^6.24.1",
+    "babel-jest": "^21.0.2",
     "babel-loader": "^7.0.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
@@ -37,9 +39,11 @@
     "file-loader": "^0.11.2",
     "font-awesome": "^4.7.0",
     "ionicons": "^3.0.0",
+    "jest": "^21.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
+    "react-test-renderer": "^15.6.1",
     "redux": "^3.7.0",
     "redux-mock-store": "^1.3.0",
     "redux-thunk": "^2.2.0",
