@@ -1,8 +1,20 @@
 {
   "bail": true,
   "verbose": true,
-  "collectCoverage": false,
-  "collectCoverageFrom" : ["**/components/**/*.js", "!**/node_modules/**"],
+  "collectCoverage": true,
+  "collectCoverageFrom" : [
+      "**/components/**/*.js",
+      "!**/node_modules/**",
+      "!**/Animation/index.js",
+      "!**/Animation/Animation.js",
+      "!**/Theme/index.js",
+      "!**/Theme/Theme.js",
+      "!**/ToastContainer/index.js",
+      "!**/ToastContainer/ToastContainer.js",
+      "!**/actions.js",
+      "!**/actionTypes.js",
+      "!**/*.story.js"
+  ],
   "coverageDirectory": "./__coverage__",
   "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",

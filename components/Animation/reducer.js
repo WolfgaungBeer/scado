@@ -1,8 +1,7 @@
 import { ANIMATE, REMOVE } from './actionTypes';
+import initialState from './initialState';
 
-const defaultState = {};
-
-const reducer = (state = defaultState, action) => {
+const reducer = (state = initialState, action) => {
     switch (action.type) {
     case ANIMATE: {
         const newState = { ...state };

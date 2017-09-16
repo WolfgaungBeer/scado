@@ -4,7 +4,7 @@ import configureStore from 'redux-mock-store';
 import { configure, addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 import Theme from '../components/Theme';
-import defaultTheme from '../components/Theme/defaultTheme';
+import defaultTheme from '../components/Theme/initialState';
 
 /* eslint-disable */
 const loadStories = () => {

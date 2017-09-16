@@ -21,7 +21,7 @@ export { default as toastActions } from './components/ToastContainer/actions';
 
 // Selectors
 
-export { default as defaultTheme } from './components/Theme/defaultTheme';
+export { default as defaultTheme } from './components/Theme/initialState';
 
 // Reducers
 
