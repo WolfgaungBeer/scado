@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders the Icon Component correctly 1`] = `
+exports[`renders the IconButton Component correctly 1`] = `
 <button
   className="sc-bdVaJa hOjKLo"
   onClick={[Function]}
@@ -15,7 +15,7 @@ exports[`renders the Icon Component correctly 1`] = `
 </button>
 `;
 
-exports[`renders the Icon Component correctly 2`] = `
+exports[`renders the IconButton Component correctly 2`] = `
 <button
   className="sc-bdVaJa hOjKLo"
   onClick={[Function]}
@@ -30,7 +30,7 @@ exports[`renders the Icon Component correctly 2`] = `
 </button>
 `;
 
-exports[`renders the Icon Component correctly 3`] = `
+exports[`renders the IconButton Component correctly 3`] = `
 <button
   className="sc-bdVaJa hOjKLo"
   onClick={[Function]}

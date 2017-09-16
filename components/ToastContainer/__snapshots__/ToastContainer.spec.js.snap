@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ToastContainer Component correctly 1`] = `
+<div
+  className="sc-bwzfXH bcHCeg"
+>
+  <div
+    className="sc-gzVnrw eqRDUd"
+  >
+    <div
+      className="sc-htpNat ftWHtv sc-bdVaJa esgqVQ"
+    >
+      <div
+        className="sc-bxivhb gqlBXU sc-bdVaJa dNhNro"
+        color="success"
+      >
+        <i
+          className="material-icons  sc-htoDjs crnhLT"
+          color="white"
+          scale="l"
+        >
+          check_circle
+        </i>
+      </div>
+      <div
+        className="sc-ifAKCX dcwsRx sc-bdVaJa hFqpps"
+      >
+        Text
+      </div>
+      <div
+        className="sc-EHOje hljSZi sc-bdVaJa cEkrOm"
+      >
+        <div
+          className="sc-bZQynM fZILMv"
+        >
+          <button
+            className="sc-dnqmqq jutaYB"
+            onClick={[Function]}
+          >
+            <i
+              className="material-icons  sc-htoDjs gECcat"
+              color={undefined}
+              scale={undefined}
+            >
+              close
+            </i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw eqRDUd"
+  >
+    <div
+      className="sc-htpNat ftWHtv sc-bdVaJa esgqVQ"
+    >
+      <div
+        className="sc-bxivhb gyZuQO sc-bdVaJa dNhNro"
+        color="error"
+      >
+        <i
+          className="material-icons  sc-htoDjs crnhLT"
+          color="white"
+          scale="l"
+        >
+          error_outline
+        </i>
+      </div>
+      <div
+        className="sc-ifAKCX dcwsRx sc-bdVaJa hFqpps"
+      >
+        Text
+      </div>
+      <div
+        className="sc-EHOje hljSZi sc-bdVaJa cEkrOm"
+      >
+        <div
+          className="sc-bZQynM fZILMv"
+        >
+          <button
+            className="sc-dnqmqq jutaYB"
+            onClick={[Function]}
+          >
+            <i
+              className="material-icons  sc-htoDjs gECcat"
+              color={undefined}
+              scale={undefined}
+            >
+              close
+            </i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the ToastContainer Component correctly 2`] = `
+<div
+  className="sc-bwzfXH hFVaoY"
+>
+  <div
+    className="sc-gzVnrw eqRDUd"
+  >
+    <div
+      className="sc-htpNat ftWHtv sc-bdVaJa esgqVQ"
+    >
+      <div
+        className="sc-bxivhb gqlBXU sc-bdVaJa dNhNro"
+        color="success"
+      >
+        <i
+          className="material-icons  sc-htoDjs crnhLT"
+          color="white"
+          scale="l"
+        >
+          check_circle
+        </i>
+      </div>
+      <div
+        className="sc-ifAKCX dcwsRx sc-bdVaJa hFqpps"
+      >
+        Text
+      </div>
+      <div
+        className="sc-EHOje hljSZi sc-bdVaJa cEkrOm"
+      >
+        <div
+          className="sc-bZQynM fZILMv"
+        >
+          <button
+            className="sc-dnqmqq jutaYB"
+            onClick={[Function]}
+          >
+            <i
+              className="material-icons  sc-htoDjs gECcat"
+              color={undefined}
+              scale={undefined}
+            >
+              close
+            </i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw eqRDUd"
+  >
+    <div
+      className="sc-htpNat ftWHtv sc-bdVaJa esgqVQ"
+    >
+      <div
+        className="sc-bxivhb gyZuQO sc-bdVaJa dNhNro"
+        color="error"
+      >
+        <i
+          className="material-icons  sc-htoDjs crnhLT"
+          color="white"
+          scale="l"
+        >
+          error_outline
+        </i>
+      </div>
+      <div
+        className="sc-ifAKCX dcwsRx sc-bdVaJa hFqpps"
+      >
+        Text
+      </div>
+      <div
+        className="sc-EHOje hljSZi sc-bdVaJa cEkrOm"
+      >
+        <div
+          className="sc-bZQynM fZILMv"
+        >
+          <button
+            className="sc-dnqmqq jutaYB"
+            onClick={[Function]}
+          >
+            <i
+              className="material-icons  sc-htoDjs gECcat"
+              color={undefined}
+              scale={undefined}
+            >
+              close
+            </i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Flex Component correctly 1`] = `
+<div
+  className="sc-bdVaJa esgqVQ"
+/>
+`;
+
+exports[`renders the Flex Component correctly 2`] = `
+<div
+  className="sc-bdVaJa ceAXfm"
+/>
+`;
+
+exports[`renders the Flex Component correctly 3`] = `
+<div
+  className="sc-bdVaJa hNHSrk"
+/>
+`;
