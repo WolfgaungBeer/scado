@@ -2,7 +2,7 @@
 
 exports[`renders the Button Component correctly 1`] = `
 <button
-  className="sc-bdVaJa excJPn"
+  className="sc-bdVaJa eqqRgm"
   color={undefined}
   onClick={[Function]}
   scale={undefined}
@@ -14,7 +14,7 @@ exports[`renders the Button Component correctly 1`] = `
 
 exports[`renders the Button Component correctly 2`] = `
 <button
-  className="sc-bdVaJa gHkrXD"
+  className="sc-bdVaJa eQFFYa"
   color="error"
   onClick={[Function]}
   scale="l"

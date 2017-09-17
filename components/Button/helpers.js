@@ -35,6 +35,7 @@ export const getBorder = () => (props) => {
     default:
         return css`
             border-style: none;
+            border-radius: 2px;
         `;
     }
 };
