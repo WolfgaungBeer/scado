@@ -13,6 +13,7 @@ const loadStories = () => {
     require('../components/Flex/Flex.story.js');
     require('../components/Grid/Grid.story.js');
     require('../components/IconButton/IconButton.story.js');
+    require('../components/Button/Button.story.js');
 };
 /* eslint-enable */
 

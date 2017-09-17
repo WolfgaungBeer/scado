@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Button Component correctly 1`] = `
+<button
+  className="sc-bdVaJa excJPn"
+  color={undefined}
+  onClick={[Function]}
+  scale={undefined}
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 2`] = `
+<button
+  className="sc-bdVaJa gHkrXD"
+  color="error"
+  onClick={[Function]}
+  scale="l"
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 3`] = `
+<button
+  className="sc-bdVaJa ijRlzP"
+  color="error"
+  onClick={[Function]}
+  scale="l"
+  type="flat"
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 4`] = `
+<button
+  className="sc-bdVaJa kVTGeQ"
+  color="error"
+  onClick={[Function]}
+  scale="l"
+  type="border"
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 5`] = `
+<button
+  className="sc-bdVaJa jIKzkF"
+  color="error"
+  onClick={[Function]}
+  scale="l"
+  type="raised"
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 6`] = `
+<button
+  className="sc-bdVaJa dBEGjG"
+  color={undefined}
+  onClick={[Function]}
+  scale={undefined}
+  type="flat"
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 7`] = `
+<button
+  className="sc-bdVaJa kxmAJf"
+  color={undefined}
+  onClick={[Function]}
+  scale={undefined}
+  type="border"
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 8`] = `
+<button
+  className="sc-bdVaJa kCgGmS"
+  color={undefined}
+  onClick={[Function]}
+  scale={undefined}
+  type="raised"
+>
+  TEST
+</button>
+`;
