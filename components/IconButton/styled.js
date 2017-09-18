@@ -7,4 +7,7 @@ export const StyledButton = styled.button`
     &:focus {
         outline: 0;
     }
+    > i {
+        padding-top: 8%;
+    }
 `;

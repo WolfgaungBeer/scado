@@ -22,14 +22,14 @@ exports[`renders the Row and Column Component correctly 1`] = `
 exports[`renders the Row and Column Component correctly 2`] = `
 <div>
   <div
-    className="sc-bdVaJa flKYCL"
+    className="sc-bdVaJa hZeErZ"
   >
     <div>
       test
     </div>
   </div>
   <div
-    className="sc-bdVaJa flKYCL"
+    className="sc-bdVaJa hZeErZ"
   >
     <div>
       test

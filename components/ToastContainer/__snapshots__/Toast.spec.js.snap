@@ -12,7 +12,7 @@ exports[`renders the Toast Component correctly 1`] = `
       color="success"
     >
       <i
-        className="material-icons  sc-htoDjs crnhLT"
+        className="material-icons  sc-htoDjs bkYJph"
         color="white"
         scale="l"
       >
@@ -31,7 +31,7 @@ exports[`renders the Toast Component correctly 1`] = `
         className="sc-bZQynM fZILMv"
       >
         <button
-          className="sc-dnqmqq jutaYB"
+          className="sc-dnqmqq rIyMe"
           onClick={[Function]}
         >
           <i
@@ -60,7 +60,7 @@ exports[`renders the Toast Component correctly 2`] = `
       color="error"
     >
       <i
-        className="material-icons  sc-htoDjs crnhLT"
+        className="material-icons  sc-htoDjs bkYJph"
         color="white"
         scale="l"
       >
@@ -81,7 +81,7 @@ exports[`renders the Toast Component correctly 2`] = `
         className="sc-bZQynM fZILMv"
       >
         <button
-          className="sc-dnqmqq jutaYB"
+          className="sc-dnqmqq rIyMe"
           onClick={[Function]}
         >
           <i

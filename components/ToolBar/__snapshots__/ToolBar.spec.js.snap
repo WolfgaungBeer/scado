@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ToolBar Component correctly 1`] = `
+<div
+  className="sc-bwzfXH iVCEtc"
+>
+  <div
+    className="sc-htpNat btXhPq"
+  >
+    <button
+      className="sc-bxivhb cnFRvH"
+      onClick={[Function]}
+    >
+      <i
+        className="material-icons  sc-ifAKCX kVqLAX"
+        color="white"
+        scale="xl"
+      >
+        dashboard
+      </i>
+    </button>
+    <button
+      className="sc-EHOje eomabb"
+      color="white"
+      onClick={[Function]}
+      scale="l"
+      type="flat"
+    >
+      Massiv App
+    </button>
+  </div>
+  <div
+    className="sc-htpNat btXhPq"
+  >
+    <div>
+      <button
+        className="sc-bxivhb cnFRvH"
+        onClick={[Function]}
+      >
+        <i
+          className="material-icons  sc-ifAKCX iXzsTI"
+          color="white"
+          scale="l"
+        >
+          search
+        </i>
+      </button>
+      <button
+        className="sc-bxivhb cnFRvH"
+        onClick={[Function]}
+      >
+        <i
+          className="material-icons  sc-ifAKCX iXzsTI"
+          color="white"
+          scale="l"
+        >
+          settings
+        </i>
+      </button>
+      <button
+        className="sc-bxivhb cnFRvH"
+        onClick={[Function]}
+      >
+        <i
+          className="material-icons  sc-ifAKCX iXzsTI"
+          color="white"
+          scale="l"
+        >
+          keyboard_arrow_down
+        </i>
+      </button>
+    </div>
+  </div>
+</div>
+`;

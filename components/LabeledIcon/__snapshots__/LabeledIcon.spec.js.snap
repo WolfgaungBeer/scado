@@ -23,7 +23,7 @@ exports[`renders the Icon Component correctly 1`] = `
 
 exports[`renders the Icon Component correctly 2`] = `
 <div
-  className="sc-bdVaJa iHYzGI"
+  className="sc-bdVaJa iuAsPP"
   color="error"
   scale="l"
 >
@@ -44,7 +44,7 @@ exports[`renders the Icon Component correctly 2`] = `
 
 exports[`renders the Icon Component correctly 3`] = `
 <div
-  className="sc-bdVaJa iHYzGI"
+  className="sc-bdVaJa iuAsPP"
   color="error"
   scale="l"
 >

@@ -2,7 +2,7 @@
 
 exports[`renders the IconButton Component correctly 1`] = `
 <button
-  className="sc-bdVaJa hOjKLo"
+  className="sc-bdVaJa jSTTTQ"
   onClick={[Function]}
 >
   <i
@@ -17,11 +17,11 @@ exports[`renders the IconButton Component correctly 1`] = `
 
 exports[`renders the IconButton Component correctly 2`] = `
 <button
-  className="sc-bdVaJa hOjKLo"
+  className="sc-bdVaJa jSTTTQ"
   onClick={[Function]}
 >
   <i
-    className="material-icons  sc-bwzfXH jhuqqZ"
+    className="material-icons  sc-bwzfXH QlDBg"
     color="success"
     scale="l"
   >
@@ -32,11 +32,11 @@ exports[`renders the IconButton Component correctly 2`] = `
 
 exports[`renders the IconButton Component correctly 3`] = `
 <button
-  className="sc-bdVaJa hOjKLo"
+  className="sc-bdVaJa jSTTTQ"
   onClick={[Function]}
 >
   <i
-    className="material-icons  sc-bwzfXH dqDpaz"
+    className="material-icons  sc-bwzfXH jWbfsk"
     color="success"
     scale="l"
   >
