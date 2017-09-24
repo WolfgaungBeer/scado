@@ -6,6 +6,10 @@ const rotationKeyframes = keyframes`
 `;
 
 export const StyledIcon = styled.i`
+    vertical-align: -16%;
+    padding: 0 0.25rem;
+    color: ${props => props.theme.color[props.color] || 'inherit'};
+    font-size: ${props => props.theme.scale[props.scale] || 'inherit'};
     ${(props) => {
         if (props.loading) {
             return css`
@@ -15,6 +19,4 @@ export const StyledIcon = styled.i`
         }
         return undefined;
     }};
-    color: ${props => props.theme.color[props.color] || 'inherit'};
-    font-size: ${props => props.theme.scale[props.scale] || 'inherit'};
 `;

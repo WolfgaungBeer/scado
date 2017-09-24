@@ -23,7 +23,9 @@ const Icon = ({ icon, color, scale, className, loading }) => {
     const classname = `material-icons ${className || ''}`;
     const iconValue = loading ? 'autorenew' : icon;
     return (
-        <StyledIcon className={classname} color={color} scale={scale} loading={loading}>{iconValue}</StyledIcon>
+        <StyledIcon className={classname} color={color} scale={scale} loading={loading}>
+            {iconValue}
+        </StyledIcon>
     );
 };
 

@@ -3,8 +3,8 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text } from '@storybook/addon-knobs';
 import Button from './';
-import LabeledIcon from '../LabeledIcon';
-
+import Icon from '../Icon';
+import Text from '../Text';
 
 storiesOf('Button', module)
     .add('default', () => (
@@ -21,12 +21,10 @@ storiesOf('Button', module)
         </Button>
     ))
     .add('with a custom component', () => (
-        <Button
-            type={text('type', 'flat')}
-            color={text('color', 'success')}
-            scale={text('scale', 'l')}
-            onClick={action('clicked')}
-        >
-            <LabeledIcon icon="dashboard" label="CLICK ME" />
+        <Button type="raised" color="error" onClick={action('clicked')}>
+            <div>
+                <Icon icon="dashboard" color="white" scale="xl" />
+                <Text color="white" scale="xl">Das ist ein Text</Text>
+            </div>
         </Button>
     ));

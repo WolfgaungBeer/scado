@@ -8,13 +8,13 @@ import defaultTheme from '../components/Theme/initialState';
 
 /* eslint-disable */
 const loadStories = () => {
+    require('../components/Text/Text.story.js');
     require('../components/Icon/Icon.story.js');
     require('../components/ToastContainer/ToastContainer.story.js');
     require('../components/Flex/Flex.story.js');
     require('../components/Grid/Grid.story.js');
     require('../components/IconButton/IconButton.story.js');
     require('../components/Button/Button.story.js');
-    require('../components/LabeledIcon/LabeledIcon.story.js');
     require('../components/ToolBar/ToolBar.story.js');
 };
 /* eslint-enable */

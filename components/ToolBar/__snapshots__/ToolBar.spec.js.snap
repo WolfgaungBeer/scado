@@ -8,11 +8,11 @@ exports[`renders the ToolBar Component correctly 1`] = `
     className="sc-htpNat btXhPq"
   >
     <button
-      className="sc-bxivhb cnFRvH"
+      className="sc-bxivhb cjQIgV"
       onClick={[Function]}
     >
       <i
-        className="material-icons  sc-ifAKCX kVqLAX"
+        className="material-icons  sc-ifAKCX kgnKXz"
         color="white"
         scale="xl"
       >
@@ -20,7 +20,7 @@ exports[`renders the ToolBar Component correctly 1`] = `
       </i>
     </button>
     <button
-      className="sc-EHOje eomabb"
+      className="sc-EHOje ftkoff"
       color="white"
       onClick={[Function]}
       scale="l"
@@ -34,11 +34,11 @@ exports[`renders the ToolBar Component correctly 1`] = `
   >
     <div>
       <button
-        className="sc-bxivhb cnFRvH"
+        className="sc-bxivhb cjQIgV"
         onClick={[Function]}
       >
         <i
-          className="material-icons  sc-ifAKCX iXzsTI"
+          className="material-icons  sc-ifAKCX cpnXXE"
           color="white"
           scale="l"
         >
@@ -46,11 +46,11 @@ exports[`renders the ToolBar Component correctly 1`] = `
         </i>
       </button>
       <button
-        className="sc-bxivhb cnFRvH"
+        className="sc-bxivhb cjQIgV"
         onClick={[Function]}
       >
         <i
-          className="material-icons  sc-ifAKCX iXzsTI"
+          className="material-icons  sc-ifAKCX cpnXXE"
           color="white"
           scale="l"
         >
@@ -58,11 +58,11 @@ exports[`renders the ToolBar Component correctly 1`] = `
         </i>
       </button>
       <button
-        className="sc-bxivhb cnFRvH"
+        className="sc-bxivhb cjQIgV"
         onClick={[Function]}
       >
         <i
-          className="material-icons  sc-ifAKCX iXzsTI"
+          className="material-icons  sc-ifAKCX cpnXXE"
           color="white"
           scale="l"
         >

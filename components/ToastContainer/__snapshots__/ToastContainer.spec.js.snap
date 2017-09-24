@@ -15,7 +15,7 @@ exports[`renders the ToastContainer Component correctly 1`] = `
         color="success"
       >
         <i
-          className="material-icons  sc-htoDjs bkYJph"
+          className="material-icons  sc-htoDjs bwPFUh"
           color="white"
           scale="l"
         >
@@ -34,11 +34,11 @@ exports[`renders the ToastContainer Component correctly 1`] = `
           className="sc-bZQynM fZILMv"
         >
           <button
-            className="sc-dnqmqq rIyMe"
+            className="sc-dnqmqq jKfeWH"
             onClick={[Function]}
           >
             <i
-              className="material-icons  sc-htoDjs gECcat"
+              className="material-icons  sc-htoDjs gPqEzc"
               color={undefined}
               scale={undefined}
             >
@@ -60,7 +60,7 @@ exports[`renders the ToastContainer Component correctly 1`] = `
         color="error"
       >
         <i
-          className="material-icons  sc-htoDjs bkYJph"
+          className="material-icons  sc-htoDjs bwPFUh"
           color="white"
           scale="l"
         >
@@ -79,11 +79,11 @@ exports[`renders the ToastContainer Component correctly 1`] = `
           className="sc-bZQynM fZILMv"
         >
           <button
-            className="sc-dnqmqq rIyMe"
+            className="sc-dnqmqq jKfeWH"
             onClick={[Function]}
           >
             <i
-              className="material-icons  sc-htoDjs gECcat"
+              className="material-icons  sc-htoDjs gPqEzc"
               color={undefined}
               scale={undefined}
             >
@@ -112,7 +112,7 @@ exports[`renders the ToastContainer Component correctly 2`] = `
         color="success"
       >
         <i
-          className="material-icons  sc-htoDjs bkYJph"
+          className="material-icons  sc-htoDjs bwPFUh"
           color="white"
           scale="l"
         >
@@ -131,11 +131,11 @@ exports[`renders the ToastContainer Component correctly 2`] = `
           className="sc-bZQynM fZILMv"
         >
           <button
-            className="sc-dnqmqq rIyMe"
+            className="sc-dnqmqq jKfeWH"
             onClick={[Function]}
           >
             <i
-              className="material-icons  sc-htoDjs gECcat"
+              className="material-icons  sc-htoDjs gPqEzc"
               color={undefined}
               scale={undefined}
             >
@@ -157,7 +157,7 @@ exports[`renders the ToastContainer Component correctly 2`] = `
         color="error"
       >
         <i
-          className="material-icons  sc-htoDjs bkYJph"
+          className="material-icons  sc-htoDjs bwPFUh"
           color="white"
           scale="l"
         >
@@ -176,11 +176,11 @@ exports[`renders the ToastContainer Component correctly 2`] = `
           className="sc-bZQynM fZILMv"
         >
           <button
-            className="sc-dnqmqq rIyMe"
+            className="sc-dnqmqq jKfeWH"
             onClick={[Function]}
           >
             <i
-              className="material-icons  sc-htoDjs gECcat"
+              className="material-icons  sc-htoDjs gPqEzc"
               color={undefined}
               scale={undefined}
             >

@@ -2,7 +2,7 @@
 
 exports[`renders the Button Component correctly 1`] = `
 <button
-  className="sc-bdVaJa eqqRgm"
+  className="sc-bdVaJa dmpbVC"
   color={undefined}
   onClick={[Function]}
   scale={undefined}
@@ -14,7 +14,7 @@ exports[`renders the Button Component correctly 1`] = `
 
 exports[`renders the Button Component correctly 2`] = `
 <button
-  className="sc-bdVaJa cWSHot"
+  className="sc-bdVaJa htqawi"
   color="error"
   onClick={[Function]}
   scale="l"
@@ -26,7 +26,7 @@ exports[`renders the Button Component correctly 2`] = `
 
 exports[`renders the Button Component correctly 3`] = `
 <button
-  className="sc-bdVaJa cDyLyL"
+  className="sc-bdVaJa eBrhIU"
   color="error"
   onClick={[Function]}
   scale="l"
@@ -38,7 +38,7 @@ exports[`renders the Button Component correctly 3`] = `
 
 exports[`renders the Button Component correctly 4`] = `
 <button
-  className="sc-bdVaJa zbQQM"
+  className="sc-bdVaJa jaZcPp"
   color="error"
   onClick={[Function]}
   scale="l"
@@ -50,7 +50,7 @@ exports[`renders the Button Component correctly 4`] = `
 
 exports[`renders the Button Component correctly 5`] = `
 <button
-  className="sc-bdVaJa hSGCNm"
+  className="sc-bdVaJa ixuoJO"
   color="error"
   onClick={[Function]}
   scale="l"
@@ -62,7 +62,7 @@ exports[`renders the Button Component correctly 5`] = `
 
 exports[`renders the Button Component correctly 6`] = `
 <button
-  className="sc-bdVaJa dBEGjG"
+  className="sc-bdVaJa eKEqle"
   color={undefined}
   onClick={[Function]}
   scale={undefined}
@@ -74,7 +74,7 @@ exports[`renders the Button Component correctly 6`] = `
 
 exports[`renders the Button Component correctly 7`] = `
 <button
-  className="sc-bdVaJa kxmAJf"
+  className="sc-bdVaJa kYWjyx"
   color={undefined}
   onClick={[Function]}
   scale={undefined}
@@ -86,7 +86,7 @@ exports[`renders the Button Component correctly 7`] = `
 
 exports[`renders the Button Component correctly 8`] = `
 <button
-  className="sc-bdVaJa kCgGmS"
+  className="sc-bdVaJa hUcwjg"
   color={undefined}
   onClick={[Function]}
   scale={undefined}

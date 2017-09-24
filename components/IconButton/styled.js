@@ -8,6 +8,6 @@ export const StyledButton = styled.button`
         outline: 0;
     }
     > i {
-        padding-top: 8%;
+        padding: 0.25rem;
     }
 `;
