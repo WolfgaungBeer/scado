@@ -7,7 +7,7 @@ const ExampleComponent = () => (
 );
 
 const mapDispatchToProps = dispatch => ({
-    showToast: (type, component, dismissTimeout) => dispatch(toastActions.showToast({ type, component, dismissTimeout })),
+    showToast: (type, content, dismissTimeout) => dispatch(toastActions.showToast({ type, content, dismissTimeout })),
 });
 
 const ToastButtons = ({ showToast }) => ( // eslint-disable-line

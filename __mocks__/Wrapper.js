@@ -9,8 +9,8 @@ const store = mockStore({
     scado: {
         theme: defaultTheme,
         toasts: [
-            { id: '1', type: 'success', component: 'Text', onClose: () => {} },
-            { id: '2', type: 'error', component: 'Text', onClose: () => {} },
+            { id: '1', type: 'success', content: 'Text', onClose: () => {} },
+            { id: '2', type: 'error', content: 'Text', onClose: () => {} },
         ],
         animations: {
             test1: { type: 'enter', className: 'testClass1' },

@@ -9,14 +9,14 @@ const onClose = () => {};
 it('renders the Toast Component correctly', () => {
     const tree1 = renderer.create(
         <Wrapper>
-            <Toast id="1" type="success" component="Text" onClose={onClose} />
+            <Toast id="1" type="success" content="Text" onClose={onClose} />
         </Wrapper>,
     ).toJSON();
     expect(tree1).toMatchSnapshot();
 
     const tree2 = renderer.create(
         <Wrapper>
-            <Toast id="1" type="error" component={component} onClose={onClose} />
+            <Toast id="1" type="error" content={component} onClose={onClose} />
         </Wrapper>,
     ).toJSON();
     expect(tree2).toMatchSnapshot();

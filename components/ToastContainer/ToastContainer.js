@@ -7,7 +7,7 @@ const propTypes = {
     toasts: arrayOf(shape({
         id: string,
         type: string,
-        component: node,
+        content: node,
         onClose: func,
     })).isRequired,
     dismissToast: func.isRequired,
@@ -40,7 +40,7 @@ class ToastContainer extends PureComponent {
         return (
             <ToastContainerWrapper pos1={posArray[0]} pos2={posArray[1]}>
                 {toasts.map(t =>
-                    <Toast key={t.id} id={t.id} type={t.type} component={t.component} onClose={() => dismissToast(t.id)} />,
+                    <Toast key={t.id} id={t.id} type={t.type} content={t.content} onClose={() => dismissToast(t.id)} />,
                 )}
             </ToastContainerWrapper>
         );

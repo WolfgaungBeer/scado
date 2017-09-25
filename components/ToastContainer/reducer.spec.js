@@ -2,7 +2,7 @@ import reducer from './reducer';
 import initialState from './initialState';
 import { SHOW_TOAST, DISMISS_TOAST } from './actionTypes';
 
-const toast = { id: 'test', type: 'success', component: 'text', dismissTimeout: 3000 };
+const toast = { id: 'test', type: 'success', content: 'text', dismissTimeout: 3000 };
 
 it('should return the initial state of the reducer', () => {
     const newState = reducer(undefined, {});

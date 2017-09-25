@@ -9,20 +9,20 @@ import IconButton from '../IconButton';
 const propTypes = {
     id: string.isRequired,
     type: string.isRequired,
-    component: node.isRequired,
+    content: node.isRequired,
     onClose: func.isRequired,
 };
 
 const defaultProps = {};
 
-const Toast = ({ id, type, component, onClose }) => (
+const Toast = ({ id, type, content, onClose }) => (
     <Animation id={id}>
         <ToastWrapper>
             <IconWrapper flex="0 1 15%" justifyContent="center" alignItems="center" color={type}>
                 <Icon icon={iconMap[type]} color="white" scale="l" />
             </IconWrapper>
             <ComponentWrapper flex="0 1 80%" justifyContent="center" alignItems="center">
-                {component}
+                {content}
             </ComponentWrapper>
             <CloseButtonWrapper flex="0 1 5%" justifyContent="center" alignItems="center">
                 <AbsoluteWrapper>
