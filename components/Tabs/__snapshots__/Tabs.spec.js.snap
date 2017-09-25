@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Text Component correctly 1`] = `
+<div
+  className="sc-bwzfXH csttzL"
+>
+  <div
+    className="sc-htpNat hARGnU"
+    onClick={[Function]}
+  >
+    tab 1
+  </div>
+  <div
+    className="sc-htpNat bOfeLP"
+    onClick={[Function]}
+  >
+    tab 2
+  </div>
+  <div
+    className="sc-htpNat bOfeLP"
+    onClick={[Function]}
+  >
+    tab 3
+  </div>
+</div>
+`;

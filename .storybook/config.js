@@ -16,6 +16,7 @@ const loadStories = () => {
     require('../components/IconButton/IconButton.story.js');
     require('../components/Button/Button.story.js');
     require('../components/ToolBar/ToolBar.story.js');
+    require('../components/Tabs/Tabs.story.js');
 };
 /* eslint-enable */
 
