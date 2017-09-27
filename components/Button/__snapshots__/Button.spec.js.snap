@@ -2,8 +2,9 @@
 
 exports[`renders the Button Component correctly 1`] = `
 <button
-  className="sc-bdVaJa dmpbVC"
+  className="sc-bdVaJa eoKUdN"
   color={undefined}
+  disabled={undefined}
   onClick={[Function]}
   scale={undefined}
   type={undefined}
@@ -16,6 +17,7 @@ exports[`renders the Button Component correctly 2`] = `
 <button
   className="sc-bdVaJa htqawi"
   color="error"
+  disabled={undefined}
   onClick={[Function]}
   scale="l"
   type={undefined}
@@ -28,9 +30,10 @@ exports[`renders the Button Component correctly 3`] = `
 <button
   className="sc-bdVaJa eBrhIU"
   color="error"
+  disabled={undefined}
   onClick={[Function]}
   scale="l"
-  type="flat"
+  type={undefined}
 >
   TEST
 </button>
@@ -40,9 +43,10 @@ exports[`renders the Button Component correctly 4`] = `
 <button
   className="sc-bdVaJa jaZcPp"
   color="error"
+  disabled={undefined}
   onClick={[Function]}
   scale="l"
-  type="border"
+  type={undefined}
 >
   TEST
 </button>
@@ -52,9 +56,10 @@ exports[`renders the Button Component correctly 5`] = `
 <button
   className="sc-bdVaJa ixuoJO"
   color="error"
+  disabled={undefined}
   onClick={[Function]}
   scale="l"
-  type="raised"
+  type={undefined}
 >
   TEST
 </button>
@@ -64,9 +69,10 @@ exports[`renders the Button Component correctly 6`] = `
 <button
   className="sc-bdVaJa eKEqle"
   color={undefined}
+  disabled={undefined}
   onClick={[Function]}
   scale={undefined}
-  type="flat"
+  type={undefined}
 >
   TEST
 </button>
@@ -76,9 +82,10 @@ exports[`renders the Button Component correctly 7`] = `
 <button
   className="sc-bdVaJa kYWjyx"
   color={undefined}
+  disabled={undefined}
   onClick={[Function]}
   scale={undefined}
-  type="border"
+  type={undefined}
 >
   TEST
 </button>
@@ -86,11 +93,12 @@ exports[`renders the Button Component correctly 7`] = `
 
 exports[`renders the Button Component correctly 8`] = `
 <button
-  className="sc-bdVaJa hUcwjg"
+  className="sc-bdVaJa kUAXGh"
   color={undefined}
+  disabled={undefined}
   onClick={[Function]}
   scale={undefined}
-  type="raised"
+  type={undefined}
 >
   TEST
 </button>

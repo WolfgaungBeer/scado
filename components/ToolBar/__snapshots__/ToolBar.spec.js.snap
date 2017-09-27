@@ -22,9 +22,10 @@ exports[`renders the ToolBar Component correctly 1`] = `
     <button
       className="sc-EHOje ftkoff"
       color="white"
+      disabled={undefined}
       onClick={[Function]}
       scale="l"
-      type="flat"
+      type={undefined}
     >
       Massiv App
     </button>

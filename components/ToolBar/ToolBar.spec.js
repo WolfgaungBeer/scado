@@ -20,7 +20,7 @@ it('renders the ToolBar Component correctly', () => {
         <Wrapper>
             <ToolBar actionButtons={<ActionButtons />}>
                 <IconButton icon="dashboard" color="white" scale="xl" onClick={click} />
-                <Button type="flat" color="white" scale="l" onClick={click}>Massiv App</Button>
+                <Button buttonType="flat" color="white" scale="l" onClick={click}>Massiv App</Button>
             </ToolBar>
         </Wrapper>,
     ).toJSON();

@@ -17,6 +17,6 @@ storiesOf('ToolBar', module)
     .add('default', () => (
         <ToolBar actionButtons={<ActionButtons />}>
             <IconButton icon="dashboard" color="white" scale="xl" onClick={action('menu clicked')} />
-            <Button type="flat" color="white" scale="l" onClick={action('text clicked')}>Massiv App</Button>
+            <Button buttonType="flat" color="white" scale="l" onClick={action('text clicked')}>Massiv App</Button>
         </ToolBar>
     ));

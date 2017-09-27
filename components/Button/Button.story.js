@@ -12,7 +12,7 @@ storiesOf('Button', module)
     ))
     .add('with props', () => (
         <Button
-            type={text('type', 'flat')}
+            buttonType={text('buttonType', 'flat')}
             color={text('color', 'success')}
             scale={text('scale', 'l')}
             onClick={action('clicked')}
@@ -21,7 +21,7 @@ storiesOf('Button', module)
         </Button>
     ))
     .add('with a custom component', () => (
-        <Button type="raised" color="error" onClick={action('clicked')}>
+        <Button buttonType="raised" color="error" onClick={action('clicked')}>
             <div>
                 <Icon icon="dashboard" color="white" scale="xl" />
                 <Text color="white" scale="xl">Das ist ein Text</Text>

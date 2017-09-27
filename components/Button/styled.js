@@ -3,7 +3,7 @@ import { getBackgroundColor, getBorder, getShadow, getFontColor } from './helper
 
 export const StyledButton = styled.button`
     width: 100%;
-    cursor: pointer;
+    cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
     background-color: ${getBackgroundColor()};
     ${getBorder()};
     ${getShadow()};
