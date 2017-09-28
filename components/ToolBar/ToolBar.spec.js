@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import Wrapper from '../../__mocks__/Wrapper';
 import ToolBar from './';
 import IconButton from '../IconButton';
-import Button from '../Button';
+import Text from '../Text';
 
 const click = () => {};
 
@@ -20,7 +20,7 @@ it('renders the ToolBar Component correctly', () => {
         <Wrapper>
             <ToolBar actionButtons={<ActionButtons />}>
                 <IconButton icon="dashboard" color="white" scale="xl" onClick={click} />
-                <Button buttonType="flat" color="white" scale="l" onClick={click}>Massiv App</Button>
+                <Text.Span color="white" scale="l" onClick={click}>Massiv App</Text.Span>
             </ToolBar>
         </Wrapper>,
     ).toJSON();

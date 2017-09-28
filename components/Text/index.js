@@ -1,6 +1,6 @@
-import React from 'react';
+import styled from 'styled-components';
 import { string, node } from 'prop-types';
-import { StyledText } from './styled';
+import { textStyle, font } from './helpers';
 
 
 const propTypes = {
@@ -15,11 +15,18 @@ const defaultProps = {
     children: undefined,
 };
 
-const Text = ({ color, scale, children }) => (
-    <StyledText color={color} scale={scale}>
-        {children}
-    </StyledText>
-);
+const Text = {
+    H1: styled.h1`${textStyle()} ${font('heading')}`,
+    H2: styled.h2`${textStyle()} ${font('heading')}`,
+    H3: styled.h3`${textStyle()} ${font('heading')}`,
+    H4: styled.h4`${textStyle()} ${font('heading')}`,
+    H5: styled.h5`${textStyle()} ${font('heading')}`,
+    H6: styled.h6`${textStyle()} ${font('heading')}`,
+    P: styled.p`${textStyle()} ${font('paragraph')}`,
+    A: styled.a`${textStyle()} ${font('paragraph')}`,
+    Label: styled.label`${textStyle()} ${font('paragraph')}`,
+    Span: styled.span`${textStyle()} ${font('paragraph')}`,
+};
 
 Text.propTypes = propTypes;
 Text.defaultProps = defaultProps;

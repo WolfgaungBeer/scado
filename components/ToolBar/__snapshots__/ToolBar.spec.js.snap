@@ -19,16 +19,14 @@ exports[`renders the ToolBar Component correctly 1`] = `
         dashboard
       </i>
     </button>
-    <button
-      className="sc-EHOje ftkoff"
+    <span
+      className="sc-jTzLTM esUoFR"
       color="white"
-      disabled={undefined}
       onClick={[Function]}
       scale="l"
-      type={undefined}
     >
       Massiv App
-    </button>
+    </span>
   </div>
   <div
     className="sc-htpNat btXhPq"

@@ -4,11 +4,6 @@ export const FieldWrapper = styled.div`
     padding: 0.25rem 0 1rem 0;
 `;
 
-export const FieldLabel = styled.label`
-    width: 100%;
-    color: ${props => props.theme.color.black};
-`;
-
 export const FieldInput = styled.input`
     margin: 0.25rem 0 0 0;
     box-sizing: border-box;
@@ -18,5 +13,8 @@ export const FieldInput = styled.input`
     border-style: solid;
     border-width: 1px;
     border-color: ${props => props.theme.color.lightGray};
-    border-radius: 4px;
+    border-radius: 2px;
+    &:focus {
+        outline: none;
+    }
 `;

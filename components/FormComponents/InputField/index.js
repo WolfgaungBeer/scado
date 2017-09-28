@@ -2,7 +2,7 @@ import React from 'react';
 import { oneOf, node, bool } from 'prop-types';
 import fieldPropTypes from '../fieldPropTypes';
 import defaultFieldPropTypes from '../defaultFieldPropTypes';
-import { FieldWrapper, FieldLabel, FieldInput } from './styled';
+import { FieldWrapper, FieldInput } from './styled';
 import Icon from '../../Icon';
 import Text from '../../Text';
 
@@ -28,12 +28,12 @@ const InputField = ({ input, meta, type, label, required }) => {
     return (
         <FieldWrapper>
             {label &&
-                <FieldLabel htmlFor={id}>{label} {required && <Text color="error">*</Text>}</FieldLabel>}
+                <Text.Label htmlFor={id}>{label} {required && <Text.Span color="error">*</Text.Span>}</Text.Label>}
             <FieldInput id={id} type={type} {...input} />
             {hasError &&
-                <Text color="error" scale="s"><Icon icon="clear" color="error" scale="s" /> {error}</Text>}
+                <Text.Span color="error" scale="s"><Icon icon="clear" color="error" scale="s" /> {error}</Text.Span>}
             {hasWarning &&
-                <Text color="warning" scale="s"><Icon icon="warning" color="warning" scale="s" /> {warning}</Text>}
+                <Text.Span color="warning" scale="s"><Icon icon="warning" color="warning" scale="s" /> {warning}</Text.Span>}
         </FieldWrapper>
     );
 };

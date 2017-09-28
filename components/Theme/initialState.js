@@ -7,10 +7,15 @@ export default {
         xl: '1600px',
     },
 
+    fonts: {
+        heading: '"Josefin Sans", sans-serif',
+        paragraph: '"Raleway", sans-serif',
+    },
+
     color: {
         black: '#202021',
         white: '#F7F7F7',
-        lightGray: '#e5e6e8',
+        lightGray: '#bababa',
         darkGray: '#4f4f4f',
         info: '#48C5FC',
         success: '#37B661',

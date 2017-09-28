@@ -1,18 +1,88 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders the Text Component correctly 1`] = `
+<h1
+  className="sc-bdVaJa dalQVc"
+>
+  Das ist ein Text
+</h1>
+`;
+
+exports[`renders the Text Component correctly 2`] = `
+<h2
+  className="sc-bwzfXH jalzCk"
+>
+  Das ist ein Text
+</h2>
+`;
+
+exports[`renders the Text Component correctly 3`] = `
+<h3
+  className="sc-htpNat fbWQZe"
+>
+  Das ist ein Text
+</h3>
+`;
+
+exports[`renders the Text Component correctly 4`] = `
+<h4
+  className="sc-bxivhb keNiKn"
+>
+  Das ist ein Text
+</h4>
+`;
+
+exports[`renders the Text Component correctly 5`] = `
+<h5
+  className="sc-ifAKCX EHFlU"
+>
+  Das ist ein Text
+</h5>
+`;
+
+exports[`renders the Text Component correctly 6`] = `
+<h6
+  className="sc-EHOje legOEC"
+>
+  Das ist ein Text
+</h6>
+`;
+
+exports[`renders the Text Component correctly 7`] = `
+<p
+  className="sc-bZQynM bMNrEt"
+>
+  Das ist ein Text
+</p>
+`;
+
+exports[`renders the Text Component correctly 8`] = `
+<a
+  className="sc-gzVnrw iRftqc"
+>
+  Das ist ein Text
+</a>
+`;
+
+exports[`renders the Text Component correctly 9`] = `
 <span
-  className="sc-bdVaJa iLwsQj"
-  color={undefined}
-  scale={undefined}
+  className="sc-dnqmqq dRpblh"
 >
   Das ist ein Text
 </span>
 `;
 
-exports[`renders the Text Component correctly 2`] = `
+exports[`renders the Text Component correctly 10`] = `
+<label
+  className="sc-htoDjs bMuWtU"
+>
+  Das ist ein Text
+</label>
+`;
+
+exports[`renders the Text Component correctly 11`] = `
 <span
-  className="sc-bdVaJa hRHokw"
+  className="sc-dnqmqq cpcVes"
   color="error"
   scale="xl"
 >

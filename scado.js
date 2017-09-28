@@ -2,6 +2,7 @@ import { combineReducers } from 'redux';
 import themeReducer from './components/Theme/reducer';
 import animationReducer from './components/Animation/reducer';
 import toastReducer from './components/ToastContainer/reducer';
+import './global.css';
 
 // Components
 

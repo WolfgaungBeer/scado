@@ -16,7 +16,7 @@ const defaultProps = {
 const ToolBar = ({ children, actionButtons }) => (
     <StyledToolBar alignItems="center" justifyContent="space-between">
         <ChildrenWrapper alignItems="center">{children}</ChildrenWrapper>
-        <ChildrenWrapper alignItems="center">{actionButtons}</ChildrenWrapper>
+        {actionButtons && <ChildrenWrapper alignItems="center">{actionButtons}</ChildrenWrapper>}
     </StyledToolBar>
 );
 

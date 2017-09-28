@@ -24,7 +24,7 @@ storiesOf('Button', module)
         <Button buttonType="raised" color="error" onClick={action('clicked')}>
             <div>
                 <Icon icon="dashboard" color="white" scale="xl" />
-                <Text color="white" scale="xl">Das ist ein Text</Text>
+                <Text.Span color="white" scale="xl">Das ist ein Text</Text.Span>
             </div>
         </Button>
     ));

@@ -7,7 +7,7 @@ export const StyledButton = styled.button`
     background-color: ${getBackgroundColor()};
     ${getBorder()};
     ${getShadow()};
-    ${getFontColor()}
+    color: ${getFontColor()};
     font-size: ${props => props.theme.scale[props.scale]};
     padding: 0.5rem 1rem;
     &:focus {

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import ToolBar from './';
 import IconButton from '../IconButton';
-import Button from '../Button';
+import Text from '../Text';
 
 const ActionButtons = () => (
     <div>
@@ -17,6 +17,6 @@ storiesOf('ToolBar', module)
     .add('default', () => (
         <ToolBar actionButtons={<ActionButtons />}>
             <IconButton icon="dashboard" color="white" scale="xl" onClick={action('menu clicked')} />
-            <Button buttonType="flat" color="white" scale="l" onClick={action('text clicked')}>Massiv App</Button>
+            <Text.Span color="white" scale="l" onClick={action('text clicked')}>Massiv App</Text.Span>
         </ToolBar>
     ));

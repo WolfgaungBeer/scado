@@ -61,4 +61,11 @@ it('renders the Button Component correctly', () => {
         </Wrapper>,
     ).toJSON();
     expect(tree8).toMatchSnapshot();
+
+    const tree9 = renderer.create(
+        <Wrapper>
+            <Button buttonType="raised" disabled onClick={click}>TEST</Button>
+        </Wrapper>,
+    ).toJSON();
+    expect(tree9).toMatchSnapshot();
 });

@@ -5,18 +5,19 @@ import { InputField, Button, Icon, Text } from '../../scado';
 
 const propTypes = {
     handleSubmit: func.isRequired,
+    valid: bool.isRequired,
     submitting: bool.isRequired,
 };
 
 const defaultProps = {};
 
-const Form = ({ handleSubmit, submitting }) => (
+const Form = ({ handleSubmit, valid, submitting }) => (
     <form onSubmit={handleSubmit}>
         <Field name="email" component={InputField} type="text" label="Email" required />
         <Field name="password" component={InputField} type="password" label="Password" required />
-        <Button type="submit" color="success" disabled={submitting}>
+        <Button type="submit" color="success" disabled={!valid || submitting}>
             <Icon icon="person_add" loading={submitting} scale="xl" />
-            <Text scale="xl">Create Account!</Text>
+            <Text.Span scale="xl">Create Account!</Text.Span>
         </Button>
     </form>
 );
