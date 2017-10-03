@@ -2,8 +2,9 @@
 
 exports[`renders the Icon Component correctly 1`] = `
 <i
-  className="material-icons  sc-iwsKbI iNORPb"
+  className="material-icons  sc-iwsKbI imbXif"
   color={undefined}
+  onClick={undefined}
   scale={undefined}
 >
   check_circle
@@ -12,8 +13,9 @@ exports[`renders the Icon Component correctly 1`] = `
 
 exports[`renders the Icon Component correctly 2`] = `
 <i
-  className="material-icons  sc-iwsKbI etWfbt"
+  className="material-icons  sc-iwsKbI jMpSnF"
   color="success"
+  onClick={undefined}
   scale="l"
 >
   check_circle
@@ -22,8 +24,9 @@ exports[`renders the Icon Component correctly 2`] = `
 
 exports[`renders the Icon Component correctly 3`] = `
 <i
-  className="material-icons  sc-iwsKbI cLKlHh"
+  className="material-icons  sc-iwsKbI hrLXoU"
   color="success"
+  onClick={undefined}
   scale="l"
 >
   autorenew

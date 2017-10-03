@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import styled from 'styled-components';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import store from './store';
-import { Theme, ToolBar, IconButton, Text } from '../scado';
+import { Theme, ToolBar, Icon, Text } from '../scado';
 import Form from './Form';
 
 const Wrapper = styled.div`
@@ -20,7 +20,7 @@ const Root = () => (
         <Theme>
             <Wrapper>
                 <ToolBar>
-                    <IconButton icon="dashboard" color="white" scale="xl" onClick={() => {}} />
+                    <Icon icon="dashboard" color="white" scale="xl" onClick={() => {}} />
                     <Text.Span color="white" scale="l" onClick={() => {}}>Scado</Text.Span>
                 </ToolBar>
                 <Router>

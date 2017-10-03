@@ -9,8 +9,9 @@ exports[`renders the Toast Component correctly 1`] = `
     color="success"
   >
     <i
-      className="material-icons  sc-iwsKbI hPAJbp"
+      className="material-icons  sc-iwsKbI fqFUGe"
       color="white"
+      onClick={undefined}
       scale="l"
     >
       check_circle
@@ -27,18 +28,14 @@ exports[`renders the Toast Component correctly 1`] = `
     <div
       className="sc-cSHVUG dcIrb"
     >
-      <button
-        className="sc-kAzzGY dvWRck"
+      <i
+        className="material-icons  sc-iwsKbI dqIynK"
+        color={undefined}
         onClick={[Function]}
+        scale={undefined}
       >
-        <i
-          className="material-icons  sc-iwsKbI iNORPb"
-          color={undefined}
-          scale={undefined}
-        >
-          close
-        </i>
-      </button>
+        close
+      </i>
     </div>
   </div>
 </div>
@@ -53,8 +50,9 @@ exports[`renders the Toast Component correctly 2`] = `
     color="error"
   >
     <i
-      className="material-icons  sc-iwsKbI hPAJbp"
+      className="material-icons  sc-iwsKbI fqFUGe"
       color="white"
+      onClick={undefined}
       scale="l"
     >
       error_outline
@@ -73,18 +71,14 @@ exports[`renders the Toast Component correctly 2`] = `
     <div
       className="sc-cSHVUG dcIrb"
     >
-      <button
-        className="sc-kAzzGY dvWRck"
+      <i
+        className="material-icons  sc-iwsKbI dqIynK"
+        color={undefined}
         onClick={[Function]}
+        scale={undefined}
       >
-        <i
-          className="material-icons  sc-iwsKbI iNORPb"
-          color={undefined}
-          scale={undefined}
-        >
-          close
-        </i>
-      </button>
+        close
+      </i>
     </div>
   </div>
 </div>

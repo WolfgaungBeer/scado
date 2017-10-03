@@ -6,6 +6,7 @@ const rotationKeyframes = keyframes`
 `;
 
 export const StyledIcon = styled.i`
+    cursor: ${props => props.onClick && 'pointer'};
     vertical-align: -16%;
     padding: 0 0.25rem;
     color: ${props => props.theme.color[props.color] || 'inherit'};

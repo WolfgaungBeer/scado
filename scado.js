@@ -10,7 +10,6 @@ export { default as Text } from './components/Text';
 export { default as Icon } from './components/Icon';
 export { default as Flex } from './components/Flex';
 export { default as ToastContainer } from './components/ToastContainer';
-export { default as IconButton } from './components/IconButton';
 export { default as Button } from './components/Button';
 export { default as ToolBar } from './components/ToolBar';
 export * from './components/FormComponents';

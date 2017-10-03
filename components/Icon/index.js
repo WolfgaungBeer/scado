@@ -1,5 +1,5 @@
 import React from 'react';
-import { string, bool } from 'prop-types';
+import { string, bool, func } from 'prop-types';
 import { StyledIcon } from './styled';
 
 const propTypes = {
@@ -8,6 +8,7 @@ const propTypes = {
     scale: string,
     className: string,
     loading: bool,
+    onClick: func,
 };
 
 const defaultProps = {
@@ -15,13 +16,14 @@ const defaultProps = {
     scale: undefined,
     className: undefined,
     loading: undefined,
+    onClick: undefined,
 };
 
-const Icon = ({ icon, color, scale, className, loading }) => {
+const Icon = ({ icon, color, scale, className, loading, onClick }) => {
     const classname = `material-icons ${className || ''}`;
     const iconValue = loading ? 'autorenew' : icon;
     return (
-        <StyledIcon className={classname} color={color} scale={scale} loading={loading}>
+        <StyledIcon className={classname} color={color} scale={scale} loading={loading} onClick={onClick}>
             {iconValue}
         </StyledIcon>
     );

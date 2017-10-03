@@ -2,23 +2,19 @@
 
 exports[`renders the ToolBar Component correctly 1`] = `
 <div
-  className="sc-kgoBCf eDujeO"
+  className="sc-chPdSV bhArOB"
 >
   <div
-    className="sc-kGXeez bfhFCu"
+    className="sc-kgoBCf dYqChV"
   >
-    <button
-      className="sc-kAzzGY dvWRck"
+    <i
+      className="material-icons  sc-iwsKbI hUtItD"
+      color="white"
       onClick={[Function]}
+      scale="xl"
     >
-      <i
-        className="material-icons  sc-iwsKbI fEXJaq"
-        color="white"
-        scale="xl"
-      >
-        dashboard
-      </i>
-    </button>
+      dashboard
+    </i>
     <span
       className="sc-dnqmqq gqgUa"
       color="white"
@@ -29,45 +25,33 @@ exports[`renders the ToolBar Component correctly 1`] = `
     </span>
   </div>
   <div
-    className="sc-kGXeez bfhFCu"
+    className="sc-kgoBCf dYqChV"
   >
     <div>
-      <button
-        className="sc-kAzzGY dvWRck"
+      <i
+        className="material-icons  sc-iwsKbI gdwNhq"
+        color="white"
         onClick={[Function]}
+        scale="l"
       >
-        <i
-          className="material-icons  sc-iwsKbI hPAJbp"
-          color="white"
-          scale="l"
-        >
-          search
-        </i>
-      </button>
-      <button
-        className="sc-kAzzGY dvWRck"
+        search
+      </i>
+      <i
+        className="material-icons  sc-iwsKbI gdwNhq"
+        color="white"
         onClick={[Function]}
+        scale="l"
       >
-        <i
-          className="material-icons  sc-iwsKbI hPAJbp"
-          color="white"
-          scale="l"
-        >
-          settings
-        </i>
-      </button>
-      <button
-        className="sc-kAzzGY dvWRck"
+        settings
+      </i>
+      <i
+        className="material-icons  sc-iwsKbI gdwNhq"
+        color="white"
         onClick={[Function]}
+        scale="l"
       >
-        <i
-          className="material-icons  sc-iwsKbI hPAJbp"
-          color="white"
-          scale="l"
-        >
-          keyboard_arrow_down
-        </i>
-      </button>
+        keyboard_arrow_down
+      </i>
     </div>
   </div>
 </div>

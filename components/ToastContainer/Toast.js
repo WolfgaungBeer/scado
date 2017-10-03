@@ -3,7 +3,6 @@ import { string, node, func } from 'prop-types';
 import { ToastWrapper, IconWrapper, ComponentWrapper, CloseButtonWrapper, AbsoluteWrapper } from './styled';
 import iconMap from './iconMap';
 import Icon from '../Icon';
-import IconButton from '../IconButton';
 
 const propTypes = {
     type: string.isRequired,
@@ -23,7 +22,7 @@ const Toast = ({ type, content, onClose }) => (
         </ComponentWrapper>
         <CloseButtonWrapper flex="0 1 5%" justifyContent="center" alignItems="center">
             <AbsoluteWrapper>
-                <IconButton icon="close" onClick={onClose} />
+                <Icon icon="close" onClick={onClose} />
             </AbsoluteWrapper>
         </CloseButtonWrapper>
     </ToastWrapper>
