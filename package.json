@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest --config=jest.config.json",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "dev-server": "webpack-dev-server --content-base test/"
+    "dev-server": "webpack-dev-server --content-base test/ --history-api-fallback"
   },
   "author": "Wolfgang Beer <wolfgaung.beer@gmail.com>",
   "license": "MIT",

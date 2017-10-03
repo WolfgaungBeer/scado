@@ -3,8 +3,7 @@ import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import { configure, addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
-import Theme from '../components/Theme';
-import defaultTheme from '../components/Theme/initialState';
+import { Theme, defaultTheme } from '../scado';
 
 /* eslint-disable */
 const loadStories = () => {
@@ -16,14 +15,12 @@ const loadStories = () => {
     require('../components/IconButton/IconButton.story.js');
     require('../components/Button/Button.story.js');
     require('../components/ToolBar/ToolBar.story.js');
-    require('../components/Tabs/Tabs.story.js');
 };
 /* eslint-enable */
 
 const mockStore = configureStore();
 const store = mockStore({
     scado: {
-        animations: {},
         theme: defaultTheme,
     },
 });

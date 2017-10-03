@@ -3,14 +3,14 @@
 exports[`renders the Row and Column Component correctly 1`] = `
 <div>
   <div
-    className="sc-bdVaJa gYKXhc"
+    className="sc-ckVGcZ ihnYtM"
   >
     <div>
       test
     </div>
   </div>
   <div
-    className="sc-bdVaJa gYKXhc"
+    className="sc-ckVGcZ ihnYtM"
   >
     <div>
       test
@@ -22,14 +22,14 @@ exports[`renders the Row and Column Component correctly 1`] = `
 exports[`renders the Row and Column Component correctly 2`] = `
 <div>
   <div
-    className="sc-bdVaJa hZeErZ"
+    className="sc-ckVGcZ kUwtDu"
   >
     <div>
       test
     </div>
   </div>
   <div
-    className="sc-bdVaJa hZeErZ"
+    className="sc-ckVGcZ kUwtDu"
   >
     <div>
       test

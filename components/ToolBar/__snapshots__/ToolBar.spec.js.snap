@@ -2,17 +2,17 @@
 
 exports[`renders the ToolBar Component correctly 1`] = `
 <div
-  className="sc-bwzfXH iVCEtc"
+  className="sc-kgoBCf eDujeO"
 >
   <div
-    className="sc-htpNat btXhPq"
+    className="sc-kGXeez bfhFCu"
   >
     <button
-      className="sc-bxivhb cjQIgV"
+      className="sc-kAzzGY dvWRck"
       onClick={[Function]}
     >
       <i
-        className="material-icons  sc-ifAKCX kgnKXz"
+        className="material-icons  sc-iwsKbI fEXJaq"
         color="white"
         scale="xl"
       >
@@ -20,7 +20,7 @@ exports[`renders the ToolBar Component correctly 1`] = `
       </i>
     </button>
     <span
-      className="sc-jTzLTM esUoFR"
+      className="sc-dnqmqq gqgUa"
       color="white"
       onClick={[Function]}
       scale="l"
@@ -29,15 +29,15 @@ exports[`renders the ToolBar Component correctly 1`] = `
     </span>
   </div>
   <div
-    className="sc-htpNat btXhPq"
+    className="sc-kGXeez bfhFCu"
   >
     <div>
       <button
-        className="sc-bxivhb cjQIgV"
+        className="sc-kAzzGY dvWRck"
         onClick={[Function]}
       >
         <i
-          className="material-icons  sc-ifAKCX cpnXXE"
+          className="material-icons  sc-iwsKbI hPAJbp"
           color="white"
           scale="l"
         >
@@ -45,11 +45,11 @@ exports[`renders the ToolBar Component correctly 1`] = `
         </i>
       </button>
       <button
-        className="sc-bxivhb cjQIgV"
+        className="sc-kAzzGY dvWRck"
         onClick={[Function]}
       >
         <i
-          className="material-icons  sc-ifAKCX cpnXXE"
+          className="material-icons  sc-iwsKbI hPAJbp"
           color="white"
           scale="l"
         >
@@ -57,11 +57,11 @@ exports[`renders the ToolBar Component correctly 1`] = `
         </i>
       </button>
       <button
-        className="sc-bxivhb cjQIgV"
+        className="sc-kAzzGY dvWRck"
         onClick={[Function]}
       >
         <i
-          className="material-icons  sc-ifAKCX cpnXXE"
+          className="material-icons  sc-iwsKbI hPAJbp"
           color="white"
           scale="l"
         >

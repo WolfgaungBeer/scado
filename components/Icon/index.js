@@ -1,8 +1,6 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
 import { StyledIcon } from './styled';
-import './style.css';
-
 
 const propTypes = {
     icon: string.isRequired,

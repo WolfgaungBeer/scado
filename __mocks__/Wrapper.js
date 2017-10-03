@@ -1,8 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import Theme from '../components/Theme';
-import defaultTheme from '../components/Theme/initialState';
+import { Theme, defaultTheme } from '../scado';
 
 const mockStore = configureStore();
 const store = mockStore({
@@ -12,10 +11,6 @@ const store = mockStore({
             { id: '1', type: 'success', content: 'Text', onClose: () => {} },
             { id: '2', type: 'error', content: 'Text', onClose: () => {} },
         ],
-        animations: {
-            test1: { type: 'enter', className: 'testClass1' },
-            test2: { type: 'leave', className: 'testClass2' },
-        },
     },
 });
 

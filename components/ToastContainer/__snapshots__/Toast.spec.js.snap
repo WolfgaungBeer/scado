@@ -2,47 +2,43 @@
 
 exports[`renders the Toast Component correctly 1`] = `
 <div
-  className="sc-gzVnrw eqRDUd"
+  className="sc-VigVT gEggXm sc-gZMcBi kiNSap"
 >
   <div
-    className="sc-htpNat ftWHtv sc-bdVaJa esgqVQ"
+    className="sc-jTzLTM cIqDPQ sc-gZMcBi geCnFd"
+    color="success"
+  >
+    <i
+      className="material-icons  sc-iwsKbI hPAJbp"
+      color="white"
+      scale="l"
+    >
+      check_circle
+    </i>
+  </div>
+  <div
+    className="sc-fjdhpX gjUKMb sc-gZMcBi dMgmPi"
+  >
+    Text
+  </div>
+  <div
+    className="sc-jzJRlG gMTKEy sc-gZMcBi cwLibs"
   >
     <div
-      className="sc-bxivhb gqlBXU sc-bdVaJa dNhNro"
-      color="success"
+      className="sc-cSHVUG dcIrb"
     >
-      <i
-        className="material-icons  sc-htoDjs bwPFUh"
-        color="white"
-        scale="l"
+      <button
+        className="sc-kAzzGY dvWRck"
+        onClick={[Function]}
       >
-        check_circle
-      </i>
-    </div>
-    <div
-      className="sc-ifAKCX dcwsRx sc-bdVaJa hFqpps"
-    >
-      Text
-    </div>
-    <div
-      className="sc-EHOje hljSZi sc-bdVaJa cEkrOm"
-    >
-      <div
-        className="sc-bZQynM fZILMv"
-      >
-        <button
-          className="sc-dnqmqq jKfeWH"
-          onClick={[Function]}
+        <i
+          className="material-icons  sc-iwsKbI iNORPb"
+          color={undefined}
+          scale={undefined}
         >
-          <i
-            className="material-icons  sc-htoDjs gPqEzc"
-            color={undefined}
-            scale={undefined}
-          >
-            close
-          </i>
-        </button>
-      </div>
+          close
+        </i>
+      </button>
     </div>
   </div>
 </div>
@@ -50,49 +46,45 @@ exports[`renders the Toast Component correctly 1`] = `
 
 exports[`renders the Toast Component correctly 2`] = `
 <div
-  className="sc-gzVnrw eqRDUd"
+  className="sc-VigVT gEggXm sc-gZMcBi kiNSap"
 >
   <div
-    className="sc-htpNat ftWHtv sc-bdVaJa esgqVQ"
+    className="sc-jTzLTM jGbBoD sc-gZMcBi geCnFd"
+    color="error"
+  >
+    <i
+      className="material-icons  sc-iwsKbI hPAJbp"
+      color="white"
+      scale="l"
+    >
+      error_outline
+    </i>
+  </div>
+  <div
+    className="sc-fjdhpX gjUKMb sc-gZMcBi dMgmPi"
+  >
+    <button>
+      Test
+    </button>
+  </div>
+  <div
+    className="sc-jzJRlG gMTKEy sc-gZMcBi cwLibs"
   >
     <div
-      className="sc-bxivhb gyZuQO sc-bdVaJa dNhNro"
-      color="error"
+      className="sc-cSHVUG dcIrb"
     >
-      <i
-        className="material-icons  sc-htoDjs bwPFUh"
-        color="white"
-        scale="l"
+      <button
+        className="sc-kAzzGY dvWRck"
+        onClick={[Function]}
       >
-        error_outline
-      </i>
-    </div>
-    <div
-      className="sc-ifAKCX dcwsRx sc-bdVaJa hFqpps"
-    >
-      <button>
-        Test
-      </button>
-    </div>
-    <div
-      className="sc-EHOje hljSZi sc-bdVaJa cEkrOm"
-    >
-      <div
-        className="sc-bZQynM fZILMv"
-      >
-        <button
-          className="sc-dnqmqq jKfeWH"
-          onClick={[Function]}
+        <i
+          className="material-icons  sc-iwsKbI iNORPb"
+          color={undefined}
+          scale={undefined}
         >
-          <i
-            className="material-icons  sc-htoDjs gPqEzc"
-            color={undefined}
-            scale={undefined}
-          >
-            close
-          </i>
-        </button>
-      </div>
+          close
+        </i>
+      </button>
     </div>
   </div>
 </div>

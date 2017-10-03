@@ -1,2 +1,0 @@
-export const ANIMATE = '@SCADO/ANIMATION/ANIMATE';
-export const REMOVE = '@SCADO/ANIMATION/REMOVE';

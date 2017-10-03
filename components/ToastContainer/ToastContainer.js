@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { arrayOf, shape, func, string, node } from 'prop-types';
+import { arrayOf, shape, func, string, node, number } from 'prop-types';
 import { ToastContainerWrapper } from './styled';
 import Toast from './Toast';
 
@@ -8,6 +8,7 @@ const propTypes = {
         id: string,
         type: string,
         content: node,
+        dismissTimeout: number,
         onClose: func,
     })).isRequired,
     dismissToast: func.isRequired,
@@ -40,7 +41,7 @@ class ToastContainer extends PureComponent {
         return (
             <ToastContainerWrapper pos1={posArray[0]} pos2={posArray[1]}>
                 {toasts.map(t =>
-                    <Toast key={t.id} id={t.id} type={t.type} content={t.content} onClose={() => dismissToast(t.id)} />,
+                    <Toast key={t.id} type={t.type} content={t.content} onClose={() => dismissToast(t.id)} />,
                 )}
             </ToastContainerWrapper>
         );
