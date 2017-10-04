@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Text } from '../../scado';
 import Form from './Form';
 
 const Wrapper = styled.div`
@@ -9,7 +8,7 @@ const Wrapper = styled.div`
 `;
 
 const FormWrapper = styled.div`
-    width: 40%;
+    width: 60%;
     margin: auto;
 `;
 
@@ -19,7 +18,6 @@ const onFormSubmit = values => sleep(2000).then(() => console.log(values)); // e
 const FormPage = () => (
     <Wrapper>
         <FormWrapper>
-            <Text.H1 color="black" scale="xl">Neuen Account anlegen:</Text.H1>
             <Form onSubmit={onFormSubmit} />
         </FormWrapper>
     </Wrapper>

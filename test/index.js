@@ -2,9 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import styled from 'styled-components';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import store from './store';
 import { Theme, ToolBar, Icon, Text } from '../scado';
+import InlineForm from './InlineForm';
 import Form from './Form';
 
 const Wrapper = styled.div`
@@ -15,22 +16,26 @@ const Wrapper = styled.div`
     height: 100%;
 `;
 
+const StyledLink = styled(Link)`
+    text-transform: uppercase;
+    margin-left: 1rem;
+`;
+
 const Root = () => (
     <Provider store={store}>
         <Theme>
-            <Wrapper>
-                <ToolBar>
-                    <Icon icon="dashboard" color="white" scale="xl" onClick={() => {}} />
-                    <Text.Span color="white" scale="l" onClick={() => {}}>Scado</Text.Span>
-                </ToolBar>
-                <Router>
-                    <div style={{ height: '100%' }}>
-                        <Route path="/forms" component={Form} />
-                        <Route path="/two" render={() => <div>two</div>} />
-                        <Route path="/three" render={() => <div>three</div>} />
-                    </div>
-                </Router>
-            </Wrapper>
+            <Router>
+                <Wrapper>
+                    <ToolBar>
+                        <Icon icon="dashboard" color="white" scale="xl" onClick={() => {}} />
+                        <Text.Span color="white" scale="l" onClick={() => {}}>Scado</Text.Span>
+                    </ToolBar>
+                    <StyledLink to="inline-form">Inline Form</StyledLink>
+                    <StyledLink to="form">Form</StyledLink>
+                    <Route path="/inline-form" component={InlineForm} />
+                    <Route path="/form" component={Form} />
+                </Wrapper>
+            </Router>
         </Theme>
     </Provider>
 );
