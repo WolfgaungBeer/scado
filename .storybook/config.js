@@ -14,6 +14,7 @@ const loadStories = () => {
     require('../components/Grid/Grid.story.js');
     require('../components/Button/Button.story.js');
     require('../components/ToolBar/ToolBar.story.js');
+    require('../components/Spacing/Spacing.story.js');
 };
 /* eslint-enable */
 
