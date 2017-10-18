@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import { Theme, defaultTheme } from '../scado';
+import { Theme, defaultTheme } from '../components/scado';
 
 const mockStore = configureStore();
 const store = mockStore({

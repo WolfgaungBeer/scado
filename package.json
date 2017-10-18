@@ -2,13 +2,14 @@
   "name": "scado",
   "version": "0.0.2",
   "description": "a themeable react component library",
-  "main": "./scado.js",
+  "main": "./dist/scado.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/WolfgaungBeer/scado.git"
   },
   "scripts": {
     "test": "jest --config=jest.config.json",
+    "build": "babel components --presets babel-preset-env --out-dir dist",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "dev-server": "webpack-dev-server --content-base test/ --history-api-fallback"
   },
@@ -34,6 +35,7 @@
     "@storybook/addon-actions": "^3.0.1",
     "@storybook/addon-knobs": "^3.0.1",
     "@storybook/react": "^3.0.1",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^21.0.2",
     "babel-loader": "^7.1.2",
