@@ -3,32 +3,14 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.scadoReducers = exports.defaultTheme = exports.toastActions = exports.themeActions = exports.ToolBar = exports.Button = exports.ToastContainer = exports.Flex = exports.Icon = exports.Text = exports.Theme = undefined;
+exports.reducer = exports.defaultTheme = exports.fieldPropTypes = exports.defaultFieldPropTypes = exports.toastActions = exports.themeActions = exports.ToolBar = exports.ToastContainer = exports.Theme = exports.Text = exports.Spacing = exports.InputField = exports.Icon = exports.Grid = exports.Flex = exports.Button = undefined;
 
-var _Theme = require('./Theme');
+var _Button = require('./Button');
 
-Object.defineProperty(exports, 'Theme', {
+Object.defineProperty(exports, 'Button', {
     enumerable: true,
     get: function get() {
-        return _interopRequireDefault(_Theme).default;
-    }
-});
-
-var _Text = require('./Text');
-
-Object.defineProperty(exports, 'Text', {
-    enumerable: true,
-    get: function get() {
-        return _interopRequireDefault(_Text).default;
-    }
-});
-
-var _Icon = require('./Icon');
-
-Object.defineProperty(exports, 'Icon', {
-    enumerable: true,
-    get: function get() {
-        return _interopRequireDefault(_Icon).default;
+        return _interopRequireDefault(_Button).default;
     }
 });
 
@@ -41,21 +23,66 @@ Object.defineProperty(exports, 'Flex', {
     }
 });
 
+var _Grid = require('./Grid');
+
+Object.defineProperty(exports, 'Grid', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_Grid).default;
+    }
+});
+
+var _Icon = require('./Icon');
+
+Object.defineProperty(exports, 'Icon', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_Icon).default;
+    }
+});
+
+var _InputField = require('./InputField');
+
+Object.defineProperty(exports, 'InputField', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_InputField).default;
+    }
+});
+
+var _Spacing = require('./Spacing');
+
+Object.defineProperty(exports, 'Spacing', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_Spacing).default;
+    }
+});
+
+var _Text = require('./Text');
+
+Object.defineProperty(exports, 'Text', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_Text).default;
+    }
+});
+
+var _Theme = require('./Theme');
+
+Object.defineProperty(exports, 'Theme', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_Theme).default;
+    }
+});
+
 var _ToastContainer = require('./ToastContainer');
 
 Object.defineProperty(exports, 'ToastContainer', {
     enumerable: true,
     get: function get() {
         return _interopRequireDefault(_ToastContainer).default;
-    }
-});
-
-var _Button = require('./Button');
-
-Object.defineProperty(exports, 'Button', {
-    enumerable: true,
-    get: function get() {
-        return _interopRequireDefault(_Button).default;
     }
 });
 
@@ -66,30 +93,6 @@ Object.defineProperty(exports, 'ToolBar', {
     get: function get() {
         return _interopRequireDefault(_ToolBar).default;
     }
-});
-
-var _FormComponents = require('./FormComponents');
-
-Object.keys(_FormComponents).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _FormComponents[key];
-        }
-    });
-});
-
-var _Grid = require('./Grid');
-
-Object.keys(_Grid).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _Grid[key];
-        }
-    });
 });
 
 var _actions = require('./Theme/actions');
@@ -107,6 +110,24 @@ Object.defineProperty(exports, 'toastActions', {
     enumerable: true,
     get: function get() {
         return _interopRequireDefault(_actions2).default;
+    }
+});
+
+var _defaultFieldPropTypes = require('./defaultFieldPropTypes');
+
+Object.defineProperty(exports, 'defaultFieldPropTypes', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_defaultFieldPropTypes).default;
+    }
+});
+
+var _fieldPropTypes = require('./fieldPropTypes');
+
+Object.defineProperty(exports, 'fieldPropTypes', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_fieldPropTypes).default;
     }
 });
 
@@ -133,7 +154,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // Reducers
 
-var scadoReducers = exports.scadoReducers = (0, _redux.combineReducers)({
+var reducer = exports.reducer = (0, _redux.combineReducers)({
     theme: _reducer2.default,
     toasts: _reducer4.default
 });

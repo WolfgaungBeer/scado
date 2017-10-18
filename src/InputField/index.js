@@ -3,8 +3,8 @@ import { oneOf, node, bool } from 'prop-types';
 import fieldPropTypes from '../fieldPropTypes';
 import defaultFieldPropTypes from '../defaultFieldPropTypes';
 import { FieldWrapper, FieldInput } from './styled';
-import Icon from '../../Icon';
-import Text from '../../Text';
+import Icon from '../Icon';
+import Text from '../Text';
 
 const propTypes = {
     ...fieldPropTypes,

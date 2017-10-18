@@ -13,3 +13,30 @@ exports[`renders the Spacing Component correctly 2`] = `
   scale="xxl"
 />
 `;
+
+exports[`renders the Spacing Component correctly 3`] = `
+<div
+  className="sc-eNQAEJ jrmYtL"
+  scale="xxl"
+>
+  Spacing
+</div>
+`;
+
+exports[`renders the Spacing Component correctly 4`] = `
+<div
+  className="sc-eNQAEJ ciqfQ"
+  scale="xxl"
+>
+  Spacing
+</div>
+`;
+
+exports[`renders the Spacing Component correctly 5`] = `
+<div
+  className="sc-eNQAEJ BJbUw"
+  scale="xxl"
+>
+  Spacing
+</div>
+`;

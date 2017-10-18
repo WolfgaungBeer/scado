@@ -1,5 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders the Flex Component correctly 1`] = `
+<div
+  className="sc-eNQAEJ gIFTjs"
+  rows="4rem 20rem"
+>
+  <div
+    className="sc-hMqMXs dZeKFl"
+  >
+    <div
+      className="sc-kEYyzF bRvFHU"
+    >
+      Header
+    </div>
+  </div>
+  <div
+    className="sc-hMqMXs kQFFnP"
+  >
+    <div
+      className="sc-kEYyzF bRvFHU"
+    >
+      Sidebar
+    </div>
+  </div>
+  <div
+    className="sc-hMqMXs hqDerf"
+  >
+    <div
+      className="sc-kEYyzF bRvFHU"
+    >
+      Body
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the Flex Component correctly 2`] = `
+<div
+  className="sc-eNQAEJ dFupzZ"
+  rows="4rem 20rem"
+>
+  <div
+    className="sc-hMqMXs dZeKFl"
+  >
+    <div
+      className="sc-kEYyzF bRvFHU"
+    >
+      Header
+    </div>
+  </div>
+  <div
+    className="sc-hMqMXs kQFFnP"
+  >
+    <div
+      className="sc-kEYyzF bRvFHU"
+    >
+      Sidebar
+    </div>
+  </div>
+  <div
+    className="sc-hMqMXs hqDerf"
+  >
+    <div
+      className="sc-kEYyzF bRvFHU"
+    >
+      Body
+    </div>
+  </div>
+</div>
+`;
+
 exports[`renders the Row and Column Component correctly 1`] = `
 <div>
   <div

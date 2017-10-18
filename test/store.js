@@ -1,10 +1,10 @@
 import { combineReducers, createStore } from 'redux';
 import { reducer as formReducer } from 'redux-form';
-import { scadoReducers } from '../src/scado';
+import { reducer as scadoReducer } from '../src/scado';
 
 
 const reducers = combineReducers({
-    scado: scadoReducers,
+    scado: scadoReducer,
     form: formReducer,
 });
 
