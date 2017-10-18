@@ -3,10 +3,8 @@
   "verbose": true,
   "collectCoverage": true,
   "collectCoverageFrom" : [
-      "**/components/**/*.js",
+      "**/src/**/*.js",
       "!**/node_modules/**",
-      "!**/Animation/index.js",
-      "!**/Animation/Animation.js",
       "!**/Theme/index.js",
       "!**/Theme/Theme.js",
       "!**/ToastContainer/index.js",

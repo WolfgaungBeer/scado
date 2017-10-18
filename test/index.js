@@ -4,9 +4,10 @@ import { Provider } from 'react-redux';
 import styled from 'styled-components';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import store from './store';
-import { Theme, ToolBar, Icon, Text } from '../components/scado';
+import { Theme, ToolBar, Icon, Text } from '../src/scado';
 import InlineForm from './InlineForm';
 import Form from './Form';
+import '../src/global.css';
 
 const Wrapper = styled.div`
     position: absolute;

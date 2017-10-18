@@ -1,7 +1,7 @@
 import React from 'react';
 import { func, bool } from 'prop-types';
 import { reduxForm, Field } from 'redux-form';
-import { InputField, Button, Icon, Text } from '../../components/scado';
+import { InputField, Button, Icon, Text } from '../../src/scado';
 
 const propTypes = {
     handleSubmit: func.isRequired,

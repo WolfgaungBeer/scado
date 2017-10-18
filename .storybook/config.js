@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import { configure, addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
-import { Theme, defaultTheme } from '../components/scado';
+import { Theme, defaultTheme } from '../src/scado';
 
 /* eslint-disable */
 const loadStories = () => {

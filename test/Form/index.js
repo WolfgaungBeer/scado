@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Text } from '../../components/scado';
+import { Text } from '../../src/scado';
 import Form from './Form';
 
 const Wrapper = styled.div`
