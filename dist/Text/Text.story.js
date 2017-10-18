@@ -85,7 +85,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_Icon2.default, { icon: 'dashboard', color: 'success', scale: 'xl' }),
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'success', scale: 'xl' },
+            'dashboard'
+        ),
         _react2.default.createElement(
             _2.default.Span,
             { color: 'success', scale: 'xl' },
@@ -101,13 +105,21 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
             { color: 'success', scale: 'xl' },
             'Das ist ein Text'
         ),
-        _react2.default.createElement(_Icon2.default, { icon: 'dashboard', color: 'success', scale: 'xl' })
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'success', scale: 'xl' },
+            'dashboard'
+        )
     );
 }).add('with an nested icon', function () {
     return _react2.default.createElement(
         _2.default.Span,
         { color: 'success', scale: 'xl' },
-        _react2.default.createElement(_Icon2.default, { icon: 'dashboard', color: 'success', scale: 'xl' }),
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'success', scale: 'xl' },
+            'dashboard'
+        ),
         'Das ist ein Text'
     );
 });

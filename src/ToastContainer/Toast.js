@@ -15,14 +15,14 @@ const defaultProps = {};
 const Toast = ({ type, content, onClose }) => (
     <ToastWrapper>
         <IconWrapper flex="0 1 15%" justifyContent="center" alignItems="center" color={type}>
-            <Icon icon={iconMap[type]} color="white" scale="l" />
+            <Icon color="white" scale="l">{iconMap[type]}</Icon>
         </IconWrapper>
         <ComponentWrapper flex="0 1 80%" justifyContent="center" alignItems="center">
             {content}
         </ComponentWrapper>
         <CloseButtonWrapper flex="0 1 5%" justifyContent="center" alignItems="center">
             <AbsoluteWrapper>
-                <Icon icon="close" onClick={onClose} />
+                <Icon onClick={onClose}>close</Icon>
             </AbsoluteWrapper>
         </CloseButtonWrapper>
     </ToastWrapper>

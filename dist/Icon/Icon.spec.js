@@ -22,21 +22,33 @@ it('renders the Icon Component correctly', function () {
     var tree1 = _reactTestRenderer2.default.create(_react2.default.createElement(
         _Wrapper2.default,
         null,
-        _react2.default.createElement(_2.default, { icon: 'check_circle' })
+        _react2.default.createElement(
+            _2.default,
+            null,
+            'check_circle'
+        )
     )).toJSON();
     expect(tree1).toMatchSnapshot();
 
     var tree2 = _reactTestRenderer2.default.create(_react2.default.createElement(
         _Wrapper2.default,
         null,
-        _react2.default.createElement(_2.default, { icon: 'check_circle', color: 'success', scale: 'l' })
+        _react2.default.createElement(
+            _2.default,
+            { color: 'success', scale: 'l' },
+            'check_circle'
+        )
     )).toJSON();
     expect(tree2).toMatchSnapshot();
 
     var tree3 = _reactTestRenderer2.default.create(_react2.default.createElement(
         _Wrapper2.default,
         null,
-        _react2.default.createElement(_2.default, { icon: 'check_circle', color: 'success', scale: 'l', loading: true })
+        _react2.default.createElement(
+            _2.default,
+            { color: 'success', scale: 'l', loading: true },
+            'check_circle'
+        )
     )).toJSON();
     expect(tree3).toMatchSnapshot();
 });

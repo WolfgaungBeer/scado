@@ -26,9 +26,21 @@ var ActionButtons = function ActionButtons() {
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_Icon2.default, { icon: 'search', color: 'white', scale: 'l', onClick: (0, _addonActions.action)('action button 1 clicked') }),
-        _react2.default.createElement(_Icon2.default, { icon: 'settings', color: 'white', scale: 'l', onClick: (0, _addonActions.action)('action button 2 clicked') }),
-        _react2.default.createElement(_Icon2.default, { icon: 'keyboard_arrow_down', color: 'white', scale: 'l', onClick: (0, _addonActions.action)('action button 3 clicked') })
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'white', scale: 'l', onClick: (0, _addonActions.action)('search clicked') },
+            'search'
+        ),
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'white', scale: 'l', onClick: (0, _addonActions.action)('settings clicked') },
+            'settings'
+        ),
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'white', scale: 'l', onClick: (0, _addonActions.action)('more button clicked') },
+            'keyboard_arrow_down'
+        )
     );
 };
 
@@ -36,7 +48,11 @@ var ActionButtons = function ActionButtons() {
     return _react2.default.createElement(
         _2.default,
         { actionButtons: _react2.default.createElement(ActionButtons, null) },
-        _react2.default.createElement(_Icon2.default, { icon: 'dashboard', color: 'white', scale: 'xl', onClick: (0, _addonActions.action)('menu clicked') }),
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'white', scale: 'xl', onClick: (0, _addonActions.action)('menu clicked') },
+            'dashboard'
+        ),
         _react2.default.createElement(
             _Text2.default.Span,
             { color: 'white', scale: 'l', onClick: (0, _addonActions.action)('text clicked') },

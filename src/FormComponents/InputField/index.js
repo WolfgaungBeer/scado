@@ -31,9 +31,9 @@ const InputField = ({ input, meta, type, label, required }) => {
                 <Text.Label htmlFor={id}>{label} {required && <Text.Span color="error">*</Text.Span>}</Text.Label>}
             <FieldInput id={id} type={type} {...input} />
             {hasError &&
-                <Text.Span color="error" scale="s"><Icon icon="clear" color="error" scale="s" /> {error}</Text.Span>}
+                <Text.Span color="error" scale="s"><Icon color="error" scale="s">clear</Icon> {error}</Text.Span>}
             {hasWarning &&
-                <Text.Span color="warning" scale="s"><Icon icon="warning" color="warning" scale="s" /> {warning}</Text.Span>}
+                <Text.Span color="warning" scale="s"><Icon color="warning" scale="s">warning</Icon> {warning}</Text.Span>}
         </FieldWrapper>
     );
 };

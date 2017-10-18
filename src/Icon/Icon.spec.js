@@ -6,21 +6,21 @@ import Icon from './';
 it('renders the Icon Component correctly', () => {
     const tree1 = renderer.create(
         <Wrapper>
-            <Icon icon="check_circle" />
+            <Icon>check_circle</Icon>
         </Wrapper>,
     ).toJSON();
     expect(tree1).toMatchSnapshot();
 
     const tree2 = renderer.create(
         <Wrapper>
-            <Icon icon="check_circle" color="success" scale="l" />
+            <Icon color="success" scale="l">check_circle</Icon>
         </Wrapper>,
     ).toJSON();
     expect(tree2).toMatchSnapshot();
 
     const tree3 = renderer.create(
         <Wrapper>
-            <Icon icon="check_circle" color="success" scale="l" loading />
+            <Icon color="success" scale="l" loading>check_circle</Icon>
         </Wrapper>,
     ).toJSON();
     expect(tree3).toMatchSnapshot();

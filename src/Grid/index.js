@@ -1,2 +1,4 @@
-export { default as Row } from './Row';
-export { default as Column } from './Column';
+import Parent from './Parent';
+import Child from './Child';
+
+export default { Parent, Child };

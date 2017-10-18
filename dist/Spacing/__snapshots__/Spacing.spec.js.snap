@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Spacing Component correctly 1`] = `
+<div
+  className="sc-jKJlTe gQiYVm"
+  scale={undefined}
+/>
+`;
+
+exports[`renders the Spacing Component correctly 2`] = `
+<div
+  className="sc-jKJlTe bdWLxj"
+  scale="xxl"
+/>
+`;

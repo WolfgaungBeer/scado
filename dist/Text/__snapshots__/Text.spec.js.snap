@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Text Component correctly 1`] = `
+<h1
+  className="sc-jKJlTe ldvWdm"
+>
+  Das ist ein Text
+</h1>
+`;
+
+exports[`renders the Text Component correctly 2`] = `
+<h2
+  className="sc-eNQAEJ jUxSlh"
+>
+  Das ist ein Text
+</h2>
+`;
+
+exports[`renders the Text Component correctly 3`] = `
+<h3
+  className="sc-hMqMXs ddVDsl"
+>
+  Das ist ein Text
+</h3>
+`;
+
+exports[`renders the Text Component correctly 4`] = `
+<h4
+  className="sc-kEYyzF fqBdfp"
+>
+  Das ist ein Text
+</h4>
+`;
+
+exports[`renders the Text Component correctly 5`] = `
+<h5
+  className="sc-kkGfuU nFGvk"
+>
+  Das ist ein Text
+</h5>
+`;
+
+exports[`renders the Text Component correctly 6`] = `
+<h6
+  className="sc-iAyFgw gyTSdg"
+>
+  Das ist ein Text
+</h6>
+`;
+
+exports[`renders the Text Component correctly 7`] = `
+<p
+  className="sc-hSdWYo zMyhk"
+>
+  Das ist ein Text
+</p>
+`;
+
+exports[`renders the Text Component correctly 8`] = `
+<a
+  className="sc-eHgmQL jIKWEj"
+>
+  Das ist ein Text
+</a>
+`;
+
+exports[`renders the Text Component correctly 9`] = `
+<span
+  className="sc-jWBwVP jbbQAr"
+>
+  Das ist ein Text
+</span>
+`;
+
+exports[`renders the Text Component correctly 10`] = `
+<label
+  className="sc-cvbbAY iyxLWy"
+>
+  Das ist ein Text
+</label>
+`;
+
+exports[`renders the Text Component correctly 11`] = `
+<span
+  className="sc-jWBwVP khyscU"
+  color="error"
+  scale="xl"
+>
+  Das ist ein Text
+</span>
+`;

@@ -1,7 +1,16 @@
 import { css } from 'styled-components';
 
+export const getButtonType = (props) => {
+    const { flat, raised, border } = props;
+    let type;
+    if (flat) type = 'flat';
+    if (raised) type = 'raised';
+    if (border) type = 'border';
+    return type;
+};
+
 export const getBackgroundColor = () => (props) => {
-    const type = props.buttonType;
+    const type = getButtonType(props);
     switch (type) {
     case 'flat':
     case 'border':
@@ -14,7 +23,7 @@ export const getBackgroundColor = () => (props) => {
 };
 
 export const getBorder = () => (props) => {
-    const type = props.buttonType;
+    const type = getButtonType(props);
     switch (type) {
     case 'flat':
         return 'border-style: none';
@@ -41,7 +50,7 @@ export const getBorder = () => (props) => {
 };
 
 export const getShadow = () => (props) => {
-    const type = props.buttonType;
+    const type = getButtonType(props);
     switch (type) {
     case 'raised':
         return 'box-shadow: 2px 2px 7px 0px rgba(87,87,87,0.7);';
@@ -51,7 +60,7 @@ export const getShadow = () => (props) => {
 };
 
 export const getFontColor = () => (props) => {
-    const type = props.buttonType;
+    const type = getButtonType(props);
     switch (type) {
     case 'flat':
     case 'border':

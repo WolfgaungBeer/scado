@@ -7,14 +7,15 @@ import Icon from './';
 
 storiesOf('Icon', module)
     .add('default', () => (
-        <Icon icon="check_circle" />
+        <Icon>check_circle</Icon>
     ))
     .add('with props', () => (
         <Icon
-            icon={text('icon', 'check_circle')}
             color={text('color', 'success')}
             scale={text('scale', 'l')}
             loading={boolean('loading', false)}
             onClick={action('icon clicked')}
-        />
+        >
+            check_circle
+        </Icon>
     ));

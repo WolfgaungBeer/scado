@@ -76,14 +76,22 @@ var InputField = function InputField(_ref) {
         hasError && _react2.default.createElement(
             _Text2.default.Span,
             { color: 'error', scale: 's' },
-            _react2.default.createElement(_Icon2.default, { icon: 'clear', color: 'error', scale: 's' }),
+            _react2.default.createElement(
+                _Icon2.default,
+                { color: 'error', scale: 's' },
+                'clear'
+            ),
             ' ',
             error
         ),
         hasWarning && _react2.default.createElement(
             _Text2.default.Span,
             { color: 'warning', scale: 's' },
-            _react2.default.createElement(_Icon2.default, { icon: 'warning', color: 'warning', scale: 's' }),
+            _react2.default.createElement(
+                _Icon2.default,
+                { color: 'warning', scale: 's' },
+                'warning'
+            ),
             ' ',
             warning
         )

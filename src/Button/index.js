@@ -4,7 +4,9 @@ import { StyledButton } from './styled';
 
 const propTypes = {
     type: oneOf(['submit', 'button']),
-    buttonType: oneOf(['flat', 'raised', 'border']),
+    flat: bool,
+    raised: bool,
+    border: bool,
     disabled: bool,
     color: string,
     scale: string,
@@ -14,7 +16,9 @@ const propTypes = {
 
 const defaultProps = {
     type: undefined,
-    buttonType: undefined,
+    flat: undefined,
+    raised: undefined,
+    border: undefined,
     disabled: undefined,
     color: undefined,
     scale: undefined,
@@ -22,8 +26,17 @@ const defaultProps = {
     onClick: undefined,
 };
 
-const Button = ({ type, buttonType, disabled, color, scale, children, onClick }) => (
-    <StyledButton type={type} buttonType={buttonType} disabled={disabled} color={color} scale={scale} onClick={onClick}>
+const Button = ({ type, flat, raised, border, disabled, color, scale, children, onClick }) => (
+    <StyledButton
+        type={type}
+        flat={flat}
+        raised={raised}
+        border={border}
+        disabled={disabled}
+        color={color}
+        scale={scale}
+        onClick={onClick}
+    >
         {children}
     </StyledButton>
 );

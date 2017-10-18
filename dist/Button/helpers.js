@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.getFontColor = exports.getShadow = exports.getBorder = exports.getBackgroundColor = undefined;
+exports.getFontColor = exports.getShadow = exports.getBorder = exports.getBackgroundColor = exports.getButtonType = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n            border-style: solid;\n            border-width: 1px;\n            border-color: ', ';\n            border-radius: 2px;\n        '], ['\n            border-style: solid;\n            border-width: 1px;\n            border-color: ', ';\n            border-radius: 2px;\n        ']),
     _templateObject2 = _taggedTemplateLiteral(['\n            border-style: none;\n            border-radius: 2px;\n        '], ['\n            border-style: none;\n            border-radius: 2px;\n        ']);
@@ -12,9 +12,21 @@ var _styledComponents = require('styled-components');
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+var getButtonType = exports.getButtonType = function getButtonType(props) {
+    var flat = props.flat,
+        raised = props.raised,
+        border = props.border;
+
+    var type = void 0;
+    if (flat) type = 'flat';
+    if (raised) type = 'raised';
+    if (border) type = 'border';
+    return type;
+};
+
 var getBackgroundColor = exports.getBackgroundColor = function getBackgroundColor() {
     return function (props) {
-        var type = props.buttonType;
+        var type = getButtonType(props);
         switch (type) {
             case 'flat':
             case 'border':
@@ -29,7 +41,7 @@ var getBackgroundColor = exports.getBackgroundColor = function getBackgroundColo
 
 var getBorder = exports.getBorder = function getBorder() {
     return function (props) {
-        var type = props.buttonType;
+        var type = getButtonType(props);
         switch (type) {
             case 'flat':
                 return 'border-style: none';
@@ -45,7 +57,7 @@ var getBorder = exports.getBorder = function getBorder() {
 
 var getShadow = exports.getShadow = function getShadow() {
     return function (props) {
-        var type = props.buttonType;
+        var type = getButtonType(props);
         switch (type) {
             case 'raised':
                 return 'box-shadow: 2px 2px 7px 0px rgba(87,87,87,0.7);';
@@ -57,7 +69,7 @@ var getShadow = exports.getShadow = function getShadow() {
 
 var getFontColor = exports.getFontColor = function getFontColor() {
     return function (props) {
-        var type = props.buttonType;
+        var type = getButtonType(props);
         switch (type) {
             case 'flat':
             case 'border':

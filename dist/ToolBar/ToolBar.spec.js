@@ -32,9 +32,21 @@ var ActionButtons = function ActionButtons() {
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_Icon2.default, { icon: 'search', color: 'white', scale: 'l', onClick: click }),
-        _react2.default.createElement(_Icon2.default, { icon: 'settings', color: 'white', scale: 'l', onClick: click }),
-        _react2.default.createElement(_Icon2.default, { icon: 'keyboard_arrow_down', color: 'white', scale: 'l', onClick: click })
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'white', scale: 'l', onClick: click },
+            'search'
+        ),
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'white', scale: 'l', onClick: click },
+            'settings'
+        ),
+        _react2.default.createElement(
+            _Icon2.default,
+            { color: 'white', scale: 'l', onClick: click },
+            'keyboard_arrow_down'
+        )
     );
 };
 
@@ -45,7 +57,11 @@ it('renders the ToolBar Component correctly', function () {
         _react2.default.createElement(
             _2.default,
             { actionButtons: _react2.default.createElement(ActionButtons, null) },
-            _react2.default.createElement(_Icon2.default, { icon: 'dashboard', color: 'white', scale: 'xl', onClick: click }),
+            _react2.default.createElement(
+                _Icon2.default,
+                { color: 'white', scale: 'xl', onClick: click },
+                'dashboard'
+            ),
             _react2.default.createElement(
                 _Text2.default.Span,
                 { color: 'white', scale: 'l', onClick: click },

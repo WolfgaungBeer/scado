@@ -2,14 +2,45 @@
 
 exports[`renders the Spacing Component correctly 1`] = `
 <div
-  className="sc-ckVGcZ jwrIuj"
+  className="sc-jKJlTe hRZRHB"
   scale={undefined}
-/>
+>
+  Spacing
+</div>
 `;
 
 exports[`renders the Spacing Component correctly 2`] = `
 <div
-  className="sc-ckVGcZ efRxIL"
+  className="sc-jKJlTe dSKMir"
   scale="xxl"
-/>
+>
+  Spacing
+</div>
+`;
+
+exports[`renders the Spacing Component correctly 3`] = `
+<div
+  className="sc-jKJlTe hHDQrf"
+  scale="xxl"
+>
+  Spacing
+</div>
+`;
+
+exports[`renders the Spacing Component correctly 4`] = `
+<div
+  className="sc-jKJlTe kTiQGh"
+  scale="xxl"
+>
+  Spacing
+</div>
+`;
+
+exports[`renders the Spacing Component correctly 5`] = `
+<div
+  className="sc-jKJlTe kWoxae"
+  scale="xxl"
+>
+  Spacing
+</div>
 `;

@@ -1,14 +1,14 @@
 import React from 'react';
-import { string, bool, func } from 'prop-types';
+import { string, bool, func, node } from 'prop-types';
 import { StyledIcon } from './styled';
 
 const propTypes = {
-    icon: string.isRequired,
     color: string,
     scale: string,
     className: string,
     loading: bool,
     onClick: func,
+    children: node,
 };
 
 const defaultProps = {
@@ -17,11 +17,12 @@ const defaultProps = {
     className: undefined,
     loading: undefined,
     onClick: undefined,
+    children: undefined,
 };
 
-const Icon = ({ icon, color, scale, className, loading, onClick }) => {
+const Icon = ({ color, scale, className, loading, onClick, children }) => {
     const classname = `material-icons ${className || ''}`;
-    const iconValue = loading ? 'autorenew' : icon;
+    const iconValue = loading ? 'autorenew' : children;
     return (
         <StyledIcon className={classname} color={color} scale={scale} loading={loading} onClick={onClick}>
             {iconValue}

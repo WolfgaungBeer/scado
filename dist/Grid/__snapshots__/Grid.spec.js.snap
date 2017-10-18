@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Row and Column Component correctly 1`] = `
+<div>
+  <div
+    className="sc-jKJlTe jSReRC"
+  >
+    <div>
+      test
+    </div>
+  </div>
+  <div
+    className="sc-jKJlTe jSReRC"
+  >
+    <div>
+      test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the Row and Column Component correctly 2`] = `
+<div>
+  <div
+    className="sc-jKJlTe cnAIvn"
+  >
+    <div>
+      test
+    </div>
+  </div>
+  <div
+    className="sc-jKJlTe cnAIvn"
+  >
+    <div>
+      test
+    </div>
+  </div>
+</div>
+`;

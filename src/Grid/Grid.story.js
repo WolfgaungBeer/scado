@@ -1,32 +1,35 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { text } from '@storybook/addon-knobs';
 import styled from 'styled-components';
-import { Row, Column } from './';
+import { storiesOf } from '@storybook/react';
+import Grid from './';
 
-const GridContent = styled.div`
-    height: 100px;
-    background-color: ${props => props.theme.color[props.color]};
+const gridProps = {
+    columns: 'auto',
+    rows: '4rem 20rem',
+    areas: '"header header" "sidebar body"',
+    columnGap: '1rem',
+    rowGap: '1rem',
+};
+
+const Panel = styled.div`
+    width: 100%;
+    height: 100%;
+    background-color: ${props => props.theme.color.primary};
 `;
+
 
 storiesOf('Grid', module)
     .add('default', () => (
-        <Row>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
-        </Row>
+        <Grid.Parent {...gridProps}>
+            <Grid.Child area="header"><Panel>Header</Panel></Grid.Child>
+            <Grid.Child area="sidebar"><Panel>Sidebar</Panel></Grid.Child>
+            <Grid.Child area="body"><Panel>Body</Panel></Grid.Child>
+        </Grid.Parent>
     ))
-    .add('with props', () => (
-        <Row gutter={text('gutter', 's s')}>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="success" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="error" /></Column>
-            <Column s={12} m={6} l={4} xl={2}><GridContent color="warning" /></Column>
-        </Row>
+    .add('inline', () => (
+        <Grid.Parent {...gridProps} inline>
+            <Grid.Child area="header"><Panel>Header</Panel></Grid.Child>
+            <Grid.Child area="sidebar"><Panel>Sidebar</Panel></Grid.Child>
+            <Grid.Child area="body"><Panel>Body</Panel></Grid.Child>
+        </Grid.Parent>
     ));

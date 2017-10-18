@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Button Component correctly 1`] = `
+<button
+  className="sc-jKJlTe dyqvGH"
+  color={undefined}
+  disabled={undefined}
+  onClick={[Function]}
+  scale={undefined}
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 2`] = `
+<button
+  className="sc-jKJlTe fjingm"
+  color="error"
+  disabled={undefined}
+  onClick={[Function]}
+  scale="l"
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 3`] = `
+<button
+  className="sc-jKJlTe hdtFoL"
+  color="error"
+  disabled={undefined}
+  onClick={[Function]}
+  scale="l"
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 4`] = `
+<button
+  className="sc-jKJlTe koMvZN"
+  color="error"
+  disabled={undefined}
+  onClick={[Function]}
+  scale="l"
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 5`] = `
+<button
+  className="sc-jKJlTe hHCMUl"
+  color="error"
+  disabled={undefined}
+  onClick={[Function]}
+  scale="l"
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 6`] = `
+<button
+  className="sc-jKJlTe JFXkn"
+  color={undefined}
+  disabled={undefined}
+  onClick={[Function]}
+  scale={undefined}
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 7`] = `
+<button
+  className="sc-jKJlTe bXpYbh"
+  color={undefined}
+  disabled={undefined}
+  onClick={[Function]}
+  scale={undefined}
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 8`] = `
+<button
+  className="sc-jKJlTe hbiDfe"
+  color={undefined}
+  disabled={undefined}
+  onClick={[Function]}
+  scale={undefined}
+  type={undefined}
+>
+  TEST
+</button>
+`;
+
+exports[`renders the Button Component correctly 9`] = `
+<button
+  className="sc-jKJlTe fqCsXs"
+  color={undefined}
+  disabled={true}
+  onClick={[Function]}
+  scale={undefined}
+  type={undefined}
+>
+  TEST
+</button>
+`;

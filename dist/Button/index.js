@@ -16,7 +16,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var propTypes = {
     type: (0, _propTypes.oneOf)(['submit', 'button']),
-    buttonType: (0, _propTypes.oneOf)(['flat', 'raised', 'border']),
+    flat: _propTypes.bool,
+    raised: _propTypes.bool,
+    border: _propTypes.bool,
     disabled: _propTypes.bool,
     color: _propTypes.string,
     scale: _propTypes.string,
@@ -26,7 +28,9 @@ var propTypes = {
 
 var defaultProps = {
     type: undefined,
-    buttonType: undefined,
+    flat: undefined,
+    raised: undefined,
+    border: undefined,
     disabled: undefined,
     color: undefined,
     scale: undefined,
@@ -36,7 +40,9 @@ var defaultProps = {
 
 var Button = function Button(_ref) {
     var type = _ref.type,
-        buttonType = _ref.buttonType,
+        flat = _ref.flat,
+        raised = _ref.raised,
+        border = _ref.border,
         disabled = _ref.disabled,
         color = _ref.color,
         scale = _ref.scale,
@@ -44,7 +50,16 @@ var Button = function Button(_ref) {
         onClick = _ref.onClick;
     return _react2.default.createElement(
         _styled.StyledButton,
-        { type: type, buttonType: buttonType, disabled: disabled, color: color, scale: scale, onClick: onClick },
+        {
+            type: type,
+            flat: flat,
+            raised: raised,
+            border: border,
+            disabled: disabled,
+            color: color,
+            scale: scale,
+            onClick: onClick
+        },
         children
     );
 };

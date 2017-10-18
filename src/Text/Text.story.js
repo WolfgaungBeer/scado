@@ -41,19 +41,19 @@ storiesOf('Text', module)
     ))
     .add('with an icon on the left side', () => (
         <div>
-            <Icon icon="dashboard" color="success" scale="xl" />
+            <Icon color="success" scale="xl">dashboard</Icon>
             <Text.Span color="success" scale="xl">Das ist ein Text</Text.Span>
         </div>
     ))
     .add('with an icon on the right side', () => (
         <div>
             <Text.Span color="success" scale="xl">Das ist ein Text</Text.Span>
-            <Icon icon="dashboard" color="success" scale="xl" />
+            <Icon color="success" scale="xl">dashboard</Icon>
         </div>
     ))
     .add('with an nested icon', () => (
         <Text.Span color="success" scale="xl">
-            <Icon icon="dashboard" color="success" scale="xl" />
+            <Icon color="success" scale="xl">dashboard</Icon>
             Das ist ein Text
         </Text.Span>
     ));

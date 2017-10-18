@@ -4,22 +4,14 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Row = require('./Row');
+var _Parent = require('./Parent');
 
-Object.defineProperty(exports, 'Row', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Row).default;
-  }
-});
+var _Parent2 = _interopRequireDefault(_Parent);
 
-var _Column = require('./Column');
+var _Child = require('./Child');
 
-Object.defineProperty(exports, 'Column', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Column).default;
-  }
-});
+var _Child2 = _interopRequireDefault(_Child);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = { Parent: _Parent2.default, Child: _Child2.default };

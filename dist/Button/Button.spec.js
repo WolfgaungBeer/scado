@@ -48,7 +48,7 @@ it('renders the Button Component correctly', function () {
         null,
         _react2.default.createElement(
             _2.default,
-            { buttonType: 'flat', color: 'error', scale: 'l', onClick: click },
+            { flat: true, color: 'error', scale: 'l', onClick: click },
             'TEST'
         )
     )).toJSON();
@@ -59,7 +59,7 @@ it('renders the Button Component correctly', function () {
         null,
         _react2.default.createElement(
             _2.default,
-            { buttonType: 'border', color: 'error', scale: 'l', onClick: click },
+            { border: true, color: 'error', scale: 'l', onClick: click },
             'TEST'
         )
     )).toJSON();
@@ -70,7 +70,7 @@ it('renders the Button Component correctly', function () {
         null,
         _react2.default.createElement(
             _2.default,
-            { buttonType: 'raised', color: 'error', scale: 'l', onClick: click },
+            { raised: true, color: 'error', scale: 'l', onClick: click },
             'TEST'
         )
     )).toJSON();
@@ -81,7 +81,7 @@ it('renders the Button Component correctly', function () {
         null,
         _react2.default.createElement(
             _2.default,
-            { buttonType: 'flat', onClick: click },
+            { flat: true, onClick: click },
             'TEST'
         )
     )).toJSON();
@@ -92,7 +92,7 @@ it('renders the Button Component correctly', function () {
         null,
         _react2.default.createElement(
             _2.default,
-            { buttonType: 'border', onClick: click },
+            { border: true, onClick: click },
             'TEST'
         )
     )).toJSON();
@@ -103,7 +103,7 @@ it('renders the Button Component correctly', function () {
         null,
         _react2.default.createElement(
             _2.default,
-            { buttonType: 'raised', onClick: click },
+            { raised: true, onClick: click },
             'TEST'
         )
     )).toJSON();
@@ -114,7 +114,7 @@ it('renders the Button Component correctly', function () {
         null,
         _react2.default.createElement(
             _2.default,
-            { buttonType: 'raised', disabled: true, onClick: click },
+            { raised: true, disabled: true, onClick: click },
             'TEST'
         )
     )).toJSON();

@@ -1,38 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders the Row and Column Component correctly 1`] = `
-<div>
+exports[`renders the Flex Component correctly 1`] = `
+<div
+  className="sc-dxgOiQ EktRl"
+  rows="4rem 20rem"
+>
   <div
-    className="sc-dxgOiQ hokHyN"
+    className="sc-ckVGcZ bRJYGY"
   >
-    <div>
-      test
+    <div
+      className="sc-jKJlTe jdahHx"
+    >
+      Header
     </div>
   </div>
   <div
-    className="sc-dxgOiQ hokHyN"
+    className="sc-ckVGcZ hDfOnL"
   >
-    <div>
-      test
+    <div
+      className="sc-jKJlTe jdahHx"
+    >
+      Sidebar
+    </div>
+  </div>
+  <div
+    className="sc-ckVGcZ jGBzMn"
+  >
+    <div
+      className="sc-jKJlTe jdahHx"
+    >
+      Body
     </div>
   </div>
 </div>
 `;
 
-exports[`renders the Row and Column Component correctly 2`] = `
-<div>
+exports[`renders the Flex Component correctly 2`] = `
+<div
+  className="sc-dxgOiQ cGFBBV"
+  rows="4rem 20rem"
+>
   <div
-    className="sc-dxgOiQ dzGJqe"
+    className="sc-ckVGcZ bRJYGY"
   >
-    <div>
-      test
+    <div
+      className="sc-jKJlTe jdahHx"
+    >
+      Header
     </div>
   </div>
   <div
-    className="sc-dxgOiQ dzGJqe"
+    className="sc-ckVGcZ hDfOnL"
   >
-    <div>
-      test
+    <div
+      className="sc-jKJlTe jdahHx"
+    >
+      Sidebar
+    </div>
+  </div>
+  <div
+    className="sc-ckVGcZ jGBzMn"
+  >
+    <div
+      className="sc-jKJlTe jdahHx"
+    >
+      Body
     </div>
   </div>
 </div>

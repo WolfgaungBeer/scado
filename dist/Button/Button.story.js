@@ -34,7 +34,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     return _react2.default.createElement(
         _2.default,
         {
-            buttonType: (0, _addonKnobs.text)('buttonType', 'flat'),
+            flat: (0, _addonKnobs.boolean)('flat', false),
+            raised: (0, _addonKnobs.boolean)('raised', false),
+            border: (0, _addonKnobs.boolean)('border', false),
+            disabled: (0, _addonKnobs.boolean)('disabled', false),
             color: (0, _addonKnobs.text)('color', 'success'),
             scale: (0, _addonKnobs.text)('scale', 'l'),
             onClick: (0, _addonActions.action)('clicked')
@@ -44,11 +47,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 }).add('with a custom component', function () {
     return _react2.default.createElement(
         _2.default,
-        { buttonType: 'raised', color: 'error', onClick: (0, _addonActions.action)('clicked') },
+        { raised: true, color: 'error', onClick: (0, _addonActions.action)('clicked') },
         _react2.default.createElement(
             'div',
             null,
-            _react2.default.createElement(_Icon2.default, { icon: 'dashboard', color: 'white', scale: 'xl' }),
+            _react2.default.createElement(
+                _Icon2.default,
+                { color: 'white', scale: 'xl' },
+                'dashboard'
+            ),
             _react2.default.createElement(
                 _Text2.default.Span,
                 { color: 'white', scale: 'xl' },

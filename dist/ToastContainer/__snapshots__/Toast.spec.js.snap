@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Toast Component correctly 1`] = `
+<div
+  className="sc-hMqMXs bVVkJs sc-jKJlTe bzBNad"
+>
+  <div
+    className="sc-kEYyzF Aulzz sc-jKJlTe dFTznP"
+    color="success"
+  >
+    <i
+      className="material-icons  sc-eHgmQL cAkKoj"
+      color="white"
+      onClick={undefined}
+      scale="l"
+    >
+      check_circle
+    </i>
+  </div>
+  <div
+    className="sc-kkGfuU ddJNEb sc-jKJlTe cEkCu"
+  >
+    Text
+  </div>
+  <div
+    className="sc-iAyFgw gKUUrs sc-jKJlTe bXuWky"
+  >
+    <div
+      className="sc-hSdWYo cQrsgL"
+    >
+      <i
+        className="material-icons  sc-eHgmQL iMZqPE"
+        color={undefined}
+        onClick={[Function]}
+        scale={undefined}
+      >
+        close
+      </i>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the Toast Component correctly 2`] = `
+<div
+  className="sc-hMqMXs bVVkJs sc-jKJlTe bzBNad"
+>
+  <div
+    className="sc-kEYyzF jBmQqm sc-jKJlTe dFTznP"
+    color="error"
+  >
+    <i
+      className="material-icons  sc-eHgmQL cAkKoj"
+      color="white"
+      onClick={undefined}
+      scale="l"
+    >
+      error_outline
+    </i>
+  </div>
+  <div
+    className="sc-kkGfuU ddJNEb sc-jKJlTe cEkCu"
+  >
+    <button>
+      Test
+    </button>
+  </div>
+  <div
+    className="sc-iAyFgw gKUUrs sc-jKJlTe bXuWky"
+  >
+    <div
+      className="sc-hSdWYo cQrsgL"
+    >
+      <i
+        className="material-icons  sc-eHgmQL iMZqPE"
+        color={undefined}
+        onClick={[Function]}
+        scale={undefined}
+      >
+        close
+      </i>
+    </div>
+  </div>
+</div>
+`;

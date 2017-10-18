@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Icon Component correctly 1`] = `
+<i
+  className="material-icons  sc-jKJlTe frNgOa"
+  color={undefined}
+  onClick={undefined}
+  scale={undefined}
+>
+  check_circle
+</i>
+`;
+
+exports[`renders the Icon Component correctly 2`] = `
+<i
+  className="material-icons  sc-jKJlTe cvOwks"
+  color="success"
+  onClick={undefined}
+  scale="l"
+>
+  check_circle
+</i>
+`;
+
+exports[`renders the Icon Component correctly 3`] = `
+<i
+  className="material-icons  sc-jKJlTe friWYG"
+  color="success"
+  onClick={undefined}
+  scale="l"
+>
+  autorenew
+</i>
+`;

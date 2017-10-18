@@ -40,7 +40,11 @@ var Toast = function Toast(_ref) {
         _react2.default.createElement(
             _styled.IconWrapper,
             { flex: '0 1 15%', justifyContent: 'center', alignItems: 'center', color: type },
-            _react2.default.createElement(_Icon2.default, { icon: _iconMap2.default[type], color: 'white', scale: 'l' })
+            _react2.default.createElement(
+                _Icon2.default,
+                { color: 'white', scale: 'l' },
+                _iconMap2.default[type]
+            )
         ),
         _react2.default.createElement(
             _styled.ComponentWrapper,
@@ -53,7 +57,11 @@ var Toast = function Toast(_ref) {
             _react2.default.createElement(
                 _styled.AbsoluteWrapper,
                 null,
-                _react2.default.createElement(_Icon2.default, { icon: 'close', onClick: onClose })
+                _react2.default.createElement(
+                    _Icon2.default,
+                    { onClick: onClose },
+                    'close'
+                )
             )
         )
     );
