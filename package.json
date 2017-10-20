@@ -1,6 +1,6 @@
 {
   "name": "scado",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a themeable react component library",
   "main": "./dist/scado.js",
   "repository": {
