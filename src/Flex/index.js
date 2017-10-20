@@ -22,6 +22,8 @@ const Flex = styled.div`
     flex: ${props => props.flex || '0 1 auto'};
     justify-content: ${props => props.justifyContent};
     align-items: ${props => props.alignItems};
+    width: 100%;
+    height: 100%;
 `;
 
 Flex.propTypes = propTypes;

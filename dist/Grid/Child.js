@@ -18,11 +18,13 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 var propTypes = {
     area: _propTypes.string,
+    className: _propTypes.string,
     children: _propTypes.node
 };
 
 var defaultProps = {
     area: undefined,
+    className: undefined,
     children: undefined
 };
 

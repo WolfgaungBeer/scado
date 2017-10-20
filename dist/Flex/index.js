@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n    display: ', ';\n    flex: ', ';\n    justify-content: ', ';\n    align-items: ', ';\n'], ['\n    display: ', ';\n    flex: ', ';\n    justify-content: ', ';\n    align-items: ', ';\n']);
+var _templateObject = _taggedTemplateLiteral(['\n    display: ', ';\n    flex: ', ';\n    justify-content: ', ';\n    align-items: ', ';\n    width: 100%;\n    height: 100%;\n'], ['\n    display: ', ';\n    flex: ', ';\n    justify-content: ', ';\n    align-items: ', ';\n    width: 100%;\n    height: 100%;\n']);
 
 var _styledComponents = require('styled-components');
 
@@ -20,14 +20,16 @@ var propTypes = {
     inline: _propTypes.bool,
     flex: _propTypes.string,
     justifyContent: _propTypes.string,
-    alignItems: _propTypes.string
+    alignItems: _propTypes.string,
+    className: _propTypes.string
 };
 
 var defaultProps = {
     inline: undefined,
     flex: undefined,
     justifyContent: undefined,
-    alignItems: undefined
+    alignItems: undefined,
+    className: undefined
 };
 
 var Flex = _styledComponents2.default.div(_templateObject, function (props) {

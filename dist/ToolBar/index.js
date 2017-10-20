@@ -15,21 +15,24 @@ var _styled = require('./styled');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var propTypes = {
+    className: _propTypes.string,
     children: _propTypes.node,
     actionButtons: _propTypes.node
 };
 
 var defaultProps = {
+    className: undefined,
     children: undefined,
     actionButtons: undefined
 };
 
 var ToolBar = function ToolBar(_ref) {
-    var children = _ref.children,
+    var className = _ref.className,
+        children = _ref.children,
         actionButtons = _ref.actionButtons;
     return _react2.default.createElement(
         _styled.StyledToolBar,
-        { alignItems: 'center', justifyContent: 'space-between' },
+        { alignItems: 'center', justifyContent: 'space-between', className: className },
         _react2.default.createElement(
             _styled.ChildrenWrapper,
             { alignItems: 'center' },

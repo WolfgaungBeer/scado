@@ -22,6 +22,7 @@ var propTypes = {
     disabled: _propTypes.bool,
     color: _propTypes.string,
     scale: _propTypes.string,
+    className: _propTypes.string,
     children: _propTypes.node,
     onClick: _propTypes.func
 };
@@ -34,6 +35,7 @@ var defaultProps = {
     disabled: undefined,
     color: undefined,
     scale: undefined,
+    className: undefined,
     children: undefined,
     onClick: undefined
 };
@@ -46,6 +48,7 @@ var Button = function Button(_ref) {
         disabled = _ref.disabled,
         color = _ref.color,
         scale = _ref.scale,
+        className = _ref.className,
         children = _ref.children,
         onClick = _ref.onClick;
     return _react2.default.createElement(
@@ -58,6 +61,7 @@ var Button = function Button(_ref) {
             disabled: disabled,
             color: color,
             scale: scale,
+            className: className,
             onClick: onClick
         },
         children

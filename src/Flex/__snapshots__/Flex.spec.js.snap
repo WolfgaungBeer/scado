@@ -2,18 +2,18 @@
 
 exports[`renders the Flex Component correctly 1`] = `
 <div
-  className="sc-bwzfXH ksJcPo"
+  className="sc-bwzfXH kVOBrb"
 />
 `;
 
 exports[`renders the Flex Component correctly 2`] = `
 <div
-  className="sc-bwzfXH cPlKPC"
+  className="sc-bwzfXH dJGWUE"
 />
 `;
 
 exports[`renders the Flex Component correctly 3`] = `
 <div
-  className="sc-bwzfXH bqlfcp"
+  className="sc-bwzfXH giHjEj"
 />
 `;

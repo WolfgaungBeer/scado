@@ -2,10 +2,10 @@
 
 exports[`renders the Toast Component correctly 1`] = `
 <div
-  className="sc-chPdSV eMmOGE sc-bwzfXH ksJcPo"
+  className="sc-chPdSV eMmOGE sc-bwzfXH kVOBrb"
 >
   <div
-    className="sc-kgoBCf btUZkU sc-bwzfXH hRHjBy"
+    className="sc-kgoBCf btUZkU sc-bwzfXH jcVliq"
     color="success"
   >
     <i
@@ -18,12 +18,12 @@ exports[`renders the Toast Component correctly 1`] = `
     </i>
   </div>
   <div
-    className="sc-kGXeez beVzcQ sc-bwzfXH klpUfB"
+    className="sc-kGXeez beVzcQ sc-bwzfXH jlncrv"
   >
     Text
   </div>
   <div
-    className="sc-kpOJdX iioVns sc-bwzfXH kDqBmg"
+    className="sc-kpOJdX iioVns sc-bwzfXH bBFwoB"
   >
     <div
       className="sc-dxgOiQ itkEVu"
@@ -43,10 +43,10 @@ exports[`renders the Toast Component correctly 1`] = `
 
 exports[`renders the Toast Component correctly 2`] = `
 <div
-  className="sc-chPdSV eMmOGE sc-bwzfXH ksJcPo"
+  className="sc-chPdSV eMmOGE sc-bwzfXH kVOBrb"
 >
   <div
-    className="sc-kgoBCf jtBGQy sc-bwzfXH hRHjBy"
+    className="sc-kgoBCf jtBGQy sc-bwzfXH jcVliq"
     color="error"
   >
     <i
@@ -59,14 +59,14 @@ exports[`renders the Toast Component correctly 2`] = `
     </i>
   </div>
   <div
-    className="sc-kGXeez beVzcQ sc-bwzfXH klpUfB"
+    className="sc-kGXeez beVzcQ sc-bwzfXH jlncrv"
   >
     <button>
       Test
     </button>
   </div>
   <div
-    className="sc-kpOJdX iioVns sc-bwzfXH kDqBmg"
+    className="sc-kpOJdX iioVns sc-bwzfXH bBFwoB"
   >
     <div
       className="sc-dxgOiQ itkEVu"

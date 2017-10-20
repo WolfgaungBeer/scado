@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var textStyle = exports.textStyle = function textStyle() {
     return function (props) {
-        return "\n    color: " + props.theme.color[props.color] + ";\n    font-size: " + props.theme.scale[props.scale] + ";\n    font-family: " + props.theme.fonts.paragraph + ";\n";
+        return "\n    color: " + props.theme.color[props.color] + ";\n    font-size: " + props.theme.scale[props.scale] + ";\n";
     };
 };
 

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Icon Component correctly 1`] = `
+<div
+  className="sc-eNQAEJ kUfWEU"
+>
+  check_circle
+</div>
+`;
+
+exports[`renders the Icon Component correctly 2`] = `
+<div
+  className="sc-eNQAEJ fDzKqi"
+>
+  check_circle
+</div>
+`;
+
+exports[`renders the Icon Component correctly 3`] = `
+<div
+  className="sc-eNQAEJ dxwLkT"
+>
+  check_circle
+</div>
+`;

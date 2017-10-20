@@ -24,6 +24,7 @@ var propTypes = {
     left: _propTypes.bool,
     bottom: _propTypes.bool,
     right: _propTypes.bool,
+    className: _propTypes.string,
     children: _propTypes.node
 };
 
@@ -33,6 +34,7 @@ var defaultProps = {
     left: undefined,
     bottom: undefined,
     right: undefined,
+    className: undefined,
     children: undefined
 };
 

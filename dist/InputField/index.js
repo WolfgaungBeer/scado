@@ -35,13 +35,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var propTypes = _extends({}, _fieldPropTypes2.default, {
     type: (0, _propTypes.oneOf)(['email', 'text', 'password', 'number', 'url']).isRequired,
     label: _propTypes.node,
-    required: _propTypes.bool
+    required: _propTypes.bool,
+    className: _propTypes.string
 });
 
 var defaultProps = _extends({}, _defaultFieldPropTypes2.default, {
     type: undefined,
     label: undefined,
-    required: undefined
+    required: undefined,
+    className: undefined
 });
 
 var InputField = function InputField(_ref) {
@@ -49,7 +51,8 @@ var InputField = function InputField(_ref) {
         meta = _ref.meta,
         type = _ref.type,
         label = _ref.label,
-        required = _ref.required;
+        required = _ref.required,
+        className = _ref.className;
     var touched = meta.touched,
         error = meta.error,
         warning = meta.warning,
@@ -60,7 +63,7 @@ var InputField = function InputField(_ref) {
     var id = form + '-' + input.name;
     return _react2.default.createElement(
         _styled.FieldWrapper,
-        null,
+        { className: className },
         label && _react2.default.createElement(
             _Text2.default.Label,
             { htmlFor: id },

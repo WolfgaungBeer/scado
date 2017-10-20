@@ -23,6 +23,7 @@ var propTypes = {
     areas: _propTypes.string,
     columnGap: _propTypes.string,
     rowGap: _propTypes.string,
+    className: _propTypes.string,
     children: _propTypes.node
 };
 
@@ -33,6 +34,7 @@ var defaultProps = {
     areas: undefined,
     columnGap: undefined,
     rowGap: undefined,
+    className: undefined,
     children: undefined
 };
 

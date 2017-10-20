@@ -21,12 +21,14 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 var propTypes = {
     color: _propTypes.string,
     scale: _propTypes.string,
+    className: _propTypes.string,
     children: _propTypes.node
 };
 
 var defaultProps = {
     color: undefined,
     scale: undefined,
+    className: undefined,
     children: undefined
 };
 

@@ -26,6 +26,7 @@ export default {
     },
 
     scale: {
+        xxxs: '0.15rem',
         xxs: '0.25rem',
         xs: '0.5rem',
         s: '0.8rem',
@@ -34,6 +35,12 @@ export default {
         xl: '1.6rem',
         xxl: '2rem',
         xxxl: '3rem',
+    },
+
+    shadow: {
+        s: '1px',
+        m: '2px',
+        l: '4px',
     },
 
 };

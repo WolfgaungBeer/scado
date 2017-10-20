@@ -13,6 +13,7 @@ const loadStories = () => {
     require('../src/Grid/Grid.story.js');
     require('../src/Icon/Icon.story.js');
     require('../src/InputField/InputField.story.js');
+    require('../src/Panel/Panel.story.js');
     require('../src/Spacing/Spacing.story.js');
     require('../src/Text/Text.story.js');
     require('../src/ToastContainer/ToastContainer.story.js');
