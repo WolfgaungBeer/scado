@@ -3,11 +3,13 @@ import { string, node } from 'prop-types';
 
 const propTypes = {
     area: string,
+    className: string,
     children: node,
 };
 
 const defaultProps = {
     area: undefined,
+    className: undefined,
     children: undefined,
 };
 

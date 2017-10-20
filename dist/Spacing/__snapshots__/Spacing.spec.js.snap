@@ -2,16 +2,20 @@
 
 exports[`renders the Spacing Component correctly 1`] = `
 <div
-  className="sc-jKJlTe gQiYVm"
+  className="sc-eNQAEJ uiOJg"
   scale={undefined}
-/>
+>
+  Spacing
+</div>
 `;
 
 exports[`renders the Spacing Component correctly 2`] = `
 <div
-  className="sc-jKJlTe bdWLxj"
+  className="sc-eNQAEJ fRClhJ"
   scale="xxl"
-/>
+>
+  Spacing
+</div>
 `;
 
 exports[`renders the Spacing Component correctly 3`] = `

@@ -6,6 +6,7 @@ const propTypes = {
     flex: string,
     justifyContent: string,
     alignItems: string,
+    className: string,
 };
 
 const defaultProps = {
@@ -13,6 +14,7 @@ const defaultProps = {
     flex: undefined,
     justifyContent: undefined,
     alignItems: undefined,
+    className: undefined,
 };
 
 const Flex = styled.div`

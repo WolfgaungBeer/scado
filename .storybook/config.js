@@ -8,14 +8,15 @@ import '../src/global.css';
 
 /* eslint-disable */
 const loadStories = () => {
-    require('../src/Text/Text.story.js');
-    require('../src/Icon/Icon.story.js');
-    require('../src/ToastContainer/ToastContainer.story.js');
+    require('../src/Button/Button.story.js');
     require('../src/Flex/Flex.story.js');
     require('../src/Grid/Grid.story.js');
-    require('../src/Button/Button.story.js');
-    require('../src/ToolBar/ToolBar.story.js');
+    require('../src/Icon/Icon.story.js');
+    require('../src/InputField/InputField.story.js');
     require('../src/Spacing/Spacing.story.js');
+    require('../src/Text/Text.story.js');
+    require('../src/ToastContainer/ToastContainer.story.js');
+    require('../src/ToolBar/ToolBar.story.js');
 };
 /* eslint-enable */
 

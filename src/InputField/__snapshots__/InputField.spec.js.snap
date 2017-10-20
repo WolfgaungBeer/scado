@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Icon Component correctly 1`] = `
+<div
+  className="sc-EHOje cOnjOH"
+>
+  <input
+    className="sc-bZQynM fZBtPE"
+    id="undefined-"
+    name=""
+    onBlur={undefined}
+    onChange={undefined}
+    onDragStart={undefined}
+    onDrop={undefined}
+    onFocus={undefined}
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`renders the Icon Component correctly 2`] = `
+<div
+  className="sc-EHOje cOnjOH"
+>
+  <input
+    className="sc-bZQynM fZBtPE"
+    id="undefined-"
+    name=""
+    onBlur={undefined}
+    onChange={undefined}
+    onDragStart={undefined}
+    onDrop={undefined}
+    onFocus={undefined}
+    type="text"
+    value=""
+  />
+  <span
+    className="sc-jzJRlG cMTDVO"
+    color="error"
+    scale="s"
+  >
+    <i
+      className="material-icons  sc-ifAKCX eUJGIr"
+      color="error"
+      onClick={undefined}
+      scale="s"
+    >
+      clear
+    </i>
+     
+    This Field has an error
+  </span>
+</div>
+`;
+
+exports[`renders the Icon Component correctly 3`] = `
+<div
+  className="sc-EHOje cOnjOH"
+>
+  <input
+    className="sc-bZQynM fZBtPE"
+    id="undefined-"
+    name=""
+    onBlur={undefined}
+    onChange={undefined}
+    onDragStart={undefined}
+    onDrop={undefined}
+    onFocus={undefined}
+    type="text"
+    value=""
+  />
+  <span
+    className="sc-jzJRlG iXudPJ"
+    color="warning"
+    scale="s"
+  >
+    <i
+      className="material-icons  sc-ifAKCX cWoMMb"
+      color="warning"
+      onClick={undefined}
+      scale="s"
+    >
+      warning
+    </i>
+     
+    This Field has an warning
+  </span>
+</div>
+`;
+
+exports[`renders the Icon Component correctly 4`] = `
+<div
+  className="sc-EHOje cOnjOH"
+>
+  <label
+    className="sc-fjdhpX eKDuiA"
+    htmlFor="undefined-"
+  >
+    A InputField
+     
+    <span
+      className="sc-jzJRlG cAQGLB"
+      color="error"
+    >
+      *
+    </span>
+  </label>
+  <input
+    className="sc-bZQynM fZBtPE"
+    id="undefined-"
+    name=""
+    onBlur={undefined}
+    onChange={undefined}
+    onDragStart={undefined}
+    onDrop={undefined}
+    onFocus={undefined}
+    type="text"
+    value=""
+  />
+</div>
+`;

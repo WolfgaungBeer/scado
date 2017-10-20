@@ -8,6 +8,7 @@ const propTypes = {
     areas: string,
     columnGap: string,
     rowGap: string,
+    className: string,
     children: node,
 };
 
@@ -18,6 +19,7 @@ const defaultProps = {
     areas: undefined,
     columnGap: undefined,
     rowGap: undefined,
+    className: undefined,
     children: undefined,
 };
 

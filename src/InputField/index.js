@@ -1,5 +1,5 @@
 import React from 'react';
-import { oneOf, node, bool } from 'prop-types';
+import { oneOf, node, bool, string } from 'prop-types';
 import fieldPropTypes from '../fieldPropTypes';
 import defaultFieldPropTypes from '../defaultFieldPropTypes';
 import { FieldWrapper, FieldInput } from './styled';
@@ -11,6 +11,7 @@ const propTypes = {
     type: oneOf(['email', 'text', 'password', 'number', 'url']).isRequired,
     label: node,
     required: bool,
+    className: string,
 };
 
 const defaultProps = {
@@ -18,15 +19,16 @@ const defaultProps = {
     type: undefined,
     label: undefined,
     required: undefined,
+    className: undefined,
 };
 
-const InputField = ({ input, meta, type, label, required }) => {
+const InputField = ({ input, meta, type, label, required, className }) => {
     const { touched, error, warning, form } = meta;
     const hasError = (touched && error);
     const hasWarning = (touched && warning);
     const id = `${form}-${input.name}`;
     return (
-        <FieldWrapper>
+        <FieldWrapper className={className}>
             {label &&
                 <Text.Label htmlFor={id}>{label} {required && <Text.Span color="error">*</Text.Span>}</Text.Label>}
             <FieldInput id={id} type={type} {...input} />

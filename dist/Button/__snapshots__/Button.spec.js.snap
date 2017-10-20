@@ -2,7 +2,7 @@
 
 exports[`renders the Button Component correctly 1`] = `
 <button
-  className="sc-jKJlTe dyqvGH"
+  className="sc-eNQAEJ NyOAy"
   color={undefined}
   disabled={undefined}
   onClick={[Function]}
@@ -15,7 +15,7 @@ exports[`renders the Button Component correctly 1`] = `
 
 exports[`renders the Button Component correctly 2`] = `
 <button
-  className="sc-jKJlTe fjingm"
+  className="sc-eNQAEJ fTiPmP"
   color="error"
   disabled={undefined}
   onClick={[Function]}
@@ -28,7 +28,7 @@ exports[`renders the Button Component correctly 2`] = `
 
 exports[`renders the Button Component correctly 3`] = `
 <button
-  className="sc-jKJlTe hdtFoL"
+  className="sc-eNQAEJ kVpqAp"
   color="error"
   disabled={undefined}
   onClick={[Function]}
@@ -41,7 +41,7 @@ exports[`renders the Button Component correctly 3`] = `
 
 exports[`renders the Button Component correctly 4`] = `
 <button
-  className="sc-jKJlTe koMvZN"
+  className="sc-eNQAEJ dKzLSO"
   color="error"
   disabled={undefined}
   onClick={[Function]}
@@ -54,7 +54,7 @@ exports[`renders the Button Component correctly 4`] = `
 
 exports[`renders the Button Component correctly 5`] = `
 <button
-  className="sc-jKJlTe hHCMUl"
+  className="sc-eNQAEJ kRxSEl"
   color="error"
   disabled={undefined}
   onClick={[Function]}
@@ -67,7 +67,7 @@ exports[`renders the Button Component correctly 5`] = `
 
 exports[`renders the Button Component correctly 6`] = `
 <button
-  className="sc-jKJlTe JFXkn"
+  className="sc-eNQAEJ cAgvRF"
   color={undefined}
   disabled={undefined}
   onClick={[Function]}
@@ -80,7 +80,7 @@ exports[`renders the Button Component correctly 6`] = `
 
 exports[`renders the Button Component correctly 7`] = `
 <button
-  className="sc-jKJlTe bXpYbh"
+  className="sc-eNQAEJ csfagh"
   color={undefined}
   disabled={undefined}
   onClick={[Function]}
@@ -93,7 +93,7 @@ exports[`renders the Button Component correctly 7`] = `
 
 exports[`renders the Button Component correctly 8`] = `
 <button
-  className="sc-jKJlTe hbiDfe"
+  className="sc-eNQAEJ fyqHtd"
   color={undefined}
   disabled={undefined}
   onClick={[Function]}
@@ -106,7 +106,7 @@ exports[`renders the Button Component correctly 8`] = `
 
 exports[`renders the Button Component correctly 9`] = `
 <button
-  className="sc-jKJlTe fqCsXs"
+  className="sc-eNQAEJ bIpePT"
   color={undefined}
   disabled={true}
   onClick={[Function]}

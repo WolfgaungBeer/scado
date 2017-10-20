@@ -10,6 +10,7 @@ const propTypes = {
     disabled: bool,
     color: string,
     scale: string,
+    className: string,
     children: node,
     onClick: func,
 };
@@ -22,11 +23,12 @@ const defaultProps = {
     disabled: undefined,
     color: undefined,
     scale: undefined,
+    className: undefined,
     children: undefined,
     onClick: undefined,
 };
 
-const Button = ({ type, flat, raised, border, disabled, color, scale, children, onClick }) => (
+const Button = ({ type, flat, raised, border, disabled, color, scale, className, children, onClick }) => (
     <StyledButton
         type={type}
         flat={flat}
@@ -35,6 +37,7 @@ const Button = ({ type, flat, raised, border, disabled, color, scale, children, 
         disabled={disabled}
         color={color}
         scale={scale}
+        className={className}
         onClick={onClick}
     >
         {children}

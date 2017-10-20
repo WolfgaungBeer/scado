@@ -2,13 +2,13 @@
 
 exports[`renders the ToolBar Component correctly 1`] = `
 <div
-  className="sc-chPdSV bhArOB"
+  className="sc-ckVGcZ dWGswe"
 >
   <div
-    className="sc-kgoBCf dYqChV"
+    className="sc-jKJlTe bgeSFq"
   >
     <i
-      className="material-icons  sc-iwsKbI hUtItD"
+      className="material-icons  sc-ifAKCX dWDutD"
       color="white"
       onClick={[Function]}
       scale="xl"
@@ -16,7 +16,7 @@ exports[`renders the ToolBar Component correctly 1`] = `
       dashboard
     </i>
     <span
-      className="sc-dnqmqq gqgUa"
+      className="sc-jzJRlG aYdSs"
       color="white"
       onClick={[Function]}
       scale="l"
@@ -25,11 +25,11 @@ exports[`renders the ToolBar Component correctly 1`] = `
     </span>
   </div>
   <div
-    className="sc-kgoBCf dYqChV"
+    className="sc-jKJlTe bgeSFq"
   >
     <div>
       <i
-        className="material-icons  sc-iwsKbI gdwNhq"
+        className="material-icons  sc-ifAKCX fLZEpL"
         color="white"
         onClick={[Function]}
         scale="l"
@@ -37,7 +37,7 @@ exports[`renders the ToolBar Component correctly 1`] = `
         search
       </i>
       <i
-        className="material-icons  sc-iwsKbI gdwNhq"
+        className="material-icons  sc-ifAKCX fLZEpL"
         color="white"
         onClick={[Function]}
         scale="l"
@@ -45,7 +45,7 @@ exports[`renders the ToolBar Component correctly 1`] = `
         settings
       </i>
       <i
-        className="material-icons  sc-iwsKbI gdwNhq"
+        className="material-icons  sc-ifAKCX fLZEpL"
         color="white"
         onClick={[Function]}
         scale="l"

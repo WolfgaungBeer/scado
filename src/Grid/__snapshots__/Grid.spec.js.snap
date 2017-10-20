@@ -2,32 +2,32 @@
 
 exports[`renders the Flex Component correctly 1`] = `
 <div
-  className="sc-dxgOiQ EktRl"
+  className="sc-htpNat gPNHok"
   rows="4rem 20rem"
 >
   <div
-    className="sc-ckVGcZ bRJYGY"
+    className="sc-bxivhb fJzdIF"
   >
     <div
-      className="sc-jKJlTe jdahHx"
+      className="sc-eNQAEJ fcVFnE"
     >
       Header
     </div>
   </div>
   <div
-    className="sc-ckVGcZ hDfOnL"
+    className="sc-bxivhb dwDvly"
   >
     <div
-      className="sc-jKJlTe jdahHx"
+      className="sc-eNQAEJ fcVFnE"
     >
       Sidebar
     </div>
   </div>
   <div
-    className="sc-ckVGcZ jGBzMn"
+    className="sc-bxivhb kiaMgL"
   >
     <div
-      className="sc-jKJlTe jdahHx"
+      className="sc-eNQAEJ fcVFnE"
     >
       Body
     </div>
@@ -37,32 +37,32 @@ exports[`renders the Flex Component correctly 1`] = `
 
 exports[`renders the Flex Component correctly 2`] = `
 <div
-  className="sc-dxgOiQ cGFBBV"
+  className="sc-htpNat iIinON"
   rows="4rem 20rem"
 >
   <div
-    className="sc-ckVGcZ bRJYGY"
+    className="sc-bxivhb fJzdIF"
   >
     <div
-      className="sc-jKJlTe jdahHx"
+      className="sc-eNQAEJ fcVFnE"
     >
       Header
     </div>
   </div>
   <div
-    className="sc-ckVGcZ hDfOnL"
+    className="sc-bxivhb dwDvly"
   >
     <div
-      className="sc-jKJlTe jdahHx"
+      className="sc-eNQAEJ fcVFnE"
     >
       Sidebar
     </div>
   </div>
   <div
-    className="sc-ckVGcZ jGBzMn"
+    className="sc-bxivhb kiaMgL"
   >
     <div
-      className="sc-jKJlTe jdahHx"
+      className="sc-eNQAEJ fcVFnE"
     >
       Body
     </div>

@@ -6,12 +6,14 @@ import { textStyle, font } from './helpers';
 const propTypes = {
     color: string,
     scale: string,
+    className: string,
     children: node,
 };
 
 const defaultProps = {
     color: undefined,
     scale: undefined,
+    className: undefined,
     children: undefined,
 };
 

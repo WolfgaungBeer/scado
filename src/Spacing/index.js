@@ -8,6 +8,7 @@ const propTypes = {
     left: bool,
     bottom: bool,
     right: bool,
+    className: string,
     children: node,
 };
 
@@ -17,6 +18,7 @@ const defaultProps = {
     left: undefined,
     bottom: undefined,
     right: undefined,
+    className: undefined,
     children: undefined,
 };
 

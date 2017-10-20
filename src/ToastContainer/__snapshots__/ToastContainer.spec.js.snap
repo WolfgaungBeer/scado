@@ -2,17 +2,17 @@
 
 exports[`renders the ToastContainer Component correctly 1`] = `
 <div
-  className="sc-gqjmRU fambvP"
+  className="sc-kAzzGY bOLSHM"
 >
   <div
-    className="sc-VigVT gEggXm sc-gZMcBi kiNSap"
+    className="sc-chPdSV eMmOGE sc-bwzfXH ksJcPo"
   >
     <div
-      className="sc-jTzLTM cIqDPQ sc-gZMcBi geCnFd"
+      className="sc-kgoBCf btUZkU sc-bwzfXH hRHjBy"
       color="success"
     >
       <i
-        className="material-icons  sc-iwsKbI fqFUGe"
+        className="material-icons  sc-ifAKCX cKhEfU"
         color="white"
         onClick={undefined}
         scale="l"
@@ -21,18 +21,18 @@ exports[`renders the ToastContainer Component correctly 1`] = `
       </i>
     </div>
     <div
-      className="sc-fjdhpX gjUKMb sc-gZMcBi dMgmPi"
+      className="sc-kGXeez beVzcQ sc-bwzfXH klpUfB"
     >
       Text
     </div>
     <div
-      className="sc-jzJRlG gMTKEy sc-gZMcBi cwLibs"
+      className="sc-kpOJdX iioVns sc-bwzfXH kDqBmg"
     >
       <div
-        className="sc-cSHVUG dcIrb"
+        className="sc-dxgOiQ itkEVu"
       >
         <i
-          className="material-icons  sc-iwsKbI dqIynK"
+          className="material-icons  sc-ifAKCX fpvHwA"
           color={undefined}
           onClick={[Function]}
           scale={undefined}
@@ -43,14 +43,14 @@ exports[`renders the ToastContainer Component correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-VigVT gEggXm sc-gZMcBi kiNSap"
+    className="sc-chPdSV eMmOGE sc-bwzfXH ksJcPo"
   >
     <div
-      className="sc-jTzLTM jGbBoD sc-gZMcBi geCnFd"
+      className="sc-kgoBCf jtBGQy sc-bwzfXH hRHjBy"
       color="error"
     >
       <i
-        className="material-icons  sc-iwsKbI fqFUGe"
+        className="material-icons  sc-ifAKCX cKhEfU"
         color="white"
         onClick={undefined}
         scale="l"
@@ -59,18 +59,18 @@ exports[`renders the ToastContainer Component correctly 1`] = `
       </i>
     </div>
     <div
-      className="sc-fjdhpX gjUKMb sc-gZMcBi dMgmPi"
+      className="sc-kGXeez beVzcQ sc-bwzfXH klpUfB"
     >
       Text
     </div>
     <div
-      className="sc-jzJRlG gMTKEy sc-gZMcBi cwLibs"
+      className="sc-kpOJdX iioVns sc-bwzfXH kDqBmg"
     >
       <div
-        className="sc-cSHVUG dcIrb"
+        className="sc-dxgOiQ itkEVu"
       >
         <i
-          className="material-icons  sc-iwsKbI dqIynK"
+          className="material-icons  sc-ifAKCX fpvHwA"
           color={undefined}
           onClick={[Function]}
           scale={undefined}
@@ -85,17 +85,17 @@ exports[`renders the ToastContainer Component correctly 1`] = `
 
 exports[`renders the ToastContainer Component correctly 2`] = `
 <div
-  className="sc-gqjmRU huZLmD"
+  className="sc-kAzzGY iHtRhf"
 >
   <div
-    className="sc-VigVT gEggXm sc-gZMcBi kiNSap"
+    className="sc-chPdSV eMmOGE sc-bwzfXH ksJcPo"
   >
     <div
-      className="sc-jTzLTM cIqDPQ sc-gZMcBi geCnFd"
+      className="sc-kgoBCf btUZkU sc-bwzfXH hRHjBy"
       color="success"
     >
       <i
-        className="material-icons  sc-iwsKbI fqFUGe"
+        className="material-icons  sc-ifAKCX cKhEfU"
         color="white"
         onClick={undefined}
         scale="l"
@@ -104,18 +104,18 @@ exports[`renders the ToastContainer Component correctly 2`] = `
       </i>
     </div>
     <div
-      className="sc-fjdhpX gjUKMb sc-gZMcBi dMgmPi"
+      className="sc-kGXeez beVzcQ sc-bwzfXH klpUfB"
     >
       Text
     </div>
     <div
-      className="sc-jzJRlG gMTKEy sc-gZMcBi cwLibs"
+      className="sc-kpOJdX iioVns sc-bwzfXH kDqBmg"
     >
       <div
-        className="sc-cSHVUG dcIrb"
+        className="sc-dxgOiQ itkEVu"
       >
         <i
-          className="material-icons  sc-iwsKbI dqIynK"
+          className="material-icons  sc-ifAKCX fpvHwA"
           color={undefined}
           onClick={[Function]}
           scale={undefined}
@@ -126,14 +126,14 @@ exports[`renders the ToastContainer Component correctly 2`] = `
     </div>
   </div>
   <div
-    className="sc-VigVT gEggXm sc-gZMcBi kiNSap"
+    className="sc-chPdSV eMmOGE sc-bwzfXH ksJcPo"
   >
     <div
-      className="sc-jTzLTM jGbBoD sc-gZMcBi geCnFd"
+      className="sc-kgoBCf jtBGQy sc-bwzfXH hRHjBy"
       color="error"
     >
       <i
-        className="material-icons  sc-iwsKbI fqFUGe"
+        className="material-icons  sc-ifAKCX cKhEfU"
         color="white"
         onClick={undefined}
         scale="l"
@@ -142,18 +142,18 @@ exports[`renders the ToastContainer Component correctly 2`] = `
       </i>
     </div>
     <div
-      className="sc-fjdhpX gjUKMb sc-gZMcBi dMgmPi"
+      className="sc-kGXeez beVzcQ sc-bwzfXH klpUfB"
     >
       Text
     </div>
     <div
-      className="sc-jzJRlG gMTKEy sc-gZMcBi cwLibs"
+      className="sc-kpOJdX iioVns sc-bwzfXH kDqBmg"
     >
       <div
-        className="sc-cSHVUG dcIrb"
+        className="sc-dxgOiQ itkEVu"
       >
         <i
-          className="material-icons  sc-iwsKbI dqIynK"
+          className="material-icons  sc-ifAKCX fpvHwA"
           color={undefined}
           onClick={[Function]}
           scale={undefined}
