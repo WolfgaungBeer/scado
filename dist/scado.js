@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.reducer = exports.defaultTheme = exports.fieldPropTypes = exports.defaultFieldPropTypes = exports.toastActions = exports.themeActions = exports.ToolBar = exports.ToastContainer = exports.Theme = exports.Text = exports.Spacing = exports.InputField = exports.Icon = exports.Grid = exports.Flex = exports.Button = undefined;
+exports.reducer = exports.defaultTheme = exports.fieldPropTypes = exports.defaultFieldPropTypes = exports.toastActions = exports.themeActions = exports.ToolBar = exports.ToastContainer = exports.Theme = exports.Text = exports.Spacing = exports.Panel = exports.InputField = exports.Icon = exports.Grid = exports.Flex = exports.Button = undefined;
 
 var _Button = require('./Button');
 
@@ -47,6 +47,15 @@ Object.defineProperty(exports, 'InputField', {
     enumerable: true,
     get: function get() {
         return _interopRequireDefault(_InputField).default;
+    }
+});
+
+var _Panel = require('./Panel');
+
+Object.defineProperty(exports, 'Panel', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_Panel).default;
     }
 });
 

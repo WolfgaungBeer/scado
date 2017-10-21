@@ -9,6 +9,7 @@ export { default as Flex } from './Flex';
 export { default as Grid } from './Grid';
 export { default as Icon } from './Icon';
 export { default as InputField } from './InputField';
+export { default as Panel } from './Panel';
 export { default as Spacing } from './Spacing';
 export { default as Text } from './Text';
 export { default as Theme } from './Theme';
