@@ -22,6 +22,7 @@ const defaultProps = {
 
 const Panel = styled.div`
     width: 100%;
+    height: 100%;
     background-color: ${props => props.theme.color[props.backgroundColor]};
     border-style: ${props => props.borderColor && 'solid'};
     border-width: 1px;
