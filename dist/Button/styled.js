@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.StyledButton = undefined;
 
-var _templateObject = _taggedTemplateLiteral(['\n    width: 100%;\n    cursor: ', ';\n    background-color: ', ';\n    ', ';\n    ', ';\n    color: ', ';\n    font-size: ', ';\n    padding: 0.5rem 1rem;\n    &:focus {\n        outline: 0;\n    }\n'], ['\n    width: 100%;\n    cursor: ', ';\n    background-color: ', ';\n    ', ';\n    ', ';\n    color: ', ';\n    font-size: ', ';\n    padding: 0.5rem 1rem;\n    &:focus {\n        outline: 0;\n    }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n    width: 100%;\n    cursor: ', ';\n    background-color: ', ';\n    ', ';\n    ', ';\n    color: ', ';\n    font-size: ', ';\n    font-family: ', ';\n    padding: 0.5rem 1rem;\n    &:focus {\n        outline: 0;\n    }\n'], ['\n    width: 100%;\n    cursor: ', ';\n    background-color: ', ';\n    ', ';\n    ', ';\n    color: ', ';\n    font-size: ', ';\n    font-family: ', ';\n    padding: 0.5rem 1rem;\n    &:focus {\n        outline: 0;\n    }\n']);
 
 var _styledComponents = require('styled-components');
 
@@ -21,4 +21,6 @@ var StyledButton = exports.StyledButton = _styledComponents2.default.button(_tem
     return props.disabled ? 'not-allowed' : 'pointer';
 }, (0, _helpers.getBackgroundColor)(), (0, _helpers.getBorder)(), (0, _helpers.getShadow)(), (0, _helpers.getFontColor)(), function (props) {
     return props.theme.scale[props.scale];
+}, function (props) {
+    return props.theme.fonts.paragraph;
 });

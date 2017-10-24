@@ -9,6 +9,7 @@ export const StyledButton = styled.button`
     ${getShadow()};
     color: ${getFontColor()};
     font-size: ${props => props.theme.scale[props.scale]};
+    font-family: ${props => props.theme.fonts.paragraph};
     padding: 0.5rem 1rem;
     &:focus {
         outline: 0;
