@@ -2,13 +2,13 @@
 
 exports[`renders the ToastContainer Component correctly 1`] = `
 <div
-  className="sc-kAzzGY bOLSHM"
+  className="sc-chPdSV jkdAiQ"
 >
   <div
-    className="sc-chPdSV eMmOGE sc-bwzfXH kVOBrb"
+    className="sc-kgoBCf kijmjx sc-bwzfXH kVOBrb"
   >
     <div
-      className="sc-kgoBCf btUZkU sc-bwzfXH jcVliq"
+      className="sc-kGXeez kncIYh sc-bwzfXH jcVliq"
       color="success"
     >
       <i
@@ -21,15 +21,15 @@ exports[`renders the ToastContainer Component correctly 1`] = `
       </i>
     </div>
     <div
-      className="sc-kGXeez beVzcQ sc-bwzfXH jlncrv"
+      className="sc-kpOJdX fvsAUn sc-bwzfXH jlncrv"
     >
       Text
     </div>
     <div
-      className="sc-kpOJdX iioVns sc-bwzfXH bBFwoB"
+      className="sc-dxgOiQ hCMPDu sc-bwzfXH bBFwoB"
     >
       <div
-        className="sc-dxgOiQ itkEVu"
+        className="sc-ckVGcZ bOuxcx"
       >
         <i
           className="material-icons  sc-ifAKCX fpvHwA"
@@ -43,10 +43,10 @@ exports[`renders the ToastContainer Component correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-chPdSV eMmOGE sc-bwzfXH kVOBrb"
+    className="sc-kgoBCf kijmjx sc-bwzfXH kVOBrb"
   >
     <div
-      className="sc-kgoBCf jtBGQy sc-bwzfXH jcVliq"
+      className="sc-kGXeez felQvN sc-bwzfXH jcVliq"
       color="error"
     >
       <i
@@ -59,15 +59,15 @@ exports[`renders the ToastContainer Component correctly 1`] = `
       </i>
     </div>
     <div
-      className="sc-kGXeez beVzcQ sc-bwzfXH jlncrv"
+      className="sc-kpOJdX fvsAUn sc-bwzfXH jlncrv"
     >
       Text
     </div>
     <div
-      className="sc-kpOJdX iioVns sc-bwzfXH bBFwoB"
+      className="sc-dxgOiQ hCMPDu sc-bwzfXH bBFwoB"
     >
       <div
-        className="sc-dxgOiQ itkEVu"
+        className="sc-ckVGcZ bOuxcx"
       >
         <i
           className="material-icons  sc-ifAKCX fpvHwA"
@@ -85,13 +85,13 @@ exports[`renders the ToastContainer Component correctly 1`] = `
 
 exports[`renders the ToastContainer Component correctly 2`] = `
 <div
-  className="sc-kAzzGY iHtRhf"
+  className="sc-chPdSV hsniNI"
 >
   <div
-    className="sc-chPdSV eMmOGE sc-bwzfXH kVOBrb"
+    className="sc-kgoBCf kijmjx sc-bwzfXH kVOBrb"
   >
     <div
-      className="sc-kgoBCf btUZkU sc-bwzfXH jcVliq"
+      className="sc-kGXeez kncIYh sc-bwzfXH jcVliq"
       color="success"
     >
       <i
@@ -104,15 +104,15 @@ exports[`renders the ToastContainer Component correctly 2`] = `
       </i>
     </div>
     <div
-      className="sc-kGXeez beVzcQ sc-bwzfXH jlncrv"
+      className="sc-kpOJdX fvsAUn sc-bwzfXH jlncrv"
     >
       Text
     </div>
     <div
-      className="sc-kpOJdX iioVns sc-bwzfXH bBFwoB"
+      className="sc-dxgOiQ hCMPDu sc-bwzfXH bBFwoB"
     >
       <div
-        className="sc-dxgOiQ itkEVu"
+        className="sc-ckVGcZ bOuxcx"
       >
         <i
           className="material-icons  sc-ifAKCX fpvHwA"
@@ -126,10 +126,10 @@ exports[`renders the ToastContainer Component correctly 2`] = `
     </div>
   </div>
   <div
-    className="sc-chPdSV eMmOGE sc-bwzfXH kVOBrb"
+    className="sc-kgoBCf kijmjx sc-bwzfXH kVOBrb"
   >
     <div
-      className="sc-kgoBCf jtBGQy sc-bwzfXH jcVliq"
+      className="sc-kGXeez felQvN sc-bwzfXH jcVliq"
       color="error"
     >
       <i
@@ -142,15 +142,15 @@ exports[`renders the ToastContainer Component correctly 2`] = `
       </i>
     </div>
     <div
-      className="sc-kGXeez beVzcQ sc-bwzfXH jlncrv"
+      className="sc-kpOJdX fvsAUn sc-bwzfXH jlncrv"
     >
       Text
     </div>
     <div
-      className="sc-kpOJdX iioVns sc-bwzfXH bBFwoB"
+      className="sc-dxgOiQ hCMPDu sc-bwzfXH bBFwoB"
     >
       <div
-        className="sc-dxgOiQ itkEVu"
+        className="sc-ckVGcZ bOuxcx"
       >
         <i
           className="material-icons  sc-ifAKCX fpvHwA"

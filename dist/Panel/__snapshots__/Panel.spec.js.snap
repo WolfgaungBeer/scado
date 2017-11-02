@@ -2,7 +2,7 @@
 
 exports[`renders the Icon Component correctly 1`] = `
 <div
-  className="sc-cSHVUG ucXue"
+  className="sc-hMqMXs frHmMz"
 >
   check_circle
 </div>
@@ -10,7 +10,7 @@ exports[`renders the Icon Component correctly 1`] = `
 
 exports[`renders the Icon Component correctly 2`] = `
 <div
-  className="sc-cSHVUG dIzUYP"
+  className="sc-hMqMXs gGAsht"
 >
   check_circle
 </div>
@@ -18,7 +18,7 @@ exports[`renders the Icon Component correctly 2`] = `
 
 exports[`renders the Icon Component correctly 3`] = `
 <div
-  className="sc-cSHVUG kuntCX"
+  className="sc-hMqMXs jOWiIs"
 >
   check_circle
 </div>

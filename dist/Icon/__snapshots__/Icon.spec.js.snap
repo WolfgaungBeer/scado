@@ -2,7 +2,7 @@
 
 exports[`renders the Icon Component correctly 1`] = `
 <i
-  className="material-icons  sc-eNQAEJ dnHlAg"
+  className="material-icons  sc-hMqMXs deckMx"
   color={undefined}
   onClick={undefined}
   scale={undefined}
@@ -13,7 +13,7 @@ exports[`renders the Icon Component correctly 1`] = `
 
 exports[`renders the Icon Component correctly 2`] = `
 <i
-  className="material-icons  sc-eNQAEJ dbfNZB"
+  className="material-icons  sc-hMqMXs iDTHYn"
   color="success"
   onClick={undefined}
   scale="l"
@@ -24,7 +24,7 @@ exports[`renders the Icon Component correctly 2`] = `
 
 exports[`renders the Icon Component correctly 3`] = `
 <i
-  className="material-icons  sc-eNQAEJ hlKRCz"
+  className="material-icons  sc-hMqMXs crwBJn"
   color="success"
   onClick={undefined}
   scale="l"

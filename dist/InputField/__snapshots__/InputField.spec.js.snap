@@ -2,15 +2,14 @@
 
 exports[`renders the Icon Component correctly 1`] = `
 <div
-  className="sc-EHOje cOnjOH"
+  className="sc-hMqMXs heOdXS"
 >
   <input
-    className="sc-bZQynM fZBtPE"
+    className="sc-kEYyzF gXYeYh"
     id="undefined-"
     name=""
     onBlur={undefined}
     onChange={undefined}
-    onClick={undefined}
     onDragStart={undefined}
     onDrop={undefined}
     onFocus={undefined}
@@ -22,15 +21,14 @@ exports[`renders the Icon Component correctly 1`] = `
 
 exports[`renders the Icon Component correctly 2`] = `
 <div
-  className="sc-EHOje cOnjOH"
+  className="sc-hMqMXs heOdXS"
 >
   <input
-    className="sc-bZQynM fZBtPE"
+    className="sc-kEYyzF gXYeYh"
     id="undefined-"
     name=""
     onBlur={undefined}
     onChange={undefined}
-    onClick={undefined}
     onDragStart={undefined}
     onDrop={undefined}
     onFocus={undefined}
@@ -38,12 +36,12 @@ exports[`renders the Icon Component correctly 2`] = `
     value=""
   />
   <span
-    className="sc-jzJRlG cMTDVO"
+    className="sc-gPEVay aEyfd"
     color="error"
     scale="s"
   >
     <i
-      className="material-icons  sc-ifAKCX eUJGIr"
+      className="material-icons  sc-kkGfuU WViRF"
       color="error"
       onClick={undefined}
       scale="s"
@@ -58,15 +56,14 @@ exports[`renders the Icon Component correctly 2`] = `
 
 exports[`renders the Icon Component correctly 3`] = `
 <div
-  className="sc-EHOje cOnjOH"
+  className="sc-hMqMXs heOdXS"
 >
   <input
-    className="sc-bZQynM fZBtPE"
+    className="sc-kEYyzF gXYeYh"
     id="undefined-"
     name=""
     onBlur={undefined}
     onChange={undefined}
-    onClick={undefined}
     onDragStart={undefined}
     onDrop={undefined}
     onFocus={undefined}
@@ -74,12 +71,12 @@ exports[`renders the Icon Component correctly 3`] = `
     value=""
   />
   <span
-    className="sc-jzJRlG iXudPJ"
+    className="sc-gPEVay hpHbrP"
     color="warning"
     scale="s"
   >
     <i
-      className="material-icons  sc-ifAKCX cWoMMb"
+      className="material-icons  sc-kkGfuU bdsBHj"
       color="warning"
       onClick={undefined}
       scale="s"
@@ -94,28 +91,27 @@ exports[`renders the Icon Component correctly 3`] = `
 
 exports[`renders the Icon Component correctly 4`] = `
 <div
-  className="sc-EHOje cOnjOH"
+  className="sc-hMqMXs heOdXS"
 >
   <label
-    className="sc-fjdhpX eKDuiA"
+    className="sc-jDwBTQ eiUfKR"
     htmlFor="undefined-"
   >
     A InputField
      
     <span
-      className="sc-jzJRlG cAQGLB"
+      className="sc-gPEVay hQXnKc"
       color="error"
     >
       *
     </span>
   </label>
   <input
-    className="sc-bZQynM fZBtPE"
+    className="sc-kEYyzF gXYeYh"
     id="undefined-"
     name=""
     onBlur={undefined}
     onChange={undefined}
-    onClick={undefined}
     onDragStart={undefined}
     onDrop={undefined}
     onFocus={undefined}

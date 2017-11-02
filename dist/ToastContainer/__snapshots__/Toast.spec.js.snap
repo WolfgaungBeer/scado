@@ -2,14 +2,14 @@
 
 exports[`renders the Toast Component correctly 1`] = `
 <div
-  className="sc-kEYyzF jQpFH sc-eNQAEJ YwarW"
+  className="sc-kkGfuU SRTsL sc-hMqMXs dUGKCZ"
 >
   <div
-    className="sc-kkGfuU jzSOBF sc-eNQAEJ hbFCXX"
+    className="sc-iAyFgw irVncE sc-hMqMXs bjPpVQ"
     color="success"
   >
     <i
-      className="material-icons  sc-cvbbAY fToWhC"
+      className="material-icons  sc-jWBwVP kXViZK"
       color="white"
       onClick={undefined}
       scale="l"
@@ -18,18 +18,18 @@ exports[`renders the Toast Component correctly 1`] = `
     </i>
   </div>
   <div
-    className="sc-iAyFgw fmWRJw sc-eNQAEJ ckEjxQ"
+    className="sc-hSdWYo oJwFK sc-hMqMXs elPfCT"
   >
     Text
   </div>
   <div
-    className="sc-hSdWYo cffHXk sc-eNQAEJ jqCkHy"
+    className="sc-eHgmQL fPasoh sc-hMqMXs iwfhZv"
   >
     <div
-      className="sc-eHgmQL ksMDBF"
+      className="sc-cvbbAY kjIvxo"
     >
       <i
-        className="material-icons  sc-cvbbAY dxhemg"
+        className="material-icons  sc-jWBwVP dDEFQv"
         color={undefined}
         onClick={[Function]}
         scale={undefined}
@@ -43,14 +43,14 @@ exports[`renders the Toast Component correctly 1`] = `
 
 exports[`renders the Toast Component correctly 2`] = `
 <div
-  className="sc-kEYyzF jQpFH sc-eNQAEJ YwarW"
+  className="sc-kkGfuU SRTsL sc-hMqMXs dUGKCZ"
 >
   <div
-    className="sc-kkGfuU jZLxSH sc-eNQAEJ hbFCXX"
+    className="sc-iAyFgw fWQLw sc-hMqMXs bjPpVQ"
     color="error"
   >
     <i
-      className="material-icons  sc-cvbbAY fToWhC"
+      className="material-icons  sc-jWBwVP kXViZK"
       color="white"
       onClick={undefined}
       scale="l"
@@ -59,20 +59,20 @@ exports[`renders the Toast Component correctly 2`] = `
     </i>
   </div>
   <div
-    className="sc-iAyFgw fmWRJw sc-eNQAEJ ckEjxQ"
+    className="sc-hSdWYo oJwFK sc-hMqMXs elPfCT"
   >
     <button>
       Test
     </button>
   </div>
   <div
-    className="sc-hSdWYo cffHXk sc-eNQAEJ jqCkHy"
+    className="sc-eHgmQL fPasoh sc-hMqMXs iwfhZv"
   >
     <div
-      className="sc-eHgmQL ksMDBF"
+      className="sc-cvbbAY kjIvxo"
     >
       <i
-        className="material-icons  sc-cvbbAY dxhemg"
+        className="material-icons  sc-jWBwVP dDEFQv"
         color={undefined}
         onClick={[Function]}
         scale={undefined}

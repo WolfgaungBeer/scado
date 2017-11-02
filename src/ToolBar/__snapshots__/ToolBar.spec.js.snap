@@ -2,10 +2,10 @@
 
 exports[`renders the ToolBar Component correctly 1`] = `
 <div
-  className="sc-ckVGcZ dCfYYM"
+  className="sc-jKJlTe gtJVRP"
 >
   <div
-    className="sc-jKJlTe hPcRhJ"
+    className="sc-eNQAEJ dwDKCo"
   >
     <i
       className="material-icons  sc-ifAKCX dWDutD"
@@ -25,7 +25,7 @@ exports[`renders the ToolBar Component correctly 1`] = `
     </span>
   </div>
   <div
-    className="sc-jKJlTe hPcRhJ"
+    className="sc-eNQAEJ dwDKCo"
   >
     <div>
       <i

@@ -2,7 +2,7 @@
 
 exports[`renders the Button Component correctly 1`] = `
 <button
-  className="sc-bdVaJa dXWeiC"
+  className="sc-bdVaJa iejYXi"
   color={undefined}
   disabled={undefined}
   onClick={[Function]}
@@ -15,7 +15,7 @@ exports[`renders the Button Component correctly 1`] = `
 
 exports[`renders the Button Component correctly 2`] = `
 <button
-  className="sc-bdVaJa erThFv"
+  className="sc-bdVaJa iDfDKD"
   color="error"
   disabled={undefined}
   onClick={[Function]}
@@ -28,7 +28,7 @@ exports[`renders the Button Component correctly 2`] = `
 
 exports[`renders the Button Component correctly 3`] = `
 <button
-  className="sc-bdVaJa sNwzb"
+  className="sc-bdVaJa bfqAcG"
   color="error"
   disabled={undefined}
   onClick={[Function]}
@@ -41,7 +41,7 @@ exports[`renders the Button Component correctly 3`] = `
 
 exports[`renders the Button Component correctly 4`] = `
 <button
-  className="sc-bdVaJa jfztGI"
+  className="sc-bdVaJa grSARk"
   color="error"
   disabled={undefined}
   onClick={[Function]}
@@ -54,7 +54,7 @@ exports[`renders the Button Component correctly 4`] = `
 
 exports[`renders the Button Component correctly 5`] = `
 <button
-  className="sc-bdVaJa kccMeH"
+  className="sc-bdVaJa kpAuNn"
   color="error"
   disabled={undefined}
   onClick={[Function]}
@@ -67,7 +67,7 @@ exports[`renders the Button Component correctly 5`] = `
 
 exports[`renders the Button Component correctly 6`] = `
 <button
-  className="sc-bdVaJa cJHnCZ"
+  className="sc-bdVaJa kCFhLU"
   color={undefined}
   disabled={undefined}
   onClick={[Function]}
@@ -80,7 +80,7 @@ exports[`renders the Button Component correctly 6`] = `
 
 exports[`renders the Button Component correctly 7`] = `
 <button
-  className="sc-bdVaJa cyXDoQ"
+  className="sc-bdVaJa dnNmDW"
   color={undefined}
   disabled={undefined}
   onClick={[Function]}
@@ -93,7 +93,7 @@ exports[`renders the Button Component correctly 7`] = `
 
 exports[`renders the Button Component correctly 8`] = `
 <button
-  className="sc-bdVaJa clfdPw"
+  className="sc-bdVaJa eUQJWG"
   color={undefined}
   disabled={undefined}
   onClick={[Function]}
@@ -106,7 +106,7 @@ exports[`renders the Button Component correctly 8`] = `
 
 exports[`renders the Button Component correctly 9`] = `
 <button
-  className="sc-bdVaJa gxeCWE"
+  className="sc-bdVaJa jJzkCB"
   color={undefined}
   disabled={true}
   onClick={[Function]}
