@@ -1,5 +1,5 @@
 import React from 'react';
-import { oneOf, node, bool, string } from 'prop-types';
+import { oneOf, node, bool, string, func } from 'prop-types';
 import fieldPropTypes from '../fieldPropTypes';
 import defaultFieldPropTypes from '../defaultFieldPropTypes';
 import { FieldWrapper, FieldInput } from './styled';
@@ -12,6 +12,7 @@ const propTypes = {
     label: node,
     required: bool,
     className: string,
+    onClick: func,
 };
 
 const defaultProps = {
@@ -20,9 +21,10 @@ const defaultProps = {
     label: undefined,
     required: undefined,
     className: undefined,
+    onClick: undefined,
 };
 
-const InputField = ({ input, meta, type, label, required, className }) => {
+const InputField = ({ input, meta, type, label, required, className, onClick }) => {
     const { touched, error, warning, form } = meta;
     const hasError = (touched && error);
     const hasWarning = (touched && warning);
@@ -31,7 +33,7 @@ const InputField = ({ input, meta, type, label, required, className }) => {
         <FieldWrapper className={className}>
             {label &&
                 <Text.Label htmlFor={id}>{label} {required && <Text.Span color="error">*</Text.Span>}</Text.Label>}
-            <FieldInput id={id} type={type} {...input} />
+            <FieldInput id={id} type={type} {...input} onClick={onClick} />
             {hasError &&
                 <Text.Span color="error" scale="s"><Icon color="error" scale="s">clear</Icon> {error}</Text.Span>}
             {hasWarning &&
