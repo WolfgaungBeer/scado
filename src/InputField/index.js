@@ -30,10 +30,10 @@ const InputField = ({ input, meta, type, label, required, className, onClick }) 
     const hasWarning = (touched && warning);
     const id = `${form}-${input.name}`;
     return (
-        <FieldWrapper className={className}>
+        <FieldWrapper className={className} onClick={onClick}>
             {label &&
                 <Text.Label htmlFor={id}>{label} {required && <Text.Span color="error">*</Text.Span>}</Text.Label>}
-            <FieldInput id={id} type={type} {...input} onClick={onClick} />
+            <FieldInput id={id} type={type} {...input} />
             {hasError &&
                 <Text.Span color="error" scale="s"><Icon color="error" scale="s">clear</Icon> {error}</Text.Span>}
             {hasWarning &&
