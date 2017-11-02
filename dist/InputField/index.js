@@ -36,14 +36,16 @@ var propTypes = _extends({}, _fieldPropTypes2.default, {
     type: (0, _propTypes.oneOf)(['email', 'text', 'password', 'number', 'url']).isRequired,
     label: _propTypes.node,
     required: _propTypes.bool,
-    className: _propTypes.string
+    className: _propTypes.string,
+    onClick: _propTypes.func
 });
 
 var defaultProps = _extends({}, _defaultFieldPropTypes2.default, {
     type: undefined,
     label: undefined,
     required: undefined,
-    className: undefined
+    className: undefined,
+    onClick: undefined
 });
 
 var InputField = function InputField(_ref) {
@@ -52,7 +54,8 @@ var InputField = function InputField(_ref) {
         type = _ref.type,
         label = _ref.label,
         required = _ref.required,
-        className = _ref.className;
+        className = _ref.className,
+        onClick = _ref.onClick;
     var touched = meta.touched,
         error = meta.error,
         warning = meta.warning,
@@ -63,7 +66,7 @@ var InputField = function InputField(_ref) {
     var id = form + '-' + input.name;
     return _react2.default.createElement(
         _styled.FieldWrapper,
-        { className: className },
+        { className: className, onClick: onClick },
         label && _react2.default.createElement(
             _Text2.default.Label,
             { htmlFor: id },
